@@ -1,8 +1,8 @@
 body
 {
 
-   margin : 2; 
-   
+   margin : 4; 
+   background-color: #F2F2F2;
 }
 
 
@@ -48,15 +48,90 @@ nav li :hover{
     text-decoration: none ;
 }
 
+/*  encadrement   */ 
+#cadre {
+
+display: flex;
+flex-direction: row;
+}
+
+/*  Balise h  */ 
+h1 {
+
+width: 80% ;
+font-size: 32px;
+
+margin-bottom: 1px;
+}
+
 
 h2 {
 
     font-size: 12px;
+margin-top: 2px;
+
+color: #494848;
+}
+
+
+h3
+{
+    
+    width: 80%;
+    font-size: 18px;
+    
 
 }
 
+h5
+{
+  
+    font-size: 18px;
+   
+
+}
+
+h6
+{
+  
+    font-size: 18px;
+    width: 100%;
+
+}  
+
+/*  class ligne complete  */ 
+.ligne {
+
+ width: 100%;  
+}
+/*  définit les taille images de la troisièmes section  */ 
+.verticale 
+{
+  
+}
+    
+.verticale  img {
+    width: 200px;
+height: 400px;
+
+}
+
+.verticale2 
+{
+
+}
+
+.verticale2  img {
+    width: 400px;
+height: 200px;
+
+
+}
+
+
+/*  section recherches  */ 
 #champs {
-    height: 20px;
+    height: 60px;
     width: 300px;
     
 
@@ -75,7 +150,7 @@ flex-direction: column;
 #recherches ul {
     display: flex;
     flex-direction: row;
-  width: 30%;
+  width: 50%;
   justify-content: space-between;
   list-style: none;
     
@@ -117,12 +192,81 @@ background-color: #0065FC;
      border: none;
     
     }
-
+/*  Hébergement <article> */
     
+    #hebergements img {
+        width: 200px;
+    height: 100px;
+    margin-right: 150px;      /*  Pour disposition des images + option #heb : lex-wrap: wrap; */
+    }
+
+    #hebergements {
+        display: flex;
+        
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
+
+ 
+
+/*  Populaire < aside > */          /* /!> Attetnion la balise aside se retrouve à coter de l'article en responsive : a changer < aside > */   
+    #populaire {
+
+    display: flex;
+    width : 50%;
+flex-direction: column;
+}
+
+
+#populaire img {
+    width: 200px;
+height: 80px;
+ }
+
+
+
+/*  activité < section > */
+
+
+ #cadre2  {
+
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+
+ }
+
+
+#activite
+
+{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+
+ #activite2
+
+{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+
+
+
+
+
+
 
 
     @media screen and (max-width: 550px) {
-        #recherches, #hebergements {
+        #recherches, #hebergements, #populaire, #cadre2  {
           flex-direction: column;
         }
     }
