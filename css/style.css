@@ -1,5 +1,31 @@
 body
 {
+font-family: "Raleway";
+   margin : 0; 
+   
+}
 
-    
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav img
+{
+    height: 80px;
+}
+nav ul {
+
+    display: flex;
+    list-style: none;
+}
+nav li {
+
+    margin: 0 10px 0 20px;
+
+}
+
+#header
+{
+
 }
