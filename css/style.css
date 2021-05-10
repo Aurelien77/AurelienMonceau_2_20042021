@@ -210,7 +210,7 @@ background-color: #0065FC;
 
  
 
-/*  Populaire < aside > */          /* /!> Attetnion la balise aside se retrouve à coter de l'article en responsive : a changer < aside > */   
+/*  Populaire < article > */        
     #populaire {
 
     display: flex;
@@ -236,7 +236,17 @@ height: 80px;
 justify-content: space-between;
 
  }
+ 
+ #bloc1 {
 
+
+
+ }
+
+ #bloc2 {
+
+
+ }
 
 #activite
 
@@ -266,7 +276,7 @@ justify-content: space-between;
 
 
     @media screen and (max-width: 550px) {
-        #recherches, #hebergements, #populaire, #cadre2  {
+        #recherches, #hebergements, #populaire, #cadre2, #bloc1, #bloc2  {
           flex-direction: column;
         }
     }
