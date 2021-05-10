@@ -2,7 +2,7 @@ body
 {
 
    margin : 4; 
-   background-color: #F2F2F2;
+   background-color: white;
 }
 
 
@@ -16,7 +16,17 @@ a:link
 { 
  text-decoration:none; 
 } 
-/*  HEADER   */
+                                                                            /*  HEADER   */
+
+#affichage {
+
+    margin: 1 1px 1 1px;
+
+max-width: 1900px;
+
+}
+
+
 nav {
 display: flex;
 justify-content: space-between;
@@ -48,85 +58,9 @@ nav li :hover{
     text-decoration: none ;
 }
 
-/*  encadrement   */ 
-#cadre {
-
-display: flex;
-flex-direction: row;
-}
-
-/*  Balise h  */ 
-h1 {
-
-width: 80% ;
-font-size: 32px;
-
-margin-bottom: 1px;
-}
+ 
 
 
-h2 {
-
-    font-size: 12px;
-margin-top: 2px;
-
-color: #494848;
-}
-
-
-h3
-{
-    
-    width: 80%;
-    font-size: 18px;
-    
-
-}
-
-h5
-{
-  
-    font-size: 18px;
-   
-
-}
-
-h6
-{
-  
-    font-size: 18px;
-    width: 100%;
-
-}  
-
-/*  class ligne complete  */ 
-.ligne {
-
- width: 100%;  
-}
-/*  définit les taille images de la troisièmes section  */ 
-.verticale 
-{
-  
-}
-    
-.verticale  img {
-    width: 200px;
-height: 400px;
-
-}
-
-.verticale2 
-{
-
-}
-
-.verticale2  img {
-    width: 400px;
-height: 200px;
-
-
-}
 
 
 /*  section recherches  */ 
@@ -158,7 +92,7 @@ flex-direction: column;
 
 
 
-
+                                /*  îcones */
 .fas  {
 
     font-size: 20px;
@@ -171,7 +105,7 @@ flex-direction: column;
     color: black;
 }
 
-
+                                        /*  Section recherche */
 .rech1 {
 
 color: white;
@@ -192,61 +126,91 @@ background-color: #0065FC;
      border: none;
     
     }
-/*  Hébergement <article> */
-    
-    #hebergements img {
-        width: 200px;
-    height: 100px;
-    margin-right: 150px;      /*  Pour disposition des images + option #heb : lex-wrap: wrap; */
-    }
+
+
+                                                                               /*  encadrement   */ 
+#cadre {
+
+display: flex;
+flex-direction: row;
+
+
+
+}           /*  Pour disposition des images + option #heb : lex-wrap: wrap; */
+
+
+                                            /*  Hébergement <article> */
+
 
     #hebergements {
         display: flex;
         
       flex-direction: row;
       flex-wrap: wrap;
+background-color:  #F2F2F2;
+margin: 0px 155px 0px 0px;
 
     }
 
- 
+     
+#hebergements img {
+width: 200px;
+height: 100px;
+margin-right: 150px;                                 
+}
 
 /*  Populaire < article > */        
     #populaire {
-
+background-color: #F2F2F2;
     display: flex;
-    width : 50%;
-flex-direction: column;
+    
+flex-direction: row;
+flex-wrap: wrap;
+
 }
 
 
 #populaire img {
-    width: 200px;
-height: 80px;
+width: 300px;
+height: 150px;
+
  }
 
+ /*  .linebox                           ...... Alignement du texte à droite ........ 
+ {
+display: flex;
 
 
-/*  activité < section > */
+
+
+ }   */
+
+
+
+
+                                                            /* ...... activité < section >......... */
 
 
  #cadre2  {
 
     display: flex;
     flex-direction: row;
-justify-content: space-between;
-
+justify-content: space-around;
+max-width: 1700px;
  }
  
- #bloc1 {
+    /* #bloc1 {
 
-
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
 
  }
 
  #bloc2 {
 
 
- }
+ }   */
 
 #activite
 
@@ -269,14 +233,97 @@ justify-content: space-between;
  }
 
 
+/*  définit les tailles images de la troisièmes section  */ 
+.verticale 
+{
+  
+}
+    
+.verticale  img {
+    width: 400px;
+height: 500px;
+
+}
+
+.verticale2 
+{
+
+}
+
+.verticale2  img {
+    width: 500px;
+height: 400px;
+
+
+}
+
+footer{
+
+    display: flex;
+
+flex-direction: row;
+justify-content: space-between ;
+
+max-width: 1900px;
+background-color: #F2F2F2;
+}
 
 
 
 
+/*  Balise h  */ 
+h1 {
 
+    width: 80% ;
+    font-size: 32px;
+    
+    margin-bottom: 1px;
+    }
+    
+    
+    h2 {
+    
+        font-size: 12px;
+    margin-top: 2px;
+    
+    color: #494848;
+    }
+    
+    
+    h3
+    {
+        
+        width: 80%;
+        font-size: 18px;
+        
+    
+    }
+    
+    h5
+    {
+      
+        font-size: 18px;
+       
+    
+    }
+    
+    h6
+    {
+      
+        font-size: 18px;
+        width: 100%;
+    
+    }  
+    
+    /*  class ligne complete  */ 
+    .ligne {
+    
+     width: 100%;  
+    }
 
     @media screen and (max-width: 550px) {
-        #recherches, #hebergements, #populaire, #cadre2, #bloc1, #bloc2  {
+        #recherches, #hebergements, #populaire, #cadre2, #cadre, #bloc1, #bloc2  {
           flex-direction: column;
+          
         }
     }
