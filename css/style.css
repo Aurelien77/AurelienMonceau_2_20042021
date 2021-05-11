@@ -16,17 +16,25 @@ a:link
 { 
  text-decoration:none; 
 } 
-                                                                            /*  HEADER   */
+a:visited 
 
-#affichage {
+{
+color: black;
 
-    margin: 1 1px 1 1px;
-
-max-width: 1900px;
 
 }
 
 
+#affichage {
+
+    margin: 1px 1px 1px 1px;
+width: 100%;
+
+
+
+}
+
+                                                                            /*  HEADER   */
 nav {
 display: flex;
 justify-content: space-between;
@@ -61,9 +69,9 @@ nav li :hover{
  
 
 
+                                                                            /*  FIN HEADER   */
 
-
-/*  section recherches  */ 
+                                                                        /*  Debut section recherches  */ 
 #champs {
     height: 60px;
     width: 300px;
@@ -92,7 +100,7 @@ flex-direction: column;
 
 
 
-                                /*  îcones */
+                                                                            /*  îcones */
 .fas  {
 
     font-size: 20px;
@@ -105,7 +113,7 @@ flex-direction: column;
     color: black;
 }
 
-                                        /*  Section recherche */
+                                        
 .rech1 {
 
 color: white;
@@ -126,20 +134,20 @@ background-color: #0065FC;
      border: none;
     
     }
+                                                                            /*  fin de la section recherches */
 
-
-                                                                               /*  encadrement   */ 
+                                                                               /*  Debut de la section cadre1  */ 
 #cadre {
 
 display: flex;
 flex-direction: row;
+width: 100%;
 
 
+}           
 
-}           /*  Pour disposition des images + option #heb : lex-wrap: wrap; */
 
-
-                                            /*  Hébergement <article> */
+                                                                                    /*  Hébergement  */
 
 
     #hebergements {
@@ -149,7 +157,7 @@ flex-direction: row;
       flex-wrap: wrap;
 background-color:  #F2F2F2;
 margin: 0px 155px 0px 0px;
-
+width: 80%;
     }
 
      
@@ -159,14 +167,14 @@ height: 100px;
 margin-right: 150px;                                 
 }
 
-/*  Populaire < article > */        
+                                                                                /*  Populaire  */        
     #populaire {
 background-color: #F2F2F2;
     display: flex;
     
 flex-direction: row;
 flex-wrap: wrap;
-
+width: 20%;
 }
 
 
@@ -176,19 +184,21 @@ height: 150px;
 
  }
 
- /*  .linebox                           ...... Alignement du texte à droite ........ 
+
+/*
+ .linebox                           ...... Alignement du texte à droite ........ 
  {
 display: flex;
-
-
-
+flex-direction: row;
+flex-wrap: wrap;
+background-color: tomato;
 
  }   */
 
+                                                                                    /*  fin de la section cadre1  */
 
-
-
-                                                            /* ...... activité < section >......... */
+                                                                    /*  Début de la section cadre2  */
+                                                           
 
 
  #cadre2  {
@@ -196,29 +206,18 @@ display: flex;
     display: flex;
     flex-direction: row;
 justify-content: space-around;
-max-width: 1700px;
+
  }
  
-    /* #bloc1 {
 
-    display: flex;
-    flex-direction: row;
-flex-wrap: wrap;
-
- }
-
- #bloc2 {
-
-
- }   */
-
+                                                                                 /* ...... Activité......... */
 #activite
 
 {
 
     display: flex;
     flex-direction: column;
-    
+    background-color: white;
     
  }
 
@@ -233,48 +232,50 @@ flex-wrap: wrap;
  }
 
 
-/*  définit les tailles images de la troisièmes section  */ 
+                                                        / /* ...... class image section des activités ......... */ 
 .verticale 
 {
-  
+  background-color: white;
 }
     
 .verticale  img {
-    width: 400px;
-height: 500px;
+    width: 80%;
+height: 100%;
 
 }
 
 .verticale2 
 {
-
+background-color: white;
 }
 
 .verticale2  img {
-    width: 500px;
-height: 400px;
+    width: 100%;
+height: 80%;
 
 
 }
-
-footer{
+                                                             /* ...... fin de la section cadre 2 ......... */ 
+                                                              /* ...... Début du footer ......... */ 
+footer
+{
 
     display: flex;
 
 flex-direction: row;
 justify-content: space-between ;
 
-max-width: 1900px;
+
 background-color: #F2F2F2;
 }
 
 
+                                                                /* ...... fin du footer ......... */ 
 
+                                                                        /*  Les balises h  */ 
+    h1 {                                            /* ...... / ! \ voir le h1 définit à 80 % ......... */ 
 
-/*  Balise h  */ 
-h1 {
-
-    width: 80% ;
+    width: 80% ;                    
     font-size: 32px;
     
     margin-bottom: 1px;
@@ -298,6 +299,14 @@ h1 {
         
     
     }
+
+    h4
+    {
+        
+      
+        
+    
+    }
     
     h5
     {
@@ -315,15 +324,44 @@ h1 {
     
     }  
     
-    /*  class ligne complete  */ 
+                                                                 /*  class : affichage ligne 100%  */ 
     .ligne {
     
      width: 100%;  
     }
-
-    @media screen and (max-width: 550px) {
-        #recherches, #hebergements, #populaire, #cadre2, #cadre, #bloc1, #bloc2  {
+                                                                            /*  Breackpoint  */ 
+    @media screen and (max-width: 768px) {
+        #header, #nav, #recherches, #hebergements, #populaire, #cadre2, #cadre  {
           flex-direction: column;
-          
+          width: auto;
+          min-width: 700px;
+          text-align: center;
+         
         }
-    }
+
+#hebergements {
+
+display: flex;
+background-color: white;
+
+
+        }
+
+#cadre {
+
+display: flex;
+flex-direction: column-reverse;
+
+}
+
+
+
+#recherches {
+
+display: flex;
+
+
+
+
+}
+  }
