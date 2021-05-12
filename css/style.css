@@ -1,18 +1,255 @@
-body
-{
+body                                                {
+                                                    background-color: white;
+                                                    }
 
-   margin : 4; 
-   background-color: white;
-}
+                                                     /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-columns: 25% 25% 25% 25% 25% 25% ;
+    grid-gap: 35px;
+  }
+                                                    /*  HEADER   */ 
+
+.grid-logo                                          {
+                                                    background-color: tomato;
+                                                        text-align: left;
+                                                        border: black 5px solid;
+                                                        grid-column-start: 2; 
+                                                        grid-column-end: 3; 
+                                                        grid-row-start: 1; 
+                                                        grid-row-end: 1;
+                                                    
+                                                    }
 
 
-title
-{
-color: #0065FC;
 
-}
+  .logo                                             {
 
-a:link 
+                                                     }
+
+  .logo img                                         {
+                                                    width: 20%;
+                                                   height: 20px;
+                                                    }
+
+
+                                                    /*  NAV  */
+
+.grid-navigation                                    {
+
+                                                    text-align: right;
+                                                    border: black 5px solid;
+                                                    grid-column-start: 3; 
+                                                    grid-column-end: 4; 
+                                                    grid-row-start: 1; 
+                                                    grid-row-end: 1;
+                                                    background-color: yellow;
+                                                    }
+
+
+
+nav li                                              {
+
+                                                background-color: tomato;
+
+                                                    display:block;
+                                                    float:left;   
+                                                    width:100px;
+                                                    color:#DCDCDC;
+                                                    text-decoration:none;
+                                                    }
+
+
+
+.image                                             {
+                                                    width: 300px;
+                                                    height: 150px;
+                                                    display: none;   
+                                                    }
+
+
+
+                                              /*  SECTION RECHERCHE  */ 
+
+.grid-recherches                                    {
+                                                    background-color: violet;
+                                                    text-align: left;
+                                                    border: black 5px solid;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 4; 
+                                                    grid-row-start: 2; 
+                                                    grid-row-end: 4;
+                                                    }  
+                                                                          
+.grid-recherches li                                  {
+
+                                                    float: left;
+                                                    padding-left: 55px;
+                                                     }    
+                                                                                                                                          
+
+#champs                                             {
+                                                    height: 60px;
+                                                    width: 300px;
+                                                    }
+                                            /*  ICONES  */
+.fas                                                {
+                                                    font-size: 20px;
+                                                    color: #0065FC;
+                                                    }
+
+.fas fa-map-marker-alt                              {
+                                                    color: black;
+                                                    }
+
+                                                /*  BOUTON RECHERCHE  */
+.rech1                                              {
+                                                    color: white;
+                                                    background-color: #0065FC;
+                                                    border-bottom-right-radius: 0.9em;
+                                                    border-top-right-radius: 0.9em;
+                                                    width: 120px;
+                                                    height: 40px;
+                                                    }
+
+.rech                                               {
+                                                    width: 200px;
+                                                    height: 35px;
+                                                    border: none;
+                                                    }
+
+
+                                                              
+
+
+                                                     /*  HEBERGEMENTS  */
+
+.grid-hebergement                                   {
+                                                    background: grey;
+                                                    text-align: center;
+                                                    border: black 5px solid;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 3; 
+                                                    grid-row-start: 4; 
+                                                    grid-row-end: 8;
+                                                    }
+/*  Populaire  */     
+                                                     /*  LES PLUS POPULAIRES  */                           
+                                                                                
+.grid-populaire                                     {
+                                                    background:yellow;
+                                                    text-align: center;
+                                                    border: black 5px solid;
+                                                    grid-column-start:3; 
+                                                    grid-column-end: 4; 
+                                                    grid-row-start: 4; 
+                                                    grid-row-end: 8;
+                                                    }  
+                                                                                  
+                                                     /* ACTIVITES */
+
+.grid-activite                                      {
+                                                    background:rgb(11, 231, 29);
+                                                    text-align: center;
+                                                    border: black 5px solid;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 4; 
+                                                    grid-row-start: 6; 
+                                                    grid-row-end: 13;
+                                                     } 
+                                                                                
+                                                                               
+
+                                                    /* FOOTER */
+.grid-footer                                        {
+                                                    background:rgb(247, 9, 9);
+                                                    text-align: center;
+                                                    border: black 5px solid;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 4; 
+                                                    grid-row-start: 13; 
+                                                    grid-row-end: 16;
+                                                             
+                                                    } 
+
+
+                                                                
+footer                                              {
+
+                                                    text-align: center;
+                                                    background-color: yellowgreen;
+ 
+
+    }
+
+                                            /*  GENERIQUE */ 
+
+    ul {
+
+        list-style: none;
+        display: inline-block;
+    }
+
+    h1 {                                            /* ...... / ! \ voir le h1 définit à 80 % ......... */ 
+
+        width: 80% ;                    
+        font-size: 32px;
+        
+        margin-bottom: 1px;
+        }
+        
+        
+        h2 {
+        
+            font-size: 12px;
+        margin-top: 2px;
+        
+        color: #494848;
+        }
+        
+        
+        h3
+        {
+            
+            width: 80%;
+            font-size: 18px;
+            
+        
+        }
+    
+        h4
+        {
+            
+          
+            
+        
+        }
+        
+        h5
+        {
+          
+            font-size: 18px;
+           
+        
+        }
+        
+        h6
+        {
+          
+            font-size: 18px;
+           
+        
+        }  
+
+
+        .ligne {
+    
+            width: 100%;  
+           }
+
+
+           a:link 
 { 
  text-decoration:none; 
 } 
@@ -23,345 +260,3 @@ color: black;
 
 
 }
-
-
-#affichage {
-
-    margin: 1px 1px 1px 1px;
-width: 100%;
-
-
-
-}
-
-                                                                            /*  HEADER   */
-nav {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-}
-nav img
-{
-    height: 80px;
-}
-nav ul {
-
-    display: flex;
-    list-style: none;
-    
-    
-}
-nav li {
-    
-
-    margin: 0 10px 0 20px;
-  
-font-size: 20px;
-
-}
-
-nav li :hover{
-    
-    border-top: 2px solid #0065FC; 
-    text-decoration: none ;
-}
-
- 
-
-
-                                                                            /*  FIN HEADER   */
-
-                                                                        /*  Debut section recherches  */ 
-#champs {
-    height: 60px;
-    width: 300px;
-    
-
-}
-
-
-#recherches {
-
-    display: flex;
-justify-content: space-between;
-flex-direction: column;
-
-}
-
-
-#recherches ul {
-    display: flex;
-    flex-direction: row;
-  width: 50%;
-  justify-content: space-between;
-  list-style: none;
-    
-}
-
-
-
-                                                                            /*  îcones */
-.fas  {
-
-    font-size: 20px;
-    color: #0065FC;
-
-}
-
-.fas fa-map-marker-alt {
-
-    color: black;
-}
-
-                                        
-.rech1 {
-
-color: white;
-background-color: #0065FC;
- border-bottom-right-radius: 0.9em;
- border-top-right-radius: 0.9em;
- width: 120px;
- height: 40px;
- 
-
-}
-
-.rech {
-
-    
-     width: 200px;
-     height: 35px;
-     border: none;
-    
-    }
-                                                                            /*  fin de la section recherches */
-
-                                                                               /*  Debut de la section cadre1  */ 
-#cadre {
-
-display: flex;
-flex-direction: row;
-width: 100%;
-
-
-}           
-
-
-                                                                                    /*  Hébergement  */
-
-
-    #hebergements {
-        display: flex;
-        
-      flex-direction: row;
-      flex-wrap: wrap;
-background-color:  #F2F2F2;
-margin: 0px 155px 0px 0px;
-width: 80%;
-    }
-
-     
-#hebergements img {
-width: 200px;
-height: 100px;
-margin-right: 150px;                                 
-}
-
-                                                                                /*  Populaire  */        
-    #populaire {
-background-color: #F2F2F2;
-    display: flex;
-    
-flex-direction: row;
-flex-wrap: wrap;
-width: 20%;
-}
-
-
-#populaire img {
-width: 300px;
-height: 150px;
-
- }
-
-
-/*
- .linebox                           ...... Alignement du texte à droite ........ 
- {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-background-color: tomato;
-
- }   */
-
-                                                                                    /*  fin de la section cadre1  */
-
-                                                                    /*  Début de la section cadre2  */
-                                                           
-
-
- #cadre2  {
-
-    display: flex;
-    flex-direction: row;
-justify-content: space-around;
-
- }
- 
-
-                                                                                 /* ...... Activité......... */
-#activite
-
-{
-
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    
- }
-
- #activite2
-
-{
-
-    display: flex;
-    flex-direction: column;
-    
-    
- }
-
-
-                                                        / /* ...... class image section des activités ......... */ 
-.verticale 
-{
-  background-color: white;
-}
-    
-.verticale  img {
-    width: 80%;
-height: 100%;
-
-}
-
-.verticale2 
-{
-background-color: white;
-}
-
-.verticale2  img {
-    width: 100%;
-height: 80%;
-
-
-}
-                                                             /* ...... fin de la section cadre 2 ......... */ 
-                                                              /* ...... Début du footer ......... */ 
-footer
-{
-
-    display: flex;
-
-flex-direction: row;
-justify-content: space-between ;
-
-
-background-color: #F2F2F2;
-}
-
-
-                                                                /* ...... fin du footer ......... */ 
-
-                                                                        /*  Les balises h  */ 
-    h1 {                                            /* ...... / ! \ voir le h1 définit à 80 % ......... */ 
-
-    width: 80% ;                    
-    font-size: 32px;
-    
-    margin-bottom: 1px;
-    }
-    
-    
-    h2 {
-    
-        font-size: 12px;
-    margin-top: 2px;
-    
-    color: #494848;
-    }
-    
-    
-    h3
-    {
-        
-        width: 80%;
-        font-size: 18px;
-        
-    
-    }
-
-    h4
-    {
-        
-      
-        
-    
-    }
-    
-    h5
-    {
-      
-        font-size: 18px;
-       
-    
-    }
-    
-    h6
-    {
-      
-        font-size: 18px;
-        width: 100%;
-    
-    }  
-    
-                                                                 /*  class : affichage ligne 100%  */ 
-    .ligne {
-    
-     width: 100%;  
-    }
-                                                                            /*  Breackpoint  */ 
-    @media screen and (max-width: 768px) {
-        #header, #nav, #recherches, #hebergements, #populaire, #cadre2, #cadre  {
-          flex-direction: column;
-          width: auto;
-          min-width: 700px;
-          text-align: center;
-         
-        }
-
-#hebergements {
-
-display: flex;
-background-color: white;
-
-
-        }
-
-#cadre {
-
-display: flex;
-flex-direction: column-reverse;
-
-}
-
-
-
-#recherches {
-
-display: flex;
-
-
-
-
-}
-  }
