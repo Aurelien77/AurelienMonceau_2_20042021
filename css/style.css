@@ -18,7 +18,7 @@ body                                                {
 .grid-container {
     display: grid;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
-    grid-template-columns: 25% 25% 25% 25% 25% 25% ;
+    grid-template-columns: 2% 31% 31% 31% 2%;
     grid-gap: 2px;
   }
                                                     /*  HEADER   */ 
@@ -28,8 +28,8 @@ body                                                {
                                                     {
                                                     
                                                      display: grid;
-                                                    grid-column-start: 2; 
-                                                    grid-column-end: 4; 
+                                                    grid-column-start:1 ; 
+                                                    grid-column-end: 5; 
                                                     grid-row-start: 1; 
                                                     grid-row-end: 1;
                                                     }
@@ -40,7 +40,7 @@ body                                                {
                                                         text-align: left;
                                                         
                                                         grid-column-start: 2; 
-                                                        grid-column-end: 2; 
+                                                        grid-column-end: 3; 
                                                         grid-row-start: 1; 
                                                         grid-row-end: 1;
                                                         
@@ -64,14 +64,13 @@ body                                                {
 
 .grid-navigation                                    {
                                                     display: grid;
-                                                    text-align: right;
+                                                    justify-content: right;
                                                     
-                                                    grid-column-start: 2; 
-                                                    grid-column-end: 4; 
+                                                    grid-column-start: 5; 
+                                                    grid-column-end: 6; 
                                                     grid-row-start: 1; 
-                                                    grid-row-end: 1;
-                                                    height: 20px;
-                                                    max-width: 120% ;
+                                                    grid-row-end: 2;
+                                                   
                                                     
                                                     
                                                     
@@ -86,10 +85,11 @@ nav li                                              {
 
                                                     
                                                     float:left;   
-                                                    width:6em;
+                                                     /*width:10em; */
                                                     
                                                     text-decoration:none;
-                                                    
+                                                    list-style: none;
+                                                    margin-right: 25px;
                                                     
                                                     }
 
@@ -120,7 +120,7 @@ nav li :hover                                       {
                                                     text-align: left;
                                                     
                                                     grid-column-start: 2; 
-                                                    grid-column-end: 4; 
+                                                    grid-column-end: 5; 
                                                     grid-row-start: 2; 
                                                     grid-row-end: 4;
                                                     }  
@@ -174,7 +174,7 @@ nav li :hover                                       {
                                                     text-align: center;
                                                     border: black 5px solid;
                                                     grid-column-start: 2; 
-                                                    grid-column-end: 3; 
+                                                    grid-column-end: 4; 
                                                     grid-row-start: 4; 
                                                     grid-row-end: 8;
                                                     }
@@ -187,7 +187,7 @@ nav li :hover                                       {
                                                     text-align: center;
                                                     border: black 5px solid;
                                                     grid-column-start:3; 
-                                                    grid-column-end: 4; 
+                                                    grid-column-end: 5; 
                                                     grid-row-start: 4; 
                                                     grid-row-end: 8;
                                                     }  
@@ -200,7 +200,7 @@ nav li :hover                                       {
                                                     text-align: center;
                                                     border: black 5px solid;
                                                     grid-column-start: 2; 
-                                                    grid-column-end: 4; 
+                                                    grid-column-end: 5; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 13;
                                                      } 
@@ -212,20 +212,17 @@ nav li :hover                                       {
                                                     display: grid;
                                                     background:rgb(247, 9, 9);
                                                     text-align: center;
-                                                    border: black 5px solid;
+                                                    border: rgb(240, 8, 8) 5px solid;
                                                     grid-column-start: 2; 
-                                                    grid-column-end: 4; 
-                                                    grid-row-start: 13; 
-                                                    grid-row-end: 16;
+                                                    grid-column-end: 5; 
+                                                    grid-row-start: 1; 
+                                                    grid-row-end: 6;
                                                              
                                                     } 
 
 
-                                                                
-footer                                              {
 
-                                                    text-align: center;
-                                                    background-color: yellowgreen;
+                                                    
  
 
     }
