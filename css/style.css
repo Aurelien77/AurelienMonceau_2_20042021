@@ -11,7 +11,9 @@ body                                                {
                                                         src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CFPrEHJA.woff2) format('woff2');
                                                         unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
                                                         font-size: 90px  ;
+                                                        
                                                     }  
+                                                 
                                                     
 
                                                      /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
@@ -65,7 +67,8 @@ body                                                {
 .grid-navigation                                    {
                                                     display: grid;
                                                     justify-content: right;
-                                                    
+                                                    font-size: 1.2em;
+                                                    font-weight: 900;
                                                     grid-column-start: 5; 
                                                     grid-column-end: 6; 
                                                     grid-row-start: 1; 
@@ -88,6 +91,7 @@ nav li                                              {
                                                      /*width:10em; */
                                                     
                                                     text-decoration:none;
+                                                    
                                                     list-style: none;
                                                     margin-right: 25px;
                                                     
@@ -116,22 +120,68 @@ nav li :hover                                       {
 
 .grid-recherches                                    {
                                                     display: grid;
-                                                    background-color: violet;
+                                                    
                                                     text-align: left;
                                                     
                                                     grid-column-start: 2; 
                                                     grid-column-end: 5; 
                                                     grid-row-start: 2; 
-                                                    grid-row-end: 4;
+                                                    grid-row-end: 2;
                                                     }  
-                                                                          
-.grid-recherches li                                  {
+                                                    
+ .grid-recherches1                                    {
+                                                        display: grid;
+                                                        
+                                                       
+                                                        
+                                                        grid-column-start: 2; 
+                                                        grid-column-end: 5; 
+                                                        grid-row-start: 3; 
+                                                        grid-row-end: 3;
+                                                        }
+ 
+.grid-recherches2                                    {
+                                                            display: grid;
+                                                            
+                                                           
+                                                            
+                                                            grid-column-start: 1; 
+                                                            grid-column-end: 5; 
+                                                            grid-row-start: 4; 
+                                                            grid-row-end: 4;
+                                                            }
+                                                            
+.grid-recherches2 li                                  {
 
-                                                    float: left;
-                                                    padding-left: 55px;
-                                                     }    
+                                                                float: left;
+                                                                list-style: none;
+                                                                margin-right: 13px;
+                                                                 }   
+                                                                 
+
+.grid-recherches3                                   {
+                                                                display: grid;
+                                                                
+                                                                text-align: left;
+                                                                
+                                                                grid-column-start: 2; 
+                                                                grid-column-end: 5; 
+                                                                grid-row-start: 5; 
+                                                                grid-row-end: 5;
+                                                                }  
+
+
+
+
+#filtre                                              {
+                                                      
+                                                        
+                                                    }                                          
+
                                                                                                                                           
 
+                                                    
+    }
 #champs                                             {
                                                     height: 60px;
                                                     width: 300px;
@@ -142,9 +192,20 @@ nav li :hover                                       {
                                                     color: #0065FC;
                                                     }
 
-.fas fa-map-marker-alt                              {
-                                                    color: black;
+.fa-map-marker-alt                            {
+                                                    color:black;
+                                                  
+                                                            
                                                     }
+ .localite                                           {
+    
+                                                     background-color: rgb(211, 204, 204);
+                                                    
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    border-bottom-left-radius: 0.7em;
+                                                    border-top-left-radius: 0.7em;
+                                                    }  
 
                                                 /*  BOUTON RECHERCHE  */
 .rech1                                              {
@@ -163,7 +224,6 @@ nav li :hover                                       {
                                                     }
 
 
-                                                              
 
 
                                                      /*  HEBERGEMENTS  */
@@ -175,8 +235,8 @@ nav li :hover                                       {
                                                     border: black 5px solid;
                                                     grid-column-start: 2; 
                                                     grid-column-end: 4; 
-                                                    grid-row-start: 4; 
-                                                    grid-row-end: 8;
+                                                    grid-row-start: 5; 
+                                                    grid-row-end: 5;
                                                     }
 /*  Populaire  */     
                                                      /*  LES PLUS POPULAIRES  */                           
@@ -188,7 +248,7 @@ nav li :hover                                       {
                                                     border: black 5px solid;
                                                     grid-column-start:3; 
                                                     grid-column-end: 5; 
-                                                    grid-row-start: 4; 
+                                                    grid-row-start: 5; 
                                                     grid-row-end: 8;
                                                     }  
                                                                                   
@@ -296,6 +356,7 @@ nav li :hover                                       {
            a:link 
 { 
  text-decoration:none; 
+ color: black;
 } 
 a:visited 
 
