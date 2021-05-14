@@ -77,8 +77,8 @@
 <h1>Trouver votre hébergement pour les vacances   </h1>      
 <h2>En plein centre ville ou en pleine nature</h2>
 </section>
-<section class="grid-recherches1"> 
-<div>  
+
+<div class="grid-recherches1">  
 <form action="#" method="post">  
     <i class="fas fa-map-marker-alt , localite"></i> 
      <input type="text" name="recherche" class="rech" /> 
@@ -87,30 +87,24 @@
     
     </form> 
 </div>    
-</section>   
+   
 <section class="grid-recherches2"> 
-
-
 <div> 
     
     <ul id="filtre"> 
-        <li>   Filtre : </li>
-        <li><i class="fas fa-money-bill-wave"></i>Economique</li>
-        <li><i class="fas fa-child"></i>Familial</li>
-        <li><i class="fas fa-heart"></i>Romantique</li>
-        <li> <i class="fas fa-dog"></i>Animaux autorisés</li>
+        <li id="textefil"> <h2> Filtres :  </h2> </li>  
+        <li><i class="fas fa-money-bill-wave"></i>Economique&nbsp;&nbsp;</li>
+        <li><i class="fas fa-child"></i>Familial&nbsp;&nbsp;</li>
+        <li><i class="fas fa-heart"></i>Romantique&nbsp;&nbsp;</li>
+        <li> <i class="fas fa-dog"></i>Animaux autorisés&nbsp;&nbsp;</li>
         
         </ul>
-
-        
-
-
-
+        </div>
 </section>
     
 <section class="grid-recherches3"> 
 
-  <div><i class="fas fa-info"> </i>  Information : Plus de 500 logements de disponibles  </div> 
+  <div><i class="fas fa-info"> </i> Information : Plus de 500 logements de disponibles  </div> 
 </section>
 
 
@@ -120,15 +114,15 @@
 
 
 
-<main class="grid-hebergement">    <div id="heb">  </div>   <!--  Class Grid Hebergements  -->
+<main class="grid-hebergement">      <!--  Class Grid Hebergements  -->
        
     
 
-    <h3 class="ligne">Hébergements à Marseille</h3>                                       
+    <h3>Hébergements à Marseille</h3>                                       
    
   
        
-   <div id="heb">
+   <div id="heb">  
   
     <figure>
         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -206,57 +200,63 @@ Les étoiles
 </main> 
 
 
-               
+           
 <section class="grid-populaire">                    <!--  Class Grid Les plus populaires   -->
                                                          
-    <h5 class="ligne"> Les plus populaires </h5>     <!--  Intégrer ici image graphisme up     --> 
+    <h5> Les plus populaires </h5>     <!--  Intégrer ici image graphisme up     --> 
         
      
         
     <div id="pop">
-    <figure>                                            
-        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-             alt="Déscription">
-             
-             
-             <figcaption>Hôtel Le soleil du matin <br />
+                                              
+        <a href="#"> <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+             alt="Hôtel Le soleil du matin, Nuit à partir de 128 $" /> </a>
+             <div>
+             <p>
+             Hôtel Le soleil du matin <br />
                 Nuit à partir de 128 $ <br />
                 Les étoiles 
- </figcaption>
+             
+            
+</p>
 
-
-
-    </figure>  
+</div>  
 
 </div>  
 
 <div id="pop2">
-    <figure> 
-        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-             alt="Déscription">
-             <figcaption>Au coeur de l'eau <br />
+     
+    <a href="#">  <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+             alt="Chambres d'hôtes,Nuit à partir de 71 $ "></a> 
+             <div>
+             <p>Au coeur de l'eau <br />
                 Chambres d'hôtes <br />
                 Nuit à partir de 71 $ <br />
-                Les étoiles 
-                
-                
-                
-                        </figcaption>
-    </figure>   </div>     <div id="pop3">
-    <figure>
-        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-             alt="Déscription">
-             <figcaption>Hôtel Tout bleu et Blanc <br />
+                Les étoiles    
+           
+</p>    </div>
+    </div>
+      
+      
+      <div id="pop3">
+    
+        <a href="#">   <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+             alt="Déscription">  </a>
+
+
+            <div>
+             <p>
+             Hôtel Tout bleu et Blanc <br />
                 Nuit à partir de 68 $ <br />
                 Les étoiles 
                 
                 
                 
-                        </figcaption>
-    </figure>    </div>
-    
+                        
+             </p>
+            </div> 
                                                                    
-
+            </div>
 
                                                                                                               
       
@@ -338,11 +338,9 @@ Les étoiles
 
    </ul>   </div>
     
-</div>
+
 </footer>  
-
-                                
-
+</div>
 </body>
 
 

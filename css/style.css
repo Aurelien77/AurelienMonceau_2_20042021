@@ -140,7 +140,7 @@ nav li :hover                                       {
 .grid-recherches2                                    {
                                                             display: grid;
                                                             
-                                                           background-color: ;
+                                                            
                                                             
                                                             grid-column-start: 1; 
                                                             grid-column-end: 5; 
@@ -149,12 +149,36 @@ nav li :hover                                       {
                                                             }
                                                             
 .grid-recherches2 li                                  {
-
+    
                                                                 float: left;
                                                                 list-style: none;
                                                                 margin-right: 38px;
+                                                             
+                                                             border:#F2F2F2 solid 3px;
+                                                             border-top-left-radius: 0.9em;
+                                                            border-top-right-radius: 0.9em;
+                                                            border-bottom-left-radius: 0.9em;
+                                                            border-bottom-right-radius: 0.9em;
+                                                            
                                                                  }   
-                                                                 
+.grid-recherches2 i                                         {
+                                                            margin-right: 10px;
+background-color: #DEEBFF;
+                                                            border-top-left-radius: 0.7em;
+                                                            border-top-right-radius: 0.7em;
+                                                            border-bottom-left-radius: 0.7em;
+                                                            border-bottom-right-radius: 0.7em;
+
+                                                            
+                                                            
+                                                
+
+                                                            
+border-color: #F2F2F2;
+border-style:double;
+
+
+                                                            }                                                           
 
 .grid-recherches3                                   {
                                                                 display: grid;
@@ -213,21 +237,59 @@ nav li :hover                                       {
 .grid-hebergement                                   {
                                                     display: grid;
                                                     background: grey;
-                                                    text-align: center;
-                                                    border: black 5px solid;
-                                                    grid-column-start: 1; 
+                                                    
+                                                   
+
+                                                    background: #F2F2F2;
+                                                    border-top-left-radius: 0.7em;
+                                                    border-top-right-radius: 0.7em;
+                                                    border-bottom-left-radius: 0.7em;
+                                                    border-bottom-right-radius: 0.7em;
+                                                    
+
+
+
+                                                    grid-column-start: 2; 
                                                     grid-column-end: 4; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 12;
                                                     }
+                                                    /*  IMAGES HEBERGEMENTS   */
+.grid-hebergement img                               {
+                                                        width: 100%;
+                                                        height: 150px;
+                                                        border-radius: 25px 25px 0px 0px;
+                                                    justify-items: center;
+                                                    border: 5px solid white;
+                                                    
+                                                        }  
+
+.grid-hebergement figcaption {
+
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: -10px;
+    width: 100%;
+}
+    
   #heb
+  
 {   grid-column-start: 1; 
-    grid-column-end: 1; 
+    grid-column-end: 2; 
     grid-row-start: 6; 
     grid-row-end: 7;
-   
-
+    
+    width: 100%;
+    height: 250px;
+    
+    
+                              /*  Decalage vers la gauche de l'image  hebergemment dans le calque   */
 }
+
+
+
+
 
 #heb2
 {   grid-column-start: 2; 
@@ -235,6 +297,10 @@ nav li :hover                                       {
     grid-row-start: 6; 
     grid-row-end: 7;
     display: grid;
+    
+    width: 100%;
+    height: 250px;
+   
 }
 #heb3
 {   grid-column-start: 3; 
@@ -273,11 +339,6 @@ nav li :hover                                       {
     display: grid;
 }
 
-.grid-hebergement img                               {
-                                                    width: 300px;
-                                                    height: 150px;
-
-                                                    }  
 
 
                                                        
@@ -288,44 +349,63 @@ nav li :hover                                       {
                                                                                 
 .grid-populaire                                     {
                                                     display: grid;
-                                                    background:yellow;
-                                                    text-align: center;
-                                                    border: black 5px solid;
+                                                    background: #F2F2F2;
+                                                    border-top-left-radius: 0.7em;
+                                                    border-top-right-radius: 0.7em;
+                                                    border-bottom-left-radius: 0.7em;
+                                                    border-bottom-right-radius: 0.7em;
+                                                    
+                                                    
                                                     grid-column-start:4; 
-                                                    grid-column-end: 5; 
+                                                    grid-column-end: 6; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 12;
-                                                
+                                                    
+                                                    
                                                     }  
-
-.grid-populaire img                               {
-                                                        width: 300px;
-                                                        height: 150px;
-    
+.grid-populaire img                                 {
+                               
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 0.7em;
+                                                    border-top-right-radius: 0.7em;
+                                                    border-bottom-left-radius: 0.7em;
+                                                    border-bottom-right-radius: 0.7em;
+                                                       
                                                         }
+ p {
+     
+
+    margin-right: 50px;
+   background-color: lawngreen;
+}   
+
+
+
 
 #pop
-{   grid-column-start: 4; 
-    grid-column-end:4; 
-    grid-row-start: 6; 
-    grid-row-end: 7;
-    display: grid;
+{   grid-column-start: 1; 
+    grid-column-end:5; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+
+    
 }
 
 #pop2
-{   grid-column-start: 4; 
-    grid-column-end:4; 
-    grid-row-start: 7; 
-    grid-row-end: 8;
-    display: grid;
+{   grid-column-start: 1; 
+    grid-column-end:5; 
+    grid-row-start: 3; 
+    grid-row-end: 3;
+  
 }
 
 #pop3
-{   grid-column-start: 4; 
-    grid-column-end:4; 
-    grid-row-start: 8; 
-    grid-row-end: 9;
-    display: grid;
+{   grid-column-start: 1; 
+    grid-column-end:5; 
+    grid-row-start: 4; 
+    grid-row-end: 4;
+ ;
 }
                                                                                   
                                                      /* ACTIVITES */
@@ -335,11 +415,21 @@ nav li :hover                                       {
                                                     background:rgb(11, 231, 29);
                                                     text-align: center;
                                                     border: black 5px solid;
-                                                    grid-column-start: 1; 
-                                                    grid-column-end: 5; 
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 6; 
                                                     grid-row-start: 12; 
                                                     grid-row-end: 17;
+                                                    
                                                      } 
+.grid-activite img                               {
+                                                        width: 10%;
+                                                        height: 150px;
+                                                        border-top-left-radius: 0.7em;
+                                                        border-top-right-radius: 0.7em;
+                                                        border-bottom-left-radius: 0.7em;
+                                                        border-bottom-right-radius: 0.7em;
+                                                        }  
+    
 
 #act
 {   grid-column-start: 1; 
@@ -433,8 +523,8 @@ nav li :hover                                       {
     background:rgb(247, 9, 9);
     text-align: center;
     border: rgb(240, 8, 8) 5px solid;
-    grid-column-start: 1; 
-    grid-column-end: 5; 
+    grid-column-start: 2; 
+    grid-column-end: 6; 
     grid-row-start: 17; 
     grid-row-end: 19;
      
@@ -500,8 +590,8 @@ nav li :hover                                       {
         {
           
             font-size: 18px;
-           
-        
+           margin-bottom: 15px;
+           margin-top: 12px;
         }
         
         h6
@@ -513,10 +603,7 @@ nav li :hover                                       {
         }  
 
 
-        .ligne {
-    
-            width: 100%;  
-           }
+        
 
 
            a:link 
