@@ -19,7 +19,7 @@ body                                                {
                                                      /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
 .grid-container {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  ;
     grid-template-columns: 2% 31% 31% 31% 2%;
     grid-gap: 2px;
   }
@@ -108,11 +108,7 @@ nav li :hover                                       {
 
 
 
-.image                                             {
-                                                    width: 300px;
-                                                    height: 150px;
-                                                    display: none;   
-                                                    }
+
 
 
 
@@ -132,18 +128,19 @@ nav li :hover                                       {
  .grid-recherches1                                    {
                                                         display: grid;
                                                         
-                                                       
+                                                      
                                                         
                                                         grid-column-start: 2; 
                                                         grid-column-end: 5; 
                                                         grid-row-start: 3; 
                                                         grid-row-end: 3;
                                                         }
- 
+
+                                                                     /*  LES FILTRES  */ 
 .grid-recherches2                                    {
                                                             display: grid;
                                                             
-                                                           
+                                                           background-color: ;
                                                             
                                                             grid-column-start: 1; 
                                                             grid-column-end: 5; 
@@ -155,7 +152,7 @@ nav li :hover                                       {
 
                                                                 float: left;
                                                                 list-style: none;
-                                                                margin-right: 13px;
+                                                                margin-right: 38px;
                                                                  }   
                                                                  
 
@@ -165,31 +162,17 @@ nav li :hover                                       {
                                                                 text-align: left;
                                                                 
                                                                 grid-column-start: 2; 
-                                                                grid-column-end: 5; 
+                                                                grid-column-end: 2; 
                                                                 grid-row-start: 5; 
                                                                 grid-row-end: 5;
                                                                 }  
 
 
-
-
-#filtre                                              {
-                                                      
-                                                        
-                                                    }                                          
-
-                                                                                                                                          
-
-                                                    
-    }
-#champs                                             {
-                                                    height: 60px;
-                                                    width: 300px;
-                                                    }
                                             /*  ICONES  */
 .fas                                                {
                                                     font-size: 20px;
                                                     color: #0065FC;
+                                                    
                                                     }
 
 .fa-map-marker-alt                            {
@@ -200,11 +183,10 @@ nav li :hover                                       {
  .localite                                           {
     
                                                      background-color: rgb(211, 204, 204);
-                                                    
-                                                    height: 40px;
-                                                    width: 40px;
+                                                    height: 30px; width: 1%;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-top-left-radius: 0.7em;
+                                                    
                                                     }  
 
                                                 /*  BOUTON RECHERCHE  */
@@ -233,11 +215,74 @@ nav li :hover                                       {
                                                     background: grey;
                                                     text-align: center;
                                                     border: black 5px solid;
-                                                    grid-column-start: 2; 
+                                                    grid-column-start: 1; 
                                                     grid-column-end: 4; 
-                                                    grid-row-start: 5; 
-                                                    grid-row-end: 5;
+                                                    grid-row-start: 6; 
+                                                    grid-row-end: 12;
                                                     }
+  #heb
+{   grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 6; 
+    grid-row-end: 7;
+   
+
+}
+
+#heb2
+{   grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    display: grid;
+}
+#heb3
+{   grid-column-start: 3; 
+    grid-column-end: 3; 
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    display: grid;
+}
+#heb4
+{   grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 7; 
+    grid-row-end: 8;
+    display: grid;
+}
+#heb5
+{   grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 7; 
+    grid-row-end: 8;
+    display: grid;
+}
+#heb6
+{   grid-column-start: 3; 
+    grid-column-end:3; 
+    grid-row-start: 7; 
+    grid-row-end: 8;
+    display: grid;
+}
+
+#plus
+{   grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 11; 
+    grid-row-end: 12;
+    display: grid;
+}
+
+.grid-hebergement img                               {
+                                                    width: 300px;
+                                                    height: 150px;
+
+                                                    }  
+
+
+                                                       
+
+
 /*  Populaire  */     
                                                      /*  LES PLUS POPULAIRES  */                           
                                                                                 
@@ -246,11 +291,42 @@ nav li :hover                                       {
                                                     background:yellow;
                                                     text-align: center;
                                                     border: black 5px solid;
-                                                    grid-column-start:3; 
+                                                    grid-column-start:4; 
                                                     grid-column-end: 5; 
-                                                    grid-row-start: 5; 
-                                                    grid-row-end: 8;
+                                                    grid-row-start: 6; 
+                                                    grid-row-end: 12;
+                                                
                                                     }  
+
+.grid-populaire img                               {
+                                                        width: 300px;
+                                                        height: 150px;
+    
+                                                        }
+
+#pop
+{   grid-column-start: 4; 
+    grid-column-end:4; 
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    display: grid;
+}
+
+#pop2
+{   grid-column-start: 4; 
+    grid-column-end:4; 
+    grid-row-start: 7; 
+    grid-row-end: 8;
+    display: grid;
+}
+
+#pop3
+{   grid-column-start: 4; 
+    grid-column-end:4; 
+    grid-row-start: 8; 
+    grid-row-end: 9;
+    display: grid;
+}
                                                                                   
                                                      /* ACTIVITES */
 
@@ -259,30 +335,120 @@ nav li :hover                                       {
                                                     background:rgb(11, 231, 29);
                                                     text-align: center;
                                                     border: black 5px solid;
-                                                    grid-column-start: 2; 
+                                                    grid-column-start: 1; 
                                                     grid-column-end: 5; 
-                                                    grid-row-start: 6; 
-                                                    grid-row-end: 13;
+                                                    grid-row-start: 12; 
+                                                    grid-row-end: 17;
                                                      } 
+
+#act
+{   grid-column-start: 1; 
+    grid-column-end:1; 
+    grid-row-start: 12; 
+    grid-row-end: 14;
+    display: grid;
+}
+#act2
+{   grid-column-start: 2; 
+    grid-column-end:2; 
+    grid-row-start: 12; 
+    grid-row-end: 12;
+    display: grid;
+}
+
+#act3
+{   grid-column-start: 2; 
+    grid-column-end:2; 
+    grid-row-start: 13; 
+    grid-row-end: 13;
+    display: grid;
+}
+
+#act4
+{   grid-column-start: 3; 
+    grid-column-end:3; 
+    grid-row-start: 12; 
+    grid-row-end: 14;
+    display: grid;
+}
+
+#act5
+{   grid-column-start: 4; 
+    grid-column-end:4; 
+    grid-row-start: 12; 
+    grid-row-end: 13;
+    display: grid;
+}
+
+#act6
+{   grid-column-start: 4; 
+    grid-column-end:4; 
+    grid-row-start: 13; 
+    grid-row-end: 14;
+    display: grid;
+}
                                                                                 
-                                                                               
+.grid-activite img                               {
+                                                        width: 300px;
+                                                        height: 150px;
+    
+                                                        }                                                                              
 
-                                                    /* FOOTER */
-.grid-footer                                        {
-                                                    display: grid;
-                                                    background:rgb(247, 9, 9);
-                                                    text-align: center;
-                                                    border: rgb(240, 8, 8) 5px solid;
-                                                    grid-column-start: 2; 
-                                                    grid-column-end: 5; 
-                                                    grid-row-start: 1; 
-                                                    grid-row-end: 6;
-                                                             
-                                                    } 
+    /* FOOTER */                                               
+
+#liste1 {
+    display: grid;
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 6;
 
 
 
-                                                    
+}
+#liste2 {
+    display: grid;
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 6;
+
+
+    
+}
+#liste3 {
+    display: grid;
+    grid-column-start: 3; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 6;
+
+
+    
+}
+
+ 
+ .grid-footer                                        {
+    display: grid;
+    background:rgb(247, 9, 9);
+    text-align: center;
+    border: rgb(240, 8, 8) 5px solid;
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+    grid-row-start: 17; 
+    grid-row-end: 19;
+     
+  
+   
+ 
+        
+    } 
+
+ .grid-footer li {
+
+
+    list-style: none ;  
+ }                                                    
  
 
     }
