@@ -19,7 +19,7 @@ body                                                {
                                                      /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
 .grid-container {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  ;
     grid-template-columns: 2% 31% 31% 31% 2%;
     grid-gap: 2px;
   }
@@ -237,7 +237,7 @@ border-style:double;
 .grid-hebergement                                   {
                                                     display: grid;
                                                     background: grey;
-                                                    
+                                                    margin-right: 35px;
                                                    
 
                                                     background: #F2F2F2;
@@ -354,28 +354,24 @@ border-style:double;
                                                     border-top-right-radius: 0.7em;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-bottom-right-radius: 0.7em;
-                                                    
-                                                    
                                                     grid-column-start:4; 
                                                     grid-column-end: 6; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 12;
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
                                                     }  
 .grid-populaire figcaption                               {
 
                                                         background-color: white;
                                                         border: 5px solid white;
-                                                        border-radius: 0px 0px 25px 25px;
-                                                        margin-top: -10px;
-                                                        width: 100%;
+                                                        border-radius: 0px 25px 25px 0px;
+                                                        
+                                                        width: 45%;
+                                                        height: 9em;
                                                         position: relative;
+                                                       border: 8px solid white;
+                                                       left: 170px;
+                                                       top:  -15px;
                                                        
-                                                       left: 160px;
                                                        
                                                        
                                                     }
@@ -385,8 +381,8 @@ border-style:double;
 
 .grid-populaire img                                 {
                                
-    width: 150px;
-    height: 75px;
+    width: 10em;
+    height: 150px;
     border-top-left-radius: 0.7em;
                                                     border-top-right-radius: 0.7em;
                                                     border-bottom-left-radius: 0.7em;
@@ -395,7 +391,7 @@ border-style:double;
                                                     border-radius: 25px 0px 0px 25px;
                                                   position: absolute;
                                                     border: 5px solid white;
-                                                    
+                                                    margin-top: -15px;
                                                     
                                                         }
  p {
@@ -566,8 +562,8 @@ border-style:double;
     
     grid-column-start: 2; 
     grid-column-end: 6; 
-    grid-row-start: 17; 
-    grid-row-end: 19;
+    grid-row-start: 18; 
+    grid-row-end: 22;
      
   
    
@@ -615,15 +611,15 @@ border-style:double;
             
             width: 80%;
             font-size: 18px;
-            
+           margin-bottom: -15px; 
         
         }
     
         h4
         {
             
-          
-            
+          margin-top: 0px;
+          font-size: 18px; 
         
         }
         
@@ -638,7 +634,7 @@ border-style:double;
         h6
         {
           
-            font-size: 18px;
+          
            
         
         }  
