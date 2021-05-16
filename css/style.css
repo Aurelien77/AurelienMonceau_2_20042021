@@ -221,7 +221,7 @@ color:black ;
 
 .grid-recherches3                                   {
                                                                 display: grid;
-                                                                margin-top: -120px;
+                                                                margin-top: -10px;
                                                                 text-align: left;
                                                                 
                                                                 grid-column-start: 2; 
@@ -259,6 +259,7 @@ margin-top: 2px;
 }
 
 
+
                                             /*  ICONES  */
 .fas                                                {
                                                     font-size: 20px;
@@ -291,7 +292,7 @@ margin-top: 2px;
                                                     display: grid;
                                                     background: grey;
                                                     margin-right: 35px;
-                                                    margin-top: -160px;
+                                                    
 
                                                     background: #F2F2F2;
                                                     border-top-left-radius: 0.7em;
@@ -299,23 +300,25 @@ margin-top: 2px;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-bottom-right-radius: 0.7em;
                                                     
+                                              
 
 
 
                                                     grid-column-start: 2; 
                                                     grid-column-end: 4; 
-                                                    grid-row-start: 6; 
+                                                    grid-row-start: 4; 
                                                     grid-row-end: 12;
                                                     }
                                                     /*  IMAGES HEBERGEMENTS   */
 .grid-hebergement img                               {
-                                                        width: 124%;
-                                                        height: 200px;
+                                                        width: 130%;
+                                                        height: 170px;
                                                         border-radius: 25px 25px 0px 0px;
                                                   margin-top: -12px;
-                                                  margin-left: -37px;
-                                                  max-width: 124%; ;
+                                                  margin-left: -36px;
                                                   
+                                                  
+                                                /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans les calques */
                                                     
                                           
                                                     
@@ -334,33 +337,33 @@ margin-top: 2px;
      
      
 }
-                                            /*  DeFINIT LES MARGES AUTOUR DE LA SECTION HEBERGEMENTS  */
+                                            /*  DEFINIT LES MARGES AUTOUR DE LA SECTION HEBERGEMENTS  */
 #mar 
 {
-margin-left: -130px;
+margin-left: 0px;
 margin-right: 0px;
 margin-top: 30px;
 
 text-align: center;
+
 }
   #heb
   
 {   grid-column-start: 1; 
-    grid-column-end: 2; 
+    grid-column-end: 1; 
     grid-row-start: 6; 
-    grid-row-end: 6;
+    grid-row-end: ;
+    display: grid;
     
-   width: 100%;
-    height: 100%;
-    box-shadow: 0px 0px 5px  #555; 
+    box-shadow: 0px 15px 25px  #555; 
     background-color: white;
-    
+   
   
     border-radius: 25px 25px 25px 25px;
    
-
-     
-    
+margin-top: -65px;
+margin-bottom: 50px;
+    margin-left : 30px;
                               /*  Decalage vers la gauche de l'image  hebergemment dans le calque   */
 }
 
@@ -374,9 +377,14 @@ text-align: center;
     grid-row-start: 6; 
     grid-row-end: 7;
     display: grid;
-    
-    width: 100%;
-    height: 250px;
+    width: 89%;
+   
+    box-shadow: 0px 15px 25px  #555; 
+    background-color: white;
+    margin-bottom: 40px;
+    margin-top: -65px;
+  margin-left: 65px;
+    border-radius: 25px 25px 25px 25px;
    
 }
 #heb3
@@ -385,6 +393,15 @@ text-align: center;
     grid-row-start: 6; 
     grid-row-end: 7;
     display: grid;
+    width: 75%;
+    box-shadow: 0px 15px 25px  #555; 
+    background-color: white;
+    margin-bottom: 40px;
+    margin-top: -65px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 25px 25px 25px 25px;
+   
 }
 #heb4
 {   grid-column-start: 1; 
@@ -392,6 +409,13 @@ text-align: center;
     grid-row-start: 7; 
     grid-row-end: 8;
     display: grid;
+    margin-bottom: 40px;
+    box-shadow: 0px 15px 25px  #555; 
+    background-color: white;
+    
+    margin-left : 30px;
+    border-radius: 25px 25px 25px 25px;
+   
 }
 #heb5
 {   grid-column-start: 2; 
@@ -399,13 +423,30 @@ text-align: center;
     grid-row-start: 7; 
     grid-row-end: 8;
     display: grid;
+    margin-bottom: 40px;
+    width: 89%;
+    box-shadow: 0px 15px 25px  #555; 
+    background-color: white;
+    
+    margin-left: 65px;
+    
+    border-radius: 25px 25px 25px 25px;
+   
 }
 #heb6
 {   grid-column-start: 3; 
     grid-column-end:3; 
-    grid-row-start: 7; 
+    grid-row-start: ; 
     grid-row-end: 8;
     display: grid;
+    width: 75%;
+    box-shadow: 0px 15px 25px  #555; 
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border-radius: 25px 25px 25px 25px;
+   
 }
 
 #plus
