@@ -132,9 +132,9 @@ nav li :hover                                       {
                                                     
  .grid-recherches1                                    {
                                                         display: grid;
-                                                        
+                                                       
                                                         margin-top: -30px;
-                                                        
+                                                        align-content: center;
                                                         grid-column-start: 2; 
                                                         grid-column-end: 5; 
                                                         grid-row-start: 3; 
@@ -142,6 +142,24 @@ nav li :hover                                       {
                                                         height: 50px;
                                                        
                                                         }
+
+                                                                                                        /*  BOUTON RECHERCHE  */
+
+.rech                                               {
+    width: 200px;
+    height: 37px;
+    border: none;
+    }
+    
+.rech1                                              {
+    color: white;
+    background-color: #0065FC;
+    border-bottom-right-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+    width: 120px;
+    height: 40px;
+    }
+
 
                                                                      /*  LES FILTRES  */ 
 .grid-recherches2                                    {
@@ -238,34 +256,20 @@ border-style:double;
                                                     }
 
 .fa-map-marker-alt                            {
-                                                    color:black; }
-                                                    
-                                                    
- .localite                                           {
-    
-                                                     background-color: rgb(211, 204, 204);
-                                                    height: 2em; width: 2em;
+                                                    color:black; 
+                                                    background-color: rgb(211, 204, 204);
+                                                    text-align: center;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-top-left-radius: 0.7em;
-                                                    text-align: center;
-                                                    
-                                                    }  
-
-                                                /*  BOUTON RECHERCHE  */
-.rech1                                              {
-                                                    color: white;
-                                                    background-color: #0065FC;
-                                                    border-bottom-right-radius: 0.9em;
-                                                    border-top-right-radius: 0.9em;
-                                                    width: 120px;
-                                                    height: 40px;
+                                                    width: 2.3em;
+                                                    height: 1.5em;
+                                                    padding-top:0.4em;
+                                                  padding-bottom: 0.1em;
                                                     }
+  
 
-.rech                                               {
-                                                    width: 200px;
-                                                    height: 35px;
-                                                    border: none;
-                                                    }
+
+
 
 
 
