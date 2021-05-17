@@ -20,9 +20,10 @@ body                                                {
                                                      /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
 .grid-container {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  ;
+    grid-template-rows: 100px  ;
     grid-template-columns: 2% 31% 31% 31% 2%;
-    grid-gap: 2px;
+    
+    
     max-width: 2000px;
     max-height: 768px;
     
@@ -49,15 +50,11 @@ body                                                {
                                                         grid-column-end: 3; 
                                                         grid-row-start: 1; 
                                                         grid-row-end: 1;
-                                                        
+                                                        width: auto;
+                                                        height: 30px;
                                                     
                                                     }
 
-
-
-  .logo                                             {
-
-                                                     }
 
   .logo img                                         {
                                                     width: auto;
@@ -74,12 +71,12 @@ body                                                {
                                                     font-size: 1.2em;
                                                     font-weight: 900;
                                                     grid-column-start: 5; 
-                                                    grid-column-end: 6; 
+                                                    grid-column-end: 5; 
                                                     grid-row-start: 1; 
-                                                    grid-row-end: 2;
+                                                    grid-row-end: 1;
                                                    
                                                     
-                                                    
+                                                   
                                                     
                                                    
                                                     }
@@ -127,6 +124,7 @@ nav li :hover                                       {
                                                     grid-column-end: 5; 
                                                     grid-row-start: 2; 
                                                     grid-row-end: 2;
+                                                    
                                                     }  
 
 
@@ -134,7 +132,7 @@ nav li :hover                                       {
  .grid-recherches1                                    {
                                                         display: grid;
                                                        
-                                                        margin-top: -30px;
+                                                        line-height: 6;
                                                         align-content: center;
                                                         grid-column-start: 2; 
                                                         grid-column-end: 5; 
@@ -150,6 +148,7 @@ nav li :hover                                       {
     width: 200px;
     height: 37px;
     border: none;
+    
     }
     
 .rech1                                              {
@@ -166,8 +165,9 @@ nav li :hover                                       {
 .grid-recherches2                                    {
                                                             display: grid;
                                                             
-                                                            margin-top: -80px;
-                                                            line-height: ;
+                                                            
+                                                            line-height: 2;
+                                                           
                                                             grid-column-start: 1; 
                                                             grid-column-end: 5; 
                                                             grid-row-start: 4; 
@@ -235,15 +235,17 @@ border-top-left-radius: 0.7em;
 
 .grid-recherches3                                   {
                                                                 display: grid;
-                                                                margin-top: 65px;
-                                                                text-align: left;
                                                                 
+                                                                text-align: left;
+                                                               
                                                                 grid-column-start: 2; 
-                                                                grid-column-end: 2; 
-                                                                grid-row-start: 3; 
-                                                                grid-row-end: 3;
+                                                                grid-column-end: 5; 
+                                                                grid-row-start: 5; 
+                                                                grid-row-end: 5;
                                                                 color:black ;
                                                                 font-weight: 800;
+                                                                
+                                                                line-height: 4;
                                                                 }  
 .grid-recherches3 i   {
     margin-right: 10px;
@@ -324,7 +326,7 @@ color: none;
                                                     display: grid;
                                                     background: grey;
                                                     margin-right: 35px;
-                                                    
+                                                   
 
                                                     background: #F2F2F2;
                                                     border-top-left-radius: 0.7em;
@@ -336,20 +338,22 @@ color: none;
 
                                                     grid-column-start: 2; 
                                                     grid-column-end: 4; 
-                                                    grid-row-start: 4; 
+                                                    grid-row-start: 6; 
                                                     grid-row-end: 12;
+                                                    
                                                     }
 
 .grid-hebergement figure {
 
-                                                        display: block;
+                                                        display: ;
                                                        /* -webkit-margin-before: 1em;
                                                         -webkit-margin-after: 1em;
                                                         -webkit-margin-start: 1em;
                                                         -webkit-margin-end: 1em;  */
                                                         width : 100%;
-                                                        max-height: 200px;
-                                                        padding-bottom: 25px ;
+                                                        max-height: 150px;
+                                                        padding-bottom: 170px ;
+                                                        margin-bottom: -100px;
                                                         
                                                            /*  le calque qui recoit limage balise figure   */
                                                         
@@ -362,6 +366,7 @@ color: none;
                                                         border-radius: 25px 25px 0px 0px;
                                                   margin-top: -10px;
                                                   margin-left: -31px;
+                                                  
                                                   
                                                   
                                                 /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans le calque figure */
@@ -390,7 +395,8 @@ color: none;
 {
 margin-left: 0px;
 margin-right: 0px;
-margin-top: 30px;
+margin-top: 25px;
+margin-bottom: 30px;
 
 text-align: center;
 
@@ -400,7 +406,7 @@ text-align: center;
 {   grid-column-start: 1; 
     grid-column-end: 1; 
     grid-row-start: 6; 
-    grid-row-end: ;
+    grid-row-end: 6;
     display: grid;
     
     box-shadow: 0px 15px 25px  #555; 
@@ -409,8 +415,8 @@ text-align: center;
   
     border-radius: 25px 25px 25px 25px;
    
-margin-top: -65px;
-margin-bottom: 50px;
+
+margin-bottom: 49px;
    
 
 
@@ -419,19 +425,7 @@ margin-bottom: 50px;
                               /*  Decalage vers la gauche de l'image  hebergemment dans le calque   */
 }
 
-figure:hover figcaption {
-    margin-top: -10px;
-margin-bottom: 10px;
-    margin-left : 10px;
-    
-    }
 
-    figure:hover {
-        
-        margin-bottom: 10px;
-        margin-top : -15px;
-        
-        }
 
 
 
@@ -445,9 +439,9 @@ margin-bottom: 10px;
    
     box-shadow: 0px 15px 25px  #555; 
     background-color: white;
-    margin-bottom: 40px;
-    margin-top: -65px;
-  margin-left: 65px;
+    margin-bottom: 49px;
+    
+  margin-left: 45px;
     border-radius: 25px 25px 25px 25px;
    
 }
@@ -460,9 +454,9 @@ margin-bottom: 10px;
     width: 75%;
     box-shadow: 0px 15px 25px  #555; 
     background-color: white;
-    margin-bottom: 40px;
-    margin-top: -65px;
-    margin-left: 60px;
+    margin-bottom: 49px;
+    
+    margin-left: 45px;
     margin-right: 60px;
     border-radius: 25px 25px 25px 25px;
    
@@ -492,7 +486,7 @@ margin-bottom: 10px;
     box-shadow: 0px 15px 25px  #555; 
     background-color: white;
     
-    margin-left: 65px;
+    margin-left: 45px;
     
     border-radius: 25px 25px 25px 25px;
    
@@ -500,13 +494,13 @@ margin-bottom: 10px;
 #heb6
 {   grid-column-start: 3; 
     grid-column-end:3; 
-    grid-row-start: ; 
-    grid-row-end: 8;
+    grid-row-start: 7; 
+    grid-row-end: 7;
     display: grid;
-    width: 75%;
+    
     box-shadow: 0px 15px 25px  #555; 
     background-color: white;
-    margin-left: 60px;
+    margin-left: 45px;
     margin-right: 60px;
     margin-bottom: 40px;
     border-radius: 25px 25px 25px 25px;
@@ -520,10 +514,22 @@ margin-bottom: 10px;
     grid-row-end: 12;
     display: grid;
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
-
+figure:hover figcaption {
+    
+    margin-bottom: 10px;
+        margin-left : 10px;
+        
+        }
+    
+        figure:hover {
+            
+            
+            margin-top : -15px;
+            
+            }
 
       /**
  * ZOOM IMAGE EFFECT ON HOVER // wpRock.fr
@@ -563,10 +569,11 @@ margin-bottom: 10px;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-bottom-right-radius: 0.7em;
                                                     grid-column-start:4; 
-                                                    grid-column-end: 6; 
+                                                    grid-column-end: 4; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 12;
-                                                    margin-top: -202px;
+                                                    
+                                                    
                                                     }  
 .grid-populaire figcaption                               {
 
@@ -579,7 +586,7 @@ margin-bottom: 10px;
                                                         position: relative;
                                                        border: 8px solid white;
                                                        left: 160px;
-                                                       top:  -50px;
+                                                       top:  -8px;
                                                        
                                                        box-shadow: 0px 15px 45px  #555;
                                                        
@@ -589,7 +596,7 @@ margin-bottom: 10px;
 
 
 .grid-populaire img                                 {
-                               
+             margin-top: -8px;          
     width: 10em;
     height: 150px;
     border-top-left-radius: 0.7em;
@@ -600,7 +607,7 @@ margin-bottom: 10px;
                                                     border-radius: 25px 0px 0px 25px;
                                                   position: absolute;
                                                     border: 5px solid white;
-                                                    margin-top: -50px;
+                                                    
                                                     box-shadow: 0px 15px 25px  #555; 
                                                     
                                                         }
@@ -620,6 +627,7 @@ text-align: center;
     grid-column-end:5; 
     grid-row-start: 2; 
     grid-row-end: 2;
+
 
     
 }
@@ -651,6 +659,7 @@ text-align: center;
                                                     grid-column-end: 6; 
                                                     grid-row-start: 12; 
                                                     grid-row-end: 17;
+                                                    
                                                     
                                                      } 
 .grid-activite figcaption                               {
@@ -895,80 +904,97 @@ color: #0065FC;
 
 
  /*  Breackpoint  */ 
- @media only screen and (max-width: 768px) {
-	.grid-hebergement  {
-
-
-
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 1; 
-        grid-row-end: 1;
-        display: grid;
-
-    }
-
-    .heb {
-
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 2; 
-        grid-row-end: 2;
-        display: grid;
-
-    }
  
 
-    .heb2 {
+      @media (max-width: 768px) {
+     
 
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 3; 
-        grid-row-end: 3;
-        display: grid;
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 100px;
+            grid-gap: 10px;
+            background-color: brown;
+          }
+          .wrapper div:nth-child(1) {
+            grid-column: 1;
+            grid-row: 1 / 1;
+            background-color: burlywood;
+          }
+          .wrapper div:nth-child(2) {
+            grid-column: 3;
+            grid-row: 2 / 4;
+            background-color: burlywood;
+          }
+          .wrapper div:nth-child(3) {
+            grid-column: 3;
+            grid-row: 2 / 4;
+            background-color: chartreuse;
+          }
+          .wrapper div:nth-child(4) {
+            grid-column: 3;
+            grid-row: 2 / 4;
+            background-color: darkgoldenrod;
+          }
+          .wrapper div:nth-child(5) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: darkgreen;
+          }
+          .wrapper div:nth-child(6) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: deeppink;
+          }
+          .wrapper div:nth-child(7) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: fuchsia;
+          }
+          .wrapper div:nth-child(8) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: gold;
+          }
+          .wrapper div:nth-child(8) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color:indigo;
+          }
+          .wrapper div:nth-child(9) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color:rgb(233, 95, 15);
+          }
+          .wrapper div:nth-child(10) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color:rgb(250, 9, 9);
+          }
+          .wrapper div:nth-child(11) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: lawngreen;
+          }
+          .wrapper div:nth-child(12) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: rgb(60, 28, 241);
+          }
+          .wrapper div:nth-child(13) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: rgb(60, 28, 241);
+          }
+          .wrapper div:nth-child(14) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            background-color: rgb(60, 28, 241);
+          }
 
-    }
-
-    .pop  {
-
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 8; 
-        grid-row-end: 8;
-        display: grid;
-
-
-
-    }
-
-    .pop2  {
-
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 8; 
-        grid-row-end: 8;
-        display: grid;
-
-
-        
-    }
-
-
-}
+      }
 
 @media only screen and (max-width: 1024px) {
 	
-    .grid-hebergement  {
+    
 
-
-
-        grid-column-start: 1; 
-        grid-column-end:1; 
-        grid-row-start: 1; 
-        grid-row-end: 1;
-        display: grid;
-
-    }
-
-
-}
