@@ -40,7 +40,7 @@
 <meta property="fb:admins" content="Facebook numeric ID" />
 </head>
 
-<body>    <div class="wrapper">
+<body>    <div class="wrapper">                 <!--   DIV RESPONSIVE   --> 
     <div class="grid-container">                    <!--   CONTAINER POUR DEFINISSION DE CSS GRID   -->                               
 <header class="grid-header">                                            <!--   HEADER   -->                    
   
@@ -57,8 +57,8 @@
     <div class="grid-navigation">                            <!--  Class Grid Navigation   -->
         <nav> 
         <ul> 
-            <li><a href="#mar"> Hébergements </a> </li>
-            <li> <a href="#marsact" > Activités  </a>  </li>
+            <li id="he"><a href="#mar"> Hébergements </a> </li>
+            <li id="activi"> <a href="#marsact" > Activités  </a>  </li>
             <li> <a href="#"> S'inscrire </a> </li>
         </ul>   
     </nav>
@@ -74,16 +74,16 @@
 <section class="grid-recherches">                          <!--  Class Grid Recherches   -->
     
 
-<h1>Trouver votre hébergement pour les vacances   </h1>      
+<h1 id="trouv">Trouver votre hébergement pour des vacances de rêve   </h1>      
 <h2>En plein centre ville ou en pleine nature</h2>
 </section>
 
 <div class="grid-recherches1">  
 <form action="#" method="post">  
     <i class="fas fa-map-marker-alt"></i> 
-     <input type="text" name="recherche" class="rech" /> 
+     <input type="text" name="recherche" class="rech" placeholder ="Marseille,France"/> 
      
-     <input  type="submit" value="Rechercher" class="rech1">   
+     <input  type="submit" value="Rechercher" class="rech1" >   
     
     </form> 
 </div>    
@@ -274,7 +274,7 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
          alt="Déscription">   </a>
     <figcaption><h3>Fort de Pomègues</h3></figcaption>
-</figure class="verticale wprock-img-zoom">
+</figure> class="verticale wprock-img-zoom">
 </div> 
 <div id="act3">
 <figure class="wprock-img-zoom">  <a href="#"> 
@@ -297,7 +297,7 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     <figcaption><h3>Notre-Dame-de-la-Garde</h3></figcaption>
 </figure>
 </div>
-<div id="act6">>
+<div id="act6">
 <figure class="wprock-img-zoom">   <a href="#"> 
     <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
          alt="Déscription">   </a>
