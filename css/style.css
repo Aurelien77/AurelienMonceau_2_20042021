@@ -141,7 +141,7 @@ nav li :hover                                       {
                                                         grid-row-start: 3; 
                                                         grid-row-end: 3;
                                                         height: 50px;
-                                                       
+                                                        
                                                         }
 
                                                                                                         /*  BOUTON RECHERCHE  */
@@ -167,11 +167,12 @@ nav li :hover                                       {
                                                             display: grid;
                                                             
                                                             margin-top: -80px;
-                                                            
+                                                            line-height: ;
                                                             grid-column-start: 1; 
                                                             grid-column-end: 5; 
                                                             grid-row-start: 4; 
                                                             grid-row-end: 4;
+                                                            
                                                             }
                                                             
 .grid-recherches2 li                                  {
@@ -888,6 +889,86 @@ a:visited
 
 {
 color: #0065FC;
+
+
+}
+
+
+ /*  Breackpoint  */ 
+ @media only screen and (max-width: 768px) {
+	.grid-hebergement  {
+
+
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 1; 
+        grid-row-end: 1;
+        display: grid;
+
+    }
+
+    .heb {
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 2; 
+        grid-row-end: 2;
+        display: grid;
+
+    }
+ 
+
+    .heb2 {
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 3; 
+        grid-row-end: 3;
+        display: grid;
+
+    }
+
+    .pop  {
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 8; 
+        grid-row-end: 8;
+        display: grid;
+
+
+
+    }
+
+    .pop2  {
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 8; 
+        grid-row-end: 8;
+        display: grid;
+
+
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+	
+    .grid-hebergement  {
+
+
+
+        grid-column-start: 1; 
+        grid-column-end:1; 
+        grid-row-start: 1; 
+        grid-row-end: 1;
+        display: grid;
+
+    }
 
 
 }
