@@ -52,7 +52,7 @@ body   {
   .logo img                                         {
                                                     width: auto;
                                                     height: 30px;
-                                                   scale : none ;
+                                                
                                                     }
 
 
@@ -181,7 +181,7 @@ background-color: #DEEBFF;
                                                             height:1.2em;                                             
                                                             border-color: #F2F2F2;
                                                             border-style:double;
-                                                            text-align: middle;
+                                                            
                                                             }  
                                                                                                                
 
@@ -255,10 +255,7 @@ font-size :  20px;
 
 
 
- .etoile                                                        {
-                                                                font-style: none;
-                                                                color: none;
-                                                                }
+ 
 
 .fa-map-marker-alt                                              {
                                                                 color:black; 
@@ -306,7 +303,7 @@ font-size :  20px;
                                                             max-height: 150px;
                                                             padding-bottom: 170px ;
                                                             margin-bottom: -100px;
-                                                            scale : none ;
+                                                            
                                                             }                                                
                                                             
                                                                                         /*  FIGURES DE LA SECTION HEBERGEMENTS   */
@@ -316,7 +313,7 @@ font-size :  20px;
                                                             border-radius: 25px 25px 0px 0px;
                                                             margin-top: -10px;
                                                             margin-left: -31px;
-                                                            scale : none ;
+                                                            
                                                 /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans leurs calques  */
                                                             }  
 
@@ -535,7 +532,7 @@ figure:hover figcaption
 #pluspo                                                         
                                                                     {
                                                                     margin-top: 20px;
-                                                                    margin left: 20px;
+                                                                    
                                                                     text-align: center;
                                                                     }
 
@@ -695,7 +692,7 @@ figure:hover figcaption
 }
 
 
-}
+
 #liste2 {
     display: grid;
     grid-column-start: 2; 
@@ -727,7 +724,7 @@ figure:hover figcaption
  }                                                    
  
 
-    }
+    
 
                                             /*  GENERIQUE */ 
 
@@ -903,7 +900,7 @@ grid-column: 3;
   
   line-height: 1.2;
 line-height: 1.5;
-white-space:wrap;
+
 }
 
           #activi {
@@ -927,16 +924,16 @@ background-color: violet;
             grid-row: 3;
             width: 120%;
             margin-left : -10px; 
-        b
+        
         
                   }
 
                   .grid-recherches2  {
                     grid-column: 1/5;
                     grid-row: 6;
-                    width: 400%;
+                    width: 100%;
                     
-                  background-color: tomato;
+                
                   
                 
                           }
@@ -954,7 +951,7 @@ background-color: violet;
 .grid-populaire  {
 display:inline-block;
     grid-column: 2;
-   margin-top: px;
+   
     width: 250%;
 margin-left: 15px;
 grid-row: 8;
@@ -1204,7 +1201,7 @@ grid-column: 3;
   
   line-height: 1.2;
 line-height: 1.5;
-white-space:wrap;
+
 }
 
           #activi {
@@ -1228,16 +1225,16 @@ background-color: violet;
             grid-row: 3;
             width: 120%;
             margin-left : -10px; 
-        b
+        
         
                   }
 
                   .grid-recherches2  {
                     grid-column: 1/5;
                     grid-row: 6;
-                    width: 400%;
+                    width: 100%;
                     
-                  background-color: tomato;
+                 
                   
                 
                           }
@@ -1255,7 +1252,7 @@ background-color: violet;
 .grid-populaire  {
 display:inline-block;
     grid-column: 2;
-   margin-top: px;
+   
     width: 250%;
 margin-left: 15px;
 grid-row: 8;
@@ -1403,4 +1400,4 @@ margin-right: auto;
 }
 
     
-}
+
