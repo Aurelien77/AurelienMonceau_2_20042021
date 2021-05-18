@@ -1310,7 +1310,7 @@ background-color: rgb(74, 9, 253);
 width: 100%;
 grid-column: 1;
             grid-row: 9;
-            display: grid;
+          
             margin-top: auto;
             margin-left: auto;
             margin-bottom: auto;
@@ -1325,7 +1325,7 @@ grid-column: 1;
     width: 100%;
     grid-column: 1;
                 grid-row: 10;
-                display: grid; 
+                 
          margin-top: auto;
          margin-left: auto;
          margin-bottom: auto;
@@ -1337,7 +1337,7 @@ grid-column: 1;
     width: 100%;
     grid-column: 1;
                 grid-row: 11;
-                display: grid; 
+                 
                 
                 background-color: turquoise;
                 margin-top: auto;
@@ -1353,7 +1353,7 @@ grid-column: 1;
     width: 100%;
     grid-column: 1;
                 grid-row: 12;
-                display: grid; 
+                 
                 margin-top: auto;
          margin-left: auto;
          margin-bottom: auto;
@@ -1367,7 +1367,7 @@ grid-column: 1;
     width: 100%;
     grid-column: 1;
                 grid-row: 13;
-                display: grid; 
+                 
                 margin-top: auto;
          margin-left: auto;
          margin-bottom: auto;
@@ -1381,7 +1381,7 @@ grid-column: 1;
     width: 100%;
     grid-column: 1;
                 grid-row: 14;
-                display: grid; 
+                
                 margin-top: auto;
          margin-left: auto;
          margin-bottom: auto;
