@@ -1,98 +1,81 @@
-body                                                {
-                                                    background-color: white;
-                                                    font-family: Raleway ;
-                                                    
-                                                    }
+body   {
+        background-color: white;
+        font-family: Raleway ;
+        }
 
-@font-face                                          {
-                                                        font-family: 'Raleway';
-                                                        font-style: normal;
-                                                        font-weight: 100;
-                                                        font-display: swap;
-                                                        src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CFPrEHJA.woff2) format('woff2');
-                                                        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-                                                        font-size: 90px  ;
-                                                        
-                                                    }  
+@font-face   {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CFPrEHJA.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            font-size: 90px ;
+            }  
                                                  
                                                     
 
-                                                     /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
-.grid-container {
-    display: grid;
-    grid-template-rows: 100px  ;
-    grid-template-columns: 2% 31% 31% 31% 2%;
-    
-    
-    max-width: 2000px;
-    max-height: 768px;
-    
-  }
-                                                    /*  HEADER   */ 
+                                                                                /*  CONTAINER POUR DEFINISSION DE CSS GRID   */   
+.grid-container                     {
+                                    display: grid;
+                                    grid-template-rows: 100px  ;
+                                    grid-template-columns: 2% 31% 31% 31% 2%;
+                                    max-width: 2000px;
+                                    max-height: 768px;
+                                    }
+                                                                                /*  HEADER   */ 
 
-                                                    .grid-header
+.grid-header
 
-                                                    {
+                                            {
                                                     
-                                                     display: grid;
-                                                    grid-column-start:1 ; 
-                                                    grid-column-end: 5; 
-                                                    grid-row-start: 1; 
-                                                    grid-row-end: 1;
-                                                    }
+                                            display: grid;
+                                            grid-column-start:1 ; 
+                                            grid-column-end: 5; 
+                                            grid-row-start: 1; 
+                                            grid-row-end: 1;
+                                            }
 
 
-.grid-logo                                          {
-                                                        display: grid;
-                                                        text-align: left;
-                                                        
-                                                        grid-column-start: 2; 
-                                                        grid-column-end: 3; 
-                                                        grid-row-start: 1; 
-                                                        grid-row-end: 1;
-                                                        width: auto;
-                                                        height: 30px;
-                                                    
-                                                    }
+.grid-logo                                      {
+                                                display: grid;
+                                                text-align: left;
+                                                grid-column-start: 2; 
+                                                grid-column-end: 3; 
+                                                grid-row-start: 1; 
+                                                grid-row-end: 1;
+                                                width: auto;
+                                                height: 30px;
+                                                 }
 
 
   .logo img                                         {
                                                     width: auto;
-                                                   height: 30px;
+                                                    height: 30px;
                                                    
                                                     }
 
 
                                                     /*  NAV  */
 
-.grid-navigation                                    {
-                                                    display: grid;
-                                                    justify-content: right;
-                                                    font-size: 1.2em;
-                                                    font-weight: 900;
-                                                    grid-column-start: 5; 
-                                                    grid-column-end: 5; 
-                                                    grid-row-start: 1; 
-                                                    grid-row-end: 1;
-                                                   
-                                                    
-                                                   
-                                                    
-                                                   
-                                                    }
+.grid-navigation                                 {
+                                                display: grid;
+                                                justify-content: right;
+                                                font-size: 1.2em;
+                                                font-weight: 900;
+                                                grid-column-start: 5; 
+                                                grid-column-end: 5; 
+                                                grid-row-start: 1; 
+                                                grid-row-end: 1;
+                                                 }
 
 
 
 nav li                                              {
 
-                                                
-
-                                                    
                                                     float:left;   
                                                      /*width:10em; */
-                                                    
                                                     text-decoration:none;
-                                                    
                                                     list-style: none;
                                                     margin-right: 25px;
                                                     
@@ -113,7 +96,7 @@ nav li :hover                                       {
 
 
 
-                                              /*  SECTION RECHERCHE  */ 
+                                                                                /*  SECTION RECHERCHER  */ 
 
 .grid-recherches                                    {
                                                     display: grid;
@@ -142,48 +125,43 @@ nav li :hover                                       {
                                                         
                                                         }
 
-                                                                                                        /*  BOUTON RECHERCHE  */
+                                                                                     /*  BOUTON SECTION RECHERCHER    */
 
-.rech                                               {
-    width: 200px;
-    height: 37px;
-    border: none;
+.rech                                                   {
+                                                        width: 200px;
+                                                        height: 37px;
+                                                        border: none;
     
-    }
+                                                        }
     
-.rech1                                              {
-    color: white;
-    background-color: #0065FC;
-    border-bottom-right-radius: 0.9em;
-    border-top-right-radius: 0.9em;
-    width: 120px;
-    height: 40px;
-    }
+.rech1                                                  {
+                                                        color: white;
+                                                        background-color: #0065FC;
+                                                        border-bottom-right-radius: 0.9em;
+                                                        border-top-right-radius: 0.9em;
+                                                        width: 120px;
+                                                        height: 40px;
+                                                        }
 
 
-                                                                     /*  LES FILTRES  */ 
-.grid-recherches2                                    {
-                                                            display: grid;
+                                                                     /*  CLASS POUR LES FILTRES DE LA SECTION RECHERCHE  */ 
+.grid-recherches2                               {
+                                                display: grid;
+                                                line-height: 2;
+                                                grid-column-start: 1; 
+                                                grid-column-end: 5; 
+                                                grid-row-start: 4; 
+                                                 grid-row-end: 4;
+                                                 }
                                                             
-                                                            
-                                                            line-height: 2;
-                                                           
-                                                            grid-column-start: 1; 
-                                                            grid-column-end: 5; 
-                                                            grid-row-start: 4; 
-                                                            grid-row-end: 4;
-                                                            
-                                                            }
-                                                            
-.grid-recherches2 li                                  {
+.grid-recherches2 li                                        {
     
-                                                                float: left;
-                                                                list-style: none;
-                                                                margin-right: 38px;
-                                                                
-                                                                font-weight: bold;
-                                                             border:#F2F2F2 solid 3px;
-                                                             border-top-left-radius: 0.9em;
+                                                            float: left;
+                                                            list-style: none;
+                                                            margin-right: 38px;
+                                                            font-weight: bold;
+                                                            border:#F2F2F2 solid 3px;
+                                                            border-top-left-radius: 0.9em;
                                                             border-top-right-radius: 0.9em;
                                                             border-bottom-left-radius: 0.9em;
                                                             border-bottom-right-radius: 0.9em;
@@ -199,73 +177,52 @@ background-color: #ffeede;
 
                                                             width:1em;  
                                                             height:1em;                                             
-                                                            
-                                                
-
-                                                            
-border-color: #F2F2F2;
-border-style:double;
-
-
+                                                            border-color: #F2F2F2;
+                                                            border-style:double;
                                                             }  
-          /*  ENLEVE LES STYLES DU TEXTE DEVANT LES FILTRES*/                                                   
-#textefil  
-{
+                                                                                                               
 
-
-border: none;
-
-margin-left: 10px;
-margin-top: 5px;
-color:black ;
- 
-
-}
-
-.filtresu:hover {
-
-background-color: #DEEBFF;
-font-weight: bold;
-border-top-left-radius: 0.7em;
-
+.filtresu:hover                                             {
+                                                            background-color: #DEEBFF;
+                                                            font-weight: bold;
+                                                            border-top-left-radius: 0.7em;
                                                             border-top-right-radius: 0.7em;
                                                             border-bottom-left-radius: 0.7em;
                                                             border-bottom-right-radius: 0.7em;
-}
+                                                            }
 
+#textefil                                                   /*  ENLEVE LES STYLES DU TEXTE DEVANT LE TEXTE  "FILTRES : "*/ 
+                                                            {
+                                                            border: none;
+                                                            margin-left: 10px;
+                                                            margin-top: 5px;
+                                                            color:black ;
+                                                            }
+                                                            /*  BANNIERE D'INFORMATION DES LOGEMENTS DISPONIBLES*/ 
 .grid-recherches3                                   {
-                                                                display: grid;
-                                                                
-                                                                text-align: left;
-                                                               
-                                                                grid-column-start: 2; 
-                                                                grid-column-end: 5; 
-                                                                grid-row-start: 5; 
-                                                                grid-row-end: 5;
-                                                                color:black ;
-                                                                font-weight: 800;
-                                                                
-                                                                line-height: 4;
+                                                    display: grid;
+                                                    text-align: left;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 5; 
+                                                    grid-row-start: 5; 
+                                                    grid-row-end: 5;
+                                                    color:black ;
+                                                    font-weight: 800;
+                                                    line-height: 4;
+                                                    }  
+
+.grid-recherches3 i                                             {
+                                                                margin-right: 10px;
+                                                                background-color: #DEEBFF;
+                                                                width :1em;
+                                                                border-top-left-radius: 0.7em;
+                                                                border-top-right-radius: 0.7em;
+                                                                border-bottom-left-radius: 0.7em;
+                                                                border-bottom-right-radius: 0.7em;
+                                                                text-align: center;
+                                                                border-color: #F2F2F2;
+                                                                border-style:double;
                                                                 }  
-.grid-recherches3 i   {
-    margin-right: 10px;
-background-color: #DEEBFF;
-width :1em;
-    border-top-left-radius: 0.7em;
-    border-top-right-radius: 0.7em;
-    border-bottom-left-radius: 0.7em;
-    border-bottom-right-radius: 0.7em;
-
-    text-align: center;
-    
-
-
-    
-border-color: #F2F2F2;
-border-style:double;
-
-
-    }  
                                                              /*  FONT DE LA PARTIE FILTRE */
 #filtre  {
 
@@ -276,12 +233,12 @@ margin-top: 2px;
 
 
 
-                                            /*  ICONES  */
-.fas                                                {
-                                                    font-size: 20px;
-                                                    color: #0065FC;
+                                                                /*  ICONES  */
+.fas                                                            {
+                                                                font-size: 20px;
+                                                                color: #0065FC;
                                                     
-                                                    }
+                                                                }
 
  /* .far {
 
@@ -289,38 +246,29 @@ color : #666565;
 font-size :  20px;
  }  */
 
- .noir {
-    color: #858282;
-    }
+ .noir                                                           {
+                                                                color: #858282;
+                                                                }
 
 
 
- .etoile {
-font-style: none;
-color: none;
+ .etoile                                                        {
+                                                                font-style: none;
+                                                                color: none;
+                                                                }
 
- }
-
-.fa-map-marker-alt                            {
-                                                    color:black; 
-                                                    background-color: rgb(211, 204, 204);
-                                                    text-align: center;
-                                                    border-bottom-left-radius: 0.7em;
-                                                    border-top-left-radius: 0.7em;
-                                                    width: 2.3em;
-                                                    height: 1.5em;
-                                                    padding-top:0.4em;
-                                                  padding-bottom: 0.1em;
-                                                    }
-  
-
-
-
-
-
-
-
-                                                     /*  HEBERGEMENTS  */
+.fa-map-marker-alt                                              {
+                                                                color:black; 
+                                                                background-color: rgb(211, 204, 204);
+                                                                text-align: center;
+                                                                border-bottom-left-radius: 0.7em;
+                                                                border-top-left-radius: 0.7em;
+                                                                width: 2.3em;
+                                                                height: 1.5em;
+                                                                padding-top:0.4em;
+                                                                padding-bottom: 0.1em;
+                                                                }
+                                                                     /*  SECTION aHEBERGEMENTS  */
 
 .grid-hebergement                                   {
                                                     display: grid;
@@ -343,38 +291,30 @@ color: none;
                                                     
                                                     }
 
-.grid-hebergement figure {
+.grid-hebergement figure                                              /*  Ce CSS ( calque )  recoit le styles des figures de la section (.grid-hebergement figure img )  */
+                                                            {
 
-                                                        display: ;
-                                                       /* -webkit-margin-before: 1em;
+                                                    /* display: ;
+                                                       -webkit-margin-before: 1em;
                                                         -webkit-margin-after: 1em;
                                                         -webkit-margin-start: 1em;
                                                         -webkit-margin-end: 1em;  */
-                                                        width : 100%;
-                                                        max-height: 150px;
-                                                        padding-bottom: 170px ;
-                                                        margin-bottom: -100px;
-                                                        
-                                                           /*  le calque qui recoit limage balise figure   */
-                                                        
-                                                        }                                                
+                                                            width : 100%;
+                                                            max-height: 150px;
+                                                            padding-bottom: 170px ;
+                                                            margin-bottom: -100px;
+                                                            }                                                
                                                             
-                                                    /*  IMAGES HEBERGEMENTS   */
-.grid-hebergement figure img                               {
-                                                        width: 95%;
-                                                        height: 100%;
-                                                        border-radius: 25px 25px 0px 0px;
-                                                  margin-top: -10px;
-                                                  margin-left: -31px;
-                                                  
-                                                  
-                                                  
-                                                /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans le calque figure */
-                                                    
-                                          
-                                                    
-                                                    
-                                                        }  
+                                                                                        /*  FIGURES DE LA SECTION HEBERGEMENTS   */
+.grid-hebergement figure img                                {
+                                                            width: 95%;
+                                                            height: 100%;
+                                                            border-radius: 25px 25px 0px 0px;
+                                                            margin-top: -10px;
+                                                            margin-left: -31px;
+ 
+                                                /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans leurs calques  */
+                                                            }  
 
 
 
@@ -390,7 +330,7 @@ color: none;
      
      
 }
-                                            /*  DEFINIT LES MARGES AUTOUR DE LA SECTION HEBERGEMENTS  */
+                                                        /*  CSS DU TITRE HEBERGEMENT  */
 #mar 
 {
 margin-left: 0px;
@@ -399,141 +339,113 @@ margin-top: 25px;
 margin-bottom: 30px;
 
 text-align: center;
-
+ /*  /! \  voir si ce calque est toujours necessaire  */
 }
-  #heb                                          /*  /! \  voir si ce calque est toujours necessaire  */
-  
-{   grid-column-start: 1; 
-    grid-column-end: 1; 
-    grid-row-start: 6; 
-    grid-row-end: 6;
-    display: grid;
-    
-    box-shadow: 0px 15px 25px  #555; 
-    
-   
-  
-    border-radius: 25px 25px 25px 25px;
-   
-
-margin-bottom: 49px;
-   
-
-
-    
-                                                  
-                              /*  Decalage vers la gauche de l'image  hebergemment dans le calque   */
-}
+  #heb                                                                               /*  CSS DES CALQUES [heb(X)] QUI RECOIVENT LES FIGURES */
+                                                               {   
+                                                                grid-column-start: 1; 
+                                                                grid-column-end: 1; 
+                                                                grid-row-start: 6; 
+                                                                grid-row-end: 6;
+                                                                display: grid;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                margin-bottom: 49px;                                                  
+                              
+                                                                }
 
 
 
 
 
 #heb2
-{   grid-column-start: 2; 
-    grid-column-end: 2; 
-    grid-row-start: 6; 
-    grid-row-end: 7;
-    display: grid;
-    width: 89%;
-   
-    box-shadow: 0px 15px 25px  #555; 
-    background-color: white;
-    margin-bottom: 49px;
-    
-  margin-left: 45px;
-    border-radius: 25px 25px 25px 25px;
-   
-}
+                                                                {   
+                                                                grid-column-start: 2; 
+                                                                grid-column-end: 2; 
+                                                                grid-row-start: 6; 
+                                                                grid-row-end: 7;
+                                                                display: grid;
+                                                                width: 89%;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                background-color: white;
+                                                                margin-bottom: 49px;
+                                                                margin-left: 45px;
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                }
 #heb3
-{   grid-column-start: 3; 
-    grid-column-end: 3; 
-    grid-row-start: 6; 
-    grid-row-end: 7;
-    display: grid;
-    width: 75%;
-    box-shadow: 0px 15px 25px  #555; 
-    background-color: white;
-    margin-bottom: 49px;
-    
-    margin-left: 45px;
-    margin-right: 60px;
-    border-radius: 25px 25px 25px 25px;
-   
-}
+                                                                {   
+                                                                grid-column-start: 3; 
+                                                                grid-column-end: 3; 
+                                                                grid-row-start: 6; 
+                                                                grid-row-end: 7;
+                                                                display: grid;
+                                                                width: 75%;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                background-color: white;
+                                                                margin-bottom: 49px;
+                                                                margin-left: 45px;
+                                                                margin-right: 60px;
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                }
 #heb4
-{   grid-column-start: 1; 
-    grid-column-end: 1; 
-    grid-row-start: 7; 
-    grid-row-end: 8;
-    display: grid;
-    margin-bottom: 40px;
-    box-shadow: 0px 15px 25px  #555; 
-    background-color: white;
-    
-    margin-left : 0px;
-    border-radius: 25px 25px 25px 25px;
-   
-}
+                                                                {   
+                                                                grid-column-start: 1; 
+                                                                grid-column-end: 1; 
+                                                                grid-row-start: 7; 
+                                                                grid-row-end: 8;
+                                                                display: grid;
+                                                                margin-bottom: 40px;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                background-color: white;
+                                                                margin-left : 0px;
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                }
 #heb5
-{   grid-column-start: 2; 
-    grid-column-end: 2; 
-    grid-row-start: 7; 
-    grid-row-end: 8;
-    display: grid;
-    margin-bottom: 40px;
-    width: 89%;
-    box-shadow: 0px 15px 25px  #555; 
-    background-color: white;
-    
-    margin-left: 45px;
-    
-    border-radius: 25px 25px 25px 25px;
-   
-}
+                                                                {   
+                                                                grid-column-start: 2; 
+                                                                grid-column-end: 2; 
+                                                                grid-row-start: 7; 
+                                                                grid-row-end: 8;
+                                                                display: grid;
+                                                                margin-bottom: 40px;
+                                                                width: 89%;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                background-color: white;
+                                                                margin-left: 45px;
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                }
 #heb6
-{   grid-column-start: 3; 
-    grid-column-end:3; 
-    grid-row-start: 7; 
-    grid-row-end: 7;
-    display: grid;
-    
-    box-shadow: 0px 15px 25px  #555; 
-    background-color: white;
-    margin-left: 45px;
-    margin-right: 60px;
-    margin-bottom: 40px;
-    border-radius: 25px 25px 25px 25px;
-   
-}
+                                                                {              
+                                                                grid-column-start: 3; 
+                                                                grid-column-end:3; 
+                                                                grid-row-start: 7; 
+                                                                grid-row-end: 7;
+                                                                display: grid;
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                background-color: white;
+                                                                margin-left: 45px;
+                                                                margin-right: 60px;
+                                                                margin-bottom: 40px;
+                                                                border-radius: 25px 25px 25px 25px;
+                                                                }
 
-#plus
-{   grid-column-start: 1; 
-    grid-column-end: 1; 
-    grid-row-start: 11; 
-    grid-row-end: 12;
-    display: grid;
-    margin-left: 40px;
-    margin-top: -20px;
-}
-
-figure:hover figcaption {
+                                                                        /*  EFFETS AUX SUVOLS DES IMAGES */
+figure:hover figcaption 
+                                                                {
     
-    margin-bottom: 10px;
-        margin-left : 10px;
+                                                                margin-bottom: 10px;
+                                                                margin-left : 10px;
         
-        }
+                                                                }
     
-        figure:hover {
+        figure:hover                                            {
             
             
-            margin-top : -15px;
+                                                                margin-top : -15px;
             
-            }
+                                                                }
 
-      /**
- * ZOOM IMAGE EFFECT ON HOVER // wpRock.fr
- */
+                                                                                /* ZOOM IMAGE EFFECT */
 .wprock-img-zoom-hover .wprock-img-zoom {
     overflow: hidden;
     position: relative; 
@@ -556,72 +468,74 @@ figure:hover figcaption {
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
 }                                                 
+                                                            /*  TEXTE AFFICHER + */
+#plus
+                                                            {   
+                                                            grid-column-start: 1; 
+                                                            grid-column-end: 1; 
+                                                            grid-row-start: 11; 
+                                                            grid-row-end: 12;
+                                                            display: grid;
+                                                            margin-left: 40px;
+                                                            margin-top: -20px;
+                                                            }
 
-
-/*  Populaire  */     
-                                                     /*  LES PLUS POPULAIRES  */                           
+                                                                         /* SECTION LES PLUS POPULAIRES */     
+                                                                             
                                                                                 
-.grid-populaire                                     {
-                                                    display: grid;
-                                                    background: #F2F2F2;
-                                                    border-top-left-radius: 0.7em;
-                                                    border-top-right-radius: 0.7em;
-                                                    border-bottom-left-radius: 0.7em;
-                                                    border-bottom-right-radius: 0.7em;
-                                                    grid-column-start:4; 
-                                                    grid-column-end: 4; 
-                                                    grid-row-start: 6; 
-                                                    grid-row-end: 12;
-                                                    
-                                                    
-                                                    }  
-.grid-populaire figcaption                               {
-
-                                                        background-color: white;
-                                                        border: 5px solid white;
-                                                        border-radius: 0px 25px 25px 0px;
-                                                        
-                                                        width: 45%;
-                                                        height: 9em;
-                                                        position: relative;
-                                                       border: 8px solid white;
-                                                       left: 160px;
-                                                       top:  -8px;
-                                                       
-                                                       box-shadow: 0px 15px 45px  #555;
-                                                       
-                                                    }
+.grid-populaire                                             
+                                                            {
+                                                            display: grid;
+                                                            background: #F2F2F2;
+                                                            border-top-left-radius: 0.7em;
+                                                            border-top-right-radius: 0.7em;
+                                                            border-bottom-left-radius: 0.7em;
+                                                            border-bottom-right-radius: 0.7em;
+                                                            grid-column-start:4; 
+                                                            grid-column-end: 4; 
+                                                            grid-row-start: 6; 
+                                                            grid-row-end: 12;
+                                                            }  
+.grid-populaire figcaption                                          {
+                                                                    background-color: white;
+                                                                    border: 5px solid white;
+                                                                    border-radius: 0px 25px 25px 0px;
+                                                                    width: 45%;
+                                                                    height: 9em;
+                                                                    position: relative;
+                                                                    border: 8px solid white;
+                                                                    left: 160px;
+                                                                    top:  -8px;
+                                                                    box-shadow: 0px 15px 45px  #555;
+                                                                     }
 
 
 
 
-.grid-populaire img                                 {
-             margin-top: -8px;          
-    width: 10em;
-    height: 150px;
-    border-top-left-radius: 0.7em;
-                                                    border-top-right-radius: 0.7em;
-                                                    border-bottom-left-radius: 0.7em;
-                                                    border-bottom-right-radius: 0.7em;
-
-                                                    border-radius: 25px 0px 0px 25px;
-                                                  position: absolute;
-                                                    border: 5px solid white;
-                                                    
-                                                    box-shadow: 0px 15px 25px  #555; 
-                                                    
-                                                        }
+.grid-populaire img                                 
+                                                                    {
+                                                                    margin-top: -8px;          
+                                                                    width: 10em;
+                                                                    height: 150px;
+                                                                     border-top-left-radius: 0.7em;
+                                                                    border-top-right-radius: 0.7em;
+                                                                    border-bottom-left-radius: 0.7em;
+                                                                    border-bottom-right-radius: 0.7em;
+                                                                    border-radius: 25px 0px 0px 25px;
+                                                                    position: absolute;
+                                                                    border: 5px solid white;
+                                                                    box-shadow: 0px 15px 25px  #555; 
+                                                                    }
  
-                                            /*  marge du titre plus populaire  */   
-#pluspo {
+                                                                /*  marge du titre plus populaire  */   
+#pluspo                                                         
+                                                                    {
+                                                                    margin-top: 20px;
+                                                                    margin left: 20px;
+                                                                    text-align: center;
+                                                                    }
 
-margin-top: 20px;
-margin left: 20px;
-
-text-align: center;
-}
-
-
+                                                                    /*  CSS DES CALQUES [pop(X)] QUI RECOIVENT LES FIGURES */  
 #pop
 {   grid-column-start: 1; 
     grid-column-end:5; 
@@ -645,23 +559,19 @@ text-align: center;
     grid-column-end:5; 
     grid-row-start: 4; 
     grid-row-end: 4;
- ;
+ 
 }
                                                                                   
-                                                     /* ACTIVITES */
+                                                                                /* SECTION ACTIVITES */
 
 .grid-activite                                      {
                                                     display: grid;
-                                                    
                                                     text-align: center;
-                                                    
                                                     grid-column-start: 2; 
                                                     grid-column-end: 6; 
                                                     grid-row-start: 12; 
                                                     grid-row-end: 17;
-                                                    
-                                                    
-                                                     } 
+                                                    } 
 .grid-activite figcaption                               {
 
                                                         background-color: white;
@@ -671,14 +581,14 @@ text-align: center;
                                                         width: 100%;
                                                          margin-top: 5px ;
                                                         display: inline-block;
-                                                    }
+                                                        }
 
 
 
 
-.grid-activite img                               {
-    width: 300px;
-    height: 150px;
+.grid-activite img                                      {
+                                                        width: 300px;
+                                                        height: 150px;
                                                         border-top-left-radius: 0.7em;
                                                         border-top-right-radius: 0.7em;
                                                         border-bottom-left-radius: 0.7em;
@@ -692,26 +602,20 @@ text-align: center;
                                                            
                                                         .verticale {
 
-                                                            height: 100%;
+                                                        height: 100%;
                                                         width: 100%;
-                                                        
-                                                        
-                                                            
                                                         }
 
                                                         .verticale img {
-                                                            
                                                         height: 100%;
                                                         width: 100%;
 
 }
-
-#marsact {
-
-
-margin-left: -80px;
-}
-
+                                                                 /*  CSS TITRE */  
+#marsact                                                {
+                                                        margin-left: -80px;
+                                                        }
+                                                                /*  CSS DES CALQUES [act(X)] QUI RECOIVENT LES FIGURES */  
 #act
 {   grid-column-start: 1; 
     grid-column-end:1; 
@@ -762,9 +666,22 @@ margin-left: -80px;
                                                         
 
 
-    /* FOOTER */                                               
+                                                                                                 /* FOOTER */                                               
 
-#liste1 {
+.grid-footer                                        {
+                                                    display: grid;
+                                                    text-align: left;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 6; 
+                                                     grid-row-start: 18; 
+                                                     grid-row-end: 22;
+                                                     background: #F2F2F2;
+                                                     margin-top: 30px;
+                                                     } 
+
+
+
+ #liste1 {
     display: grid;
     grid-column-start: 1; 
     grid-column-end: 1; 
@@ -797,21 +714,7 @@ margin-left: -80px;
 }
 
  
- .grid-footer                                        {
-    display: grid;
-    
-    text-align: left;
-    
-    grid-column-start: 2; 
-    grid-column-end: 6; 
-    grid-row-start: 18; 
-    grid-row-end: 22;
-    
-  
-    background: #F2F2F2;
- margin-top: 30px;
-        
-    } 
+ 
 
  .grid-footer li {
 
