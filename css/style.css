@@ -1137,6 +1137,270 @@ margin-right: auto;
       }
       */ 
 @media only screen and (max-width: 1024px) {
-	
+	.logo
+
+{
+    
+margin-left: 20px;
+}
+#filtre {
+
+    margin-left: -30px;
+
+
+} 
+
+
+
+.grid-navigation {
+
+    
+    grid-column: 2;
+    grid-row: 1;
+    display: inline-block;
+}
+
+nav #he {
+
+    background-color: springgreen;
+  
+
+        margin-top: 50px;
+    margin-left: -130px;
+        display: inline-block;
+
+}
+
+nav #activi  {
+
+background-color: tomato;
+
+margin-top: -23px;
+margin-left: 60px;
+    grid-column: 2;
+    grid-row: 2;
+           }
+ nav #inscrire  {
+
+background-color: yellow;
+grid-column: 3;
+    grid-row: 1;
+    margin-top: -70px;
+    margin-left: 100px;
+    display: inline-block;
+  }
+
+
+
+
+#trouv {
+    display: block;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 21px;
+  
+  line-height: 1.2;
+line-height: 1.5;
+white-space:wrap;
+}
+
+          #activi {
+            grid-column: 3;
+            grid-row: 3;
+            
+            margin-top: 50px;
+            margin-right: 200px;
+            font-size: 20px;
+          }
+
+  /*  .grid-recherches  {
+    grid-column: 3;
+    grid-row: 5;
+    display: inline-block;
+background-color: violet;  
+
+          }   */
+          .grid-recherches1  {
+            grid-column: 1/5;
+            grid-row: 3;
+            width: 120%;
+            margin-left : -10px; 
+        b
+        
+                  }
+
+                  .grid-recherches2  {
+                    grid-column: 1/5;
+                    grid-row: 6;
+                    width: 400%;
+                    
+                  background-color: tomato;
+                  
+                
+                          }
+
+                          .grid-recherches3  {
+                            grid-column: 1/5;
+                            grid-row: 7;
+                            width: 100%;
+                            
+                          line-height: 1em;
+                          
+                        
+                                  }
+          
+.grid-populaire  {
+display:inline-block;
+    grid-column: 2;
+   margin-top: px;
+    width: 250%;
+margin-left: 15px;
+grid-row: 8;
+margin-bottom: 60px;
+
+}
+
+
+ 
+
+
+.grid-hebergement     {
+    display:inline-block;
+    grid-column: 2;
+    grid-row: 9;
+    width: 250%;
+margin-left: 15px;
+background: white;
+
+}
+.grid-activite  {
+    display:inline-block;
+        grid-column: 2;
+       
+        width: 250%;
+    
+    grid-row: 8;
+    background-color: white;
+    
+    }
+    
+     
+
+
+    .grid-activite                                    {
+   
+        margin-top: 600px;
+        display:inline-block;
+        grid-column: 2;
+        grid-row: 16;
+        margin-top: auto;
+         margin-left: auto;
+         margin-top: 55px;
+         margin-right: auto;
+    
+        
+        }  
+
+
+#heb  {
+background-color: rgb(74, 9, 253);
+width: 100%;
+grid-column: 1;
+            grid-row: 9;
+            display: grid;
+            margin-top: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            
+            
+}
+
+#heb2  {
+
+    background-color: rgb(245, 12, 4);
+    width: 100%;
+    grid-column: 1;
+                grid-row: 10;
+                display: grid; 
+         margin-top: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+}
+#heb3  {
+
+   
+    width: 100%;
+    grid-column: 1;
+                grid-row: 11;
+                display: grid; 
+                
+                background-color: turquoise;
+                margin-top: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+
+}
+
+#heb4  {
+
+    background-color: rgb(29, 226, 88);
+    width: 100%;
+    grid-column: 1;
+                grid-row: 12;
+                display: grid; 
+                margin-top: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+               
+}
+
+#heb5  {
+
+    background-color: rgb(126, 9, 106);
+    width: 100%;
+    grid-column: 1;
+                grid-row: 13;
+                display: grid; 
+                margin-top: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+                
+}
+
+#heb6  {
+
+    background-color: rgb(185, 243, 51);
+    width: 100%;
+    grid-column: 1;
+                grid-row: 14;
+                display: grid; 
+                margin-top: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+                
+}
+
+#plus
+
+{
+    grid-row: 15;
+    display: grid; 
+    margin-top: 40px;
+margin-left: auto;
+margin-bottom: auto;
+margin-right: auto;
+}
+
+}
+
     
 }
