@@ -157,6 +157,8 @@ nav li :hover                                       {
                                                         
                                                         }
 
+
+
                                                                                      /*  BOUTON SECTION RECHERCHER    */
 
 .rech                                                   {
@@ -243,7 +245,8 @@ background-color: #DEEBFF;
                                                     grid-row-end: 5;
                                                     color:black ;
                                                     font-weight: 800;
-                                                    line-height: 4;
+                                                    line-height:  3;
+                                                    margin-top: -15px;
                                                     }  
 
 .grid-recherches3 i                                             {
@@ -518,48 +521,27 @@ width: 90%;
                                                                 }
 
                                                                         /*  EFFETS AUX SUVOLS DES IMAGES */
-figure:hover figcaption 
-                                                                {
+
     
-                                                                margin-bottom: 5px;
-                                                                margin-left : 10px;
-                                                                margin-left: -40px;
-        
-                                                                }
-    
-figure:hover                                            {
+.grid-hebergement figure:hover                                            {
             
             
                                                                 margin-top : 30px;
             
                                                                 }
 
+.grid-populaire figure:hover                                            {
+            
+            
+                                                                    
+                                                                    margin-right : 30px;
+                                                                    margin-left : 30px;
+                
+                                                                    }
+
+
                                                                                 /* ZOOM IMAGE EFFECT */
-.wprock-img-zoom-hover .wprock-img-zoom {
-    overflow: hidden;
-    position: relative; 
-}
-.wprock-img-zoom-hover .wprock-img-zoom img {
-    max-width: 100%;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-    
-}
-.wprock-img-zoom-hover .wprock-img-zoom * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
-.wprock-img-zoom-hover:hover .wprock-img-zoom img {
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    
-}                                                 
+                                      
                                                             /*  TEXTE AFFICHER + */
 #plus
                                                             {   
@@ -701,7 +683,16 @@ margin-top: 10px;
      border-bottom-left-radius: 0em;
      border-bottom-right-radius: 0em;
 }  
-
+.grid-activite #a img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }
 .grid-activite #b {
 
 
@@ -722,7 +713,16 @@ margin-top: 10px;
      border-bottom-right-radius: 0em;
 }  
 
-
+.grid-activite #b img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }
 .grid-activite #c {
 
 
@@ -742,7 +742,16 @@ margin-top: 10px;
      border-bottom-left-radius: 0.7em;
      border-bottom-right-radius: 0.7em;
 }  
-
+.grid-activite #c img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }
 
 .grid-activite #d {
 
@@ -763,7 +772,16 @@ margin-top: 10px;
      border-bottom-left-radius: 0.7em;
      border-bottom-right-radius: 0.7em;
 }  
-
+.grid-activite #d img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }
 .grid-activite #e {
 
 
@@ -783,7 +801,16 @@ margin-top: 10px;
      border-bottom-left-radius: 0.7em;
      border-bottom-right-radius: 0.7em;
 }  
-
+.grid-activite #e img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }
 .grid-activite #f {
 
 
@@ -805,7 +832,16 @@ margin-top: 10px;
 }  
                                                         
                                                            
-                                                        
+.grid-activite #f img:hover                                         {
+            
+            
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;                                      
+                                                                        
+                    
+                                                                        }                                                     
                                                         
                                                         
 
@@ -1061,7 +1097,11 @@ height: 230px;
         list-style: none;
         display: inline-block;
     }
-
+::placeholder {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
     h1 {                                            /* ...... / ! \ voir le h1 définit à 80 % ......... */ 
 
                          
@@ -1105,14 +1145,14 @@ height: 230px;
             font-size: 18px;
            margin-bottom: 15px;
            margin-top: 12px;
-           font-weight: 900;
+           font-weight: bold;
           
         }
         
         h6
         {
-            
-            font-weight: 700;
+            line-height: 0.3;
+            font-weight: bold;
           
         
         
