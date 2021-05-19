@@ -19,7 +19,7 @@ body   {
 .grid-container                     {
                                     display: grid;
                                     grid-template-rows: 100px  ;
-                                    grid-template-columns: 2% 31% 31% 31% 2%;
+                                    grid-template-columns: 4% 31% 31% 31% 2%;
                                     max-width: 2000px;
                                     max-height: 768px;
                                     }
@@ -30,8 +30,8 @@ body   {
                                             {
                                                     
                                             display: grid;
-                                            grid-column-start:1 ; 
-                                            grid-column-end: 5; 
+                                            grid-column-start:2 ; 
+                                            grid-column-end: 5 ; 
                                             grid-row-start: 1; 
                                             grid-row-end: 1;
                                             }
@@ -39,20 +39,26 @@ body   {
 
 .grid-logo                                      {
                                                 display: grid;
-                                                text-align: left;
-                                                grid-column-start: 2; 
-                                                grid-column-end: 3; 
+                                                
+                                                grid-column-start: 1; 
+                                                grid-column-end: 2; 
                                                 grid-row-start: 1; 
                                                 grid-row-end: 1;
                                                 width: auto;
                                                 height: 30px;
+                                               
                                                  }
 
 
   .logo img                                         {
                                                     width: auto;
                                                     height: 30px;
-                                                
+                                                    margin-left: -40px;
+                                                    grid-column-start: 2; 
+                                                    grid-column-end: 3; 
+                                                    grid-row-start: 1; 
+                                                    grid-row-end: 1;
+                                                    
                                                     }
 
 
@@ -149,11 +155,13 @@ nav li :hover                                       {
                                                                      /*  CLASS POUR LES FILTRES DE LA SECTION RECHERCHE  */ 
 .grid-recherches2                               {
                                                 display: grid;
-                                                line-height: 2;
-                                                grid-column-start: 1; 
+                                                line-height: ;
+                                                grid-column-start: 2; 
                                                 grid-column-end: 5; 
                                                 grid-row-start: 4; 
                                                  grid-row-end: 4;
+                                                 margin-left: -50px;
+                                                margin-top: 15px;
                                                  }
                                                             
 .grid-recherches2 li                                        {
@@ -273,7 +281,7 @@ font-size :  20px;
 .grid-hebergement                                   {
                                                     display: grid;
                                                     background: grey;
-                                                    margin-right: 35px;
+                                                    
                                                    
 
                                                     background: #F2F2F2;
@@ -281,13 +289,14 @@ font-size :  20px;
                                                     border-top-right-radius: 0.7em;
                                                     border-bottom-left-radius: 0.7em;
                                                     border-bottom-right-radius: 0.7em;
-                                          
-                                                   
-
+                                          padding-left: 40px;
+                                                    width: 95%;
+                                                    height:650px;
                                                     grid-column-start: 2; 
                                                     grid-column-end: 4; 
                                                     grid-row-start: 6; 
                                                     grid-row-end: 12;
+                                                    
                                                     
                                                     }
 
@@ -300,34 +309,50 @@ font-size :  20px;
                                                         -webkit-margin-start: 1em;
                                                         -webkit-margin-end: 1em;  */
                                                             width : 100%;
-                                                            max-height: 150px;
-                                                            padding-bottom: 170px ;
-                                                            margin-bottom: -100px;
-                                                            
+                                                            height: 150px;
+                                                            padding-bottom: 0px ;
+                                                            grid-column-start: 1; 
+                                                                grid-column-end: 5; 
+                                                                grid-row-start: 6; 
+                                                                grid-row-end: 6;
+                                                                
+                                                              
+                                                                margin-top: 45px;
+                                                             
                                                             }                                                
                                                             
                                                                                         /*  FIGURES DE LA SECTION HEBERGEMENTS   */
 .grid-hebergement figure img                                {
-                                                            width: 95%;
-                                                            height: 100%;
+                                                            width: 100%;
+                                                            height: 150px;
                                                             border-radius: 25px 25px 0px 0px;
-                                                            margin-top: -10px;
-                                                            margin-left: -31px;
+                                                            margin-top: -45px;
+                                                            margin-left: -40px;
+                                                            
+                                                            padding-top: 3px;
+                                                            display: grid;
+                                                            grid-column-start: 2; 
+                                                                grid-column-end: 5; 
+                                                                grid-row-start: 6; 
+                                                                grid-row-end: 6;
+                                                            
                                                             
                                                 /*  COMMENTAIRE : Définir width + margin left pour imbriquer les images dans leurs calques  */
                                                             }  
 
 
 
-/*.grid-hebergement figcaption {
+.grid-hebergement figcaption {
 
     background-color: white;
-    border: 5px solid white;
+    
    
     border-radius: 0px 0px 25px 25px;
-    margin-top: -10px;
-     width: 80%;
-     height: 4em;
+    
+     
+     max-height: 60px;
+     max-width :100% ; 
+     margin-left: -40px;
      
      
 }
@@ -352,7 +377,13 @@ text-align: center;
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 border-radius: 25px 25px 25px 25px;
                                                                 margin-bottom: 49px;                                                  
-                              
+                              padding-left: 3px;
+                              padding-right: 3px;
+                              margin-top: -100px;
+padding-bottom: 80px; 
+ background-color: white;
+width: 90%;                                                           
+ height: 150px;
                                                                 }
 
 
@@ -364,85 +395,118 @@ text-align: center;
                                                                 grid-column-start: 2; 
                                                                 grid-column-end: 2; 
                                                                 grid-row-start: 6; 
-                                                                grid-row-end: 7;
+                                                                grid-row-end: 6;
                                                                 display: grid;
-                                                                width: 89%;
+                                                                
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 background-color: white;
                                                                 margin-bottom: 49px;
-                                                                margin-left: 45px;
+                                                                
                                                                 border-radius: 25px 25px 25px 25px;
+                                                                padding-left: 3px;
+                                                                padding-right: 3px;
+                                                                margin-top: -100px;
+                                                                
+                                                                padding-bottom: 80px;
+                                                                width: 90%;
+                                                                 height: 150px;
+                                                                 
                                                                 }
 #heb3
                                                                 {   
                                                                 grid-column-start: 3; 
                                                                 grid-column-end: 3; 
                                                                 grid-row-start: 6; 
-                                                                grid-row-end: 7;
+                                                                grid-row-end: 6;
                                                                 display: grid;
-                                                                width: 75%;
+                                                                
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 background-color: white;
                                                                 margin-bottom: 49px;
-                                                                margin-left: 45px;
-                                                                margin-right: 60px;
+                                                                
+                                                                
                                                                 border-radius: 25px 25px 25px 25px;
+                                                                padding-left: 3px;
+                                                                padding-right: 3px;
+                                                                margin-top: -100px;
+                                                                padding-bottom: 80px;
+                                                                width: 90%;
+                                                                 height: 150px;
+                                                                 
                                                                 }
 #heb4
                                                                 {   
                                                                 grid-column-start: 1; 
                                                                 grid-column-end: 1; 
                                                                 grid-row-start: 7; 
-                                                                grid-row-end: 8;
+                                                                grid-row-end: 7;
                                                                 display: grid;
-                                                                margin-bottom: 40px;
+                                                                
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 background-color: white;
-                                                                margin-left : 0px;
+                                                                
                                                                 border-radius: 25px 25px 25px 25px;
+                                                                padding-left: 3px;
+                                                                padding-right: 3px;
+                                                                margin-top: -50px;
+                                  padding-bottom: 80px;
+                                  width: 90%;
+                                                                                              height: 150px;
                                                                 }
 #heb5
                                                                 {   
                                                                 grid-column-start: 2; 
                                                                 grid-column-end: 2; 
                                                                 grid-row-start: 7; 
-                                                                grid-row-end: 8;
+                                                                grid-row-end: 7;
                                                                 display: grid;
-                                                                margin-bottom: 40px;
-                                                                width: 89%;
+                                                                
+                                                               
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 background-color: white;
-                                                                margin-left: 45px;
+                                                                
                                                                 border-radius: 25px 25px 25px 25px;
+                                                                padding-left: 3px;
+                                                                padding-right: 3px;
+                                                                margin-top: -50px;
+                                  padding-bottom: 80px;
+                                  width: 90%;
+                                                                                              height: 150px;
                                                                 }
 #heb6
                                                                 {              
                                                                 grid-column-start: 3; 
-                                                                grid-column-end:3; 
+                                                                grid-column-end:3;
                                                                 grid-row-start: 7; 
                                                                 grid-row-end: 7;
                                                                 display: grid;
                                                                 box-shadow: 0px 15px 25px  #555; 
                                                                 background-color: white;
-                                                                margin-left: 45px;
-                                                                margin-right: 60px;
-                                                                margin-bottom: 40px;
+                                                               
+                                                               
                                                                 border-radius: 25px 25px 25px 25px;
+                                                                padding-left: 3px;
+                                                                padding-right: 3px;
+                                                                margin-top: -50px;
+                                  padding-bottom: 80px;
+                                  width: 90%;
+                                                                                              height: 150px;
                                                                 }
 
                                                                         /*  EFFETS AUX SUVOLS DES IMAGES */
 figure:hover figcaption 
                                                                 {
     
-                                                                margin-bottom: 10px;
+                                                                margin-bottom: 5px;
                                                                 margin-left : 10px;
+                                                                margin-left: -40px;
         
                                                                 }
     
-        figure:hover                                            {
+figure:hover                                            {
             
             
-                                                                margin-top : -15px;
+                                                                margin-top : 30px;
             
                                                                 }
 
@@ -456,6 +520,7 @@ figure:hover figcaption
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
+    
 }
 .wprock-img-zoom-hover .wprock-img-zoom * {
     -moz-box-sizing: border-box;
@@ -463,22 +528,24 @@ figure:hover figcaption
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 .wprock-img-zoom-hover:hover .wprock-img-zoom img {
     -moz-transform: scale(1.15);
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
+    
 }                                                 
                                                             /*  TEXTE AFFICHER + */
 #plus
                                                             {   
                                                             grid-column-start: 1; 
-                                                            grid-column-end: 1; 
+                                                            grid-column-end: 4; 
                                                             grid-row-start: 11; 
                                                             grid-row-end: 12;
                                                             display: grid;
                                                             margin-left: 40px;
-                                                            margin-top: -20px;
+                                                            margin-top: -50px;
                                                             }
 
                                                                          /* SECTION LES PLUS POPULAIRES */     
@@ -496,12 +563,16 @@ figure:hover figcaption
                                                             grid-column-end: 4; 
                                                             grid-row-start: 6; 
                                                             grid-row-end: 12;
+                                                            
+                                                            width: 90%;
+                                                            height:650px;
+                                                            
                                                             }  
 .grid-populaire figcaption                                          {
                                                                     background-color: white;
                                                                     border: 5px solid white;
                                                                     border-radius: 0px 25px 25px 0px;
-                                                                    width: 45%;
+                                                                    width: 60%;
                                                                     height: 9em;
                                                                     position: relative;
                                                                     border: 8px solid white;
@@ -572,6 +643,7 @@ figure:hover figcaption
                                                     grid-column-end: 6; 
                                                     grid-row-start: 12; 
                                                     grid-row-end: 17;
+                                                   
                                                     } 
 .grid-activite figcaption                               {
 
@@ -1133,7 +1205,7 @@ margin-right: auto;
 
       }
       */ 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1350px) {
 	.logo
 
 {
@@ -1391,10 +1463,11 @@ grid-column: 1;
 {
     grid-row: 15;
     display: grid; 
-    margin-top: 40px;
+    margin-top: auto;
 margin-left: auto;
 margin-bottom: auto;
 margin-right: auto;
+
 }
 
 }
