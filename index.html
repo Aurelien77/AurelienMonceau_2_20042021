@@ -7,9 +7,11 @@
                                 Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.    -->
 
                                 <title> Reservia </title>
-
+                                <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/2ad45f74d7.js" crossorigin="anonymous"></script>   <!--  Chargement des îcones depuis le site fontawesome    -->
-<meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -55,7 +57,7 @@
         <ul> 
             <li id="he"><a href="#mar"> Hébergements </a> </li>
             <li id="activi"> <a href="#marsact" > Activités  </a>  </li>
-            <li id="inscrire"> <a href="#"> S'inscrire </a> </li>
+            <li class="inscrire"> <a href="#"> S'inscrire </a> </li>
         </ul>   
     </nav>
     </div>        
@@ -67,12 +69,12 @@
                                    
 
 
-<section class="grid-recherches">                                                                <!--  Section Class Grid Recherches  / formulaire + descritpion -->
+<div class="grid-recherches">                                                                <!--  Section Class Grid Recherches  / formulaire + descritpion -->
     
 
-<h1 id="trouv">Trouver votre hébergement pour des vacances de rêve   </h1>      
+Trouver votre hébergement pour des vacances de rêve      
 <h2>En plein centre ville ou en pleine nature</h2>
-</section>
+    </div>
 
 <div class="grid-recherches1">  
 <form action="#" method="post">  
@@ -259,44 +261,44 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     <div id="marsact"> <h5>Activité à Marseille </h5>  </div>                            <!--  div titre  / activité  -->
 
     <div id="act">                                                                                           <!-- Id "[act]ivité (X)" / Calques englobants les figures  -->
-    <figure class="verticale wprock-img-zoom">     <a href="#">                                                       <!--  figures  -->  
+    <figure id ="a">     <a href="#">                                                       <!--  figures  -->  
         <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-             alt="Déscription" class="centre">   </a>
-        <figcaption><h3>Vieux port</h3></figcaption>  
+             alt="Image de Vieux port">   </a>
+        <figcaption><h3> Vieux port</h3></figcaption>  
     </figure>  
          </div>  
          <div id="act2">                                                      
-<figure class="wprock-img-zoom">       <a href="#"> 
-    <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-         alt="Déscription">   </a>
+<figure id ="b">       <a href="#"> 
+    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+         alt="Image de Fort de Pomègues">   </a>
     <figcaption><h3>Fort de Pomègues</h3></figcaption>
-</figure> class="verticale wprock-img-zoom">
+</figure> 
 </div> 
 <div id="act3">
-<figure class="wprock-img-zoom">  <a href="#"> 
-    <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-         alt="Déscription" >   </a>
+    <figure id ="c"> <a href="#"> 
+    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+         alt="Image de îles du Frioul" >   </a>
     <figcaption><h3>îles du Frioul</h3></figcaption>
 </figure >
 </div>
 <div id="act4">
- <figure class="verticale wprock-img-zoom">     <a href="#">                                                                              
+    <figure id ="d">    <a href="#">                                                                              
     <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-         alt="Déscription">   </a>
+         alt="Image de Parc National des Calanques">   </a>
     <figcaption><h3>Parc National des Calanques</h3></figcaption>
 </figure>
 </div>
 <div id="act5">
-<figure class="wprock-img-zoom">   <a href="#"> 
-    <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-         alt="Déscription">   </a>
+    <figure id ="e">   <a href="#"> 
+    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+         alt="Image de Notre-Dame-de-la-Garde">   </a>
     <figcaption><h3>Notre-Dame-de-la-Garde</h3></figcaption>
 </figure>
 </div>
 <div id="act6">
-<figure class="wprock-img-zoom">   <a href="#"> 
-    <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-         alt="Déscription">   </a>
+    <figure id ="f">   <a href="#"> 
+    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+         alt="Image de Parc Longchamp">   </a>
     <figcaption><h3>Parc Longchamp</h3></figcaption>
 </figure>
 </div>
