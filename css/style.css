@@ -1409,7 +1409,7 @@ grid-column: 1/6;
 
                              #mon   {
 
-margin-top: -150px;
+margin-top: -10px;
 background-color:deeppink;
 
                                 
@@ -1432,21 +1432,21 @@ background-color:deeppink;
     display:flex;
     grid-column: 1/6;
 grid-row:6;
-   width: 100%;
-height:700px ;
+   width: 118%;
+height:660px ;
 flex-direction: column;
 margin-top: 40px;
 padding-right: 17px;
-
-
+margin-left: -8px;
+text-align: left;
 }
 
 .grid-populaire figure {
  display: inline-block;
-    
-       width: 80%;
+    justify-items: center;
+       width: 85%;
       
-       margin-left: 10px;
+       margin-left: 15px;
        
 }
 .grid-populaire i {
@@ -1457,14 +1457,22 @@ padding-right: 17px;
 
    }
 
- 
+   .grid-hebergement  #mar {
+    width: 150%;
 
+    font-weight: 900;
+ 
+margin-left: -40px;
+   margin-top: -50px;                         
+padding-bottom: 120px;
+
+}
 
 .grid-hebergement     {
     display: flex;
- 
+
     grid-column: 1/6;
-                            grid-row: 7;
+                            grid-row: 8;
                             width: 100%;
    
 
@@ -1472,7 +1480,7 @@ background-color: white;
 flex-direction: column;
 width: 100%;
 justify-content: center;
-margin-top : 50px;
+margin-top : 80px;
 justify-items: center;
 justify-content: space-between;
 padding-left: 27px;
@@ -1482,30 +1490,61 @@ padding-left: 27px;
    }
 
    #heb {
+    
+    width: 110%;
+    margin-left: -15px;
+   }
 
-
+   #heb img{
+   
+    width: 100%;
+   
    }
    #heb2 {
 
-margin-top:10px;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: -15px;
 }
 #heb3 {
 
-    margin-top:10px;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: -15px;
     }
 #heb4 {
 
-        margin-top:10px;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: -15px;
         }
 
  #heb5 {
 
-            margin-top:10px;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: 35px;
             }
 
  #heb6 {
 
-                margin-top:10px;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: 35px;
+                }
+
+#plus  {
+
+    
+    grid-column: 1/6;
+grid-row:9;
+margin-top: 30px;
+margin-left: 0px;
+
+                }
+#marsact  {
+
+margin-left: 20px;
                 }
 
 .grid-activite  {
@@ -1513,20 +1552,215 @@ margin-top:10px;
    
     display: flex;
     grid-column: 1/6;
-    grid-row: 8;
+    grid-row: 10;
     width: 100%;
-    justify-content: space-between;
-    justify-content: space-around;
-   align-content: middle;
-   align-items: middle;
-   align-self: auto;
+ 
+  margin-left: 20px;
+
+ 
  flex-direction: column;
     background-color: white;
-    margin-top: 910px;
+    margin-top: 970px;
+  
   
   
     }   
-  
+
+ 
+    .grid-activite    #act  {
+        display: flex;
+        grid-column: 1/6;
+        grid-row: 10;
+        height: 00px;
+        padding-left: 50px;
+        width: 120%;
+         margin-left: -55px;
+        margin-top: 10px;
+                            }
+
+    .grid-activite  #act figure  {
+        grid-column: 1/6;
+        grid-row: 10;  
+        box-shadow: 0px 15px 25px  #555; 
+        border-top-left-radius: 0.7em;
+        border-top-right-radius: 0.7em;
+        border-bottom-left-radius: 0.7em;
+        border-bottom-right-radius: 0.7em;
+        height: 220px;
+        width: 150%;
+                                    }
+
+    .grid-activite  #act img {
+       
+        grid-column: 1/6;
+        grid-row: 10;
+        height: 160px;
+        width: 100%;
+        background-color: yellow;
+        margin-left: 0px ;
+                                }
+
+.grid-activite    #act2  {
+                                    display: flex;
+                                    grid-column: 1/6;
+                                    grid-row: 11;
+                                    height: 00px;
+                                    padding-left: 50px;
+                                    width: 120%;
+                                     margin-left: -55px;
+                                    margin-top: 260px;
+                                                        }
+                            
+                                .grid-activite  #act2 figure  {
+                                    grid-column: 1/6;
+                                    grid-row: 11;  
+                                    box-shadow: 0px 15px 25px  #555; 
+                                    border-top-left-radius: 0.7em;
+                                    border-top-right-radius: 0.7em;
+                                    border-bottom-left-radius: 0.7em;
+                                    border-bottom-right-radius: 0.7em;
+                                    height: 220px;
+                                    width: 150%;
+                                                                }
+                            
+                                .grid-activite  #act2 img {
+                                   
+                                    grid-column: 1/6;
+                                    grid-row: 11;
+                                    height: 160px;
+                                    width: 100%;
+                                    background-color: yellow;
+                                    margin-left: 0px ;
+                                                            }
+                                                            .grid-activite    #act3  {
+                                                                display: flex;
+                                                                grid-column: 1/6;
+                                                                grid-row: 11;
+                                                                height: 00px;
+                                                                padding-left: 50px;
+                                                                width: 120%;
+                                                                 margin-left: -55px;
+                                                                margin-top: 260px;
+                                                                                    }
+                                                        
+                                                            .grid-activite  #act3 figure  {
+                                                                grid-column: 1/6;
+                                                                grid-row: 11;  
+                                                                box-shadow: 0px 15px 25px  #555; 
+                                                                border-top-left-radius: 0.7em;
+                                                                border-top-right-radius: 0.7em;
+                                                                border-bottom-left-radius: 0.7em;
+                                                                border-bottom-right-radius: 0.7em;
+                                                                height: 220px;
+                                                                width: 150%;
+                                                                                            }
+                                                        
+                                                            .grid-activite  #act3 img {
+                                                               
+                                                                grid-column: 1/6;
+                                                                grid-row: 11;
+                                                                height: 160px;
+                                                                width: 100%;
+                                                                background-color: yellow;
+                                                                margin-left: 0px ;
+                                                                                        }
+                                                                                        .grid-activite    #act4  {
+                                                                                            display: flex;
+                                                                                            grid-column: 1/6;
+                                                                                            grid-row: 11;
+                                                                                            height: 00px;
+                                                                                            padding-left: 50px;
+                                                                                            width: 120%;
+                                                                                             margin-left: -55px;
+                                                                                            margin-top: 260px;
+                                                                                                                }
+                                                                                    
+                                                                                        .grid-activite  #act4 figure  {
+                                                                                            grid-column: 1/6;
+                                                                                            grid-row: 11;  
+                                                                                            box-shadow: 0px 15px 25px  #555; 
+                                                                                            border-top-left-radius: 0.7em;
+                                                                                            border-top-right-radius: 0.7em;
+                                                                                            border-bottom-left-radius: 0.7em;
+                                                                                            border-bottom-right-radius: 0.7em;
+                                                                                            height: 220px;
+                                                                                            width: 150%;
+                                                                                                                        }
+                                                                                    
+                                                                                        .grid-activite  #act4 img {
+                                                                                           
+                                                                                            grid-column: 1/6;
+                                                                                            grid-row: 11;
+                                                                                            height: 160px;
+                                                                                            width: 100%;
+                                                                                            background-color: yellow;
+                                                                                            margin-left: 0px ;
+                                                                                                                    }
+                                                                                                                    .grid-activite    #act5  {
+                                                                                                                        display: flex;
+                                                                                                                        grid-column: 1/6;
+                                                                                                                        grid-row: 11;
+                                                                                                                        height: 00px;
+                                                                                                                        padding-left: 50px;
+                                                                                                                        width: 120%;
+                                                                                                                         margin-left: -55px;
+                                                                                                                        margin-top: 260px;
+                                                                                                                                            }
+                                                                                                                
+                                                                                                                    .grid-activite  #act 5igure  {
+                                                                                                                        grid-column: 1/6;
+                                                                                                                        grid-row: 11;  
+                                                                                                                        box-shadow: 0px 15px 25px  #555; 
+                                                                                                                        border-top-left-radius: 0.7em;
+                                                                                                                        border-top-right-radius: 0.7em;
+                                                                                                                        border-bottom-left-radius: 0.7em;
+                                                                                                                        border-bottom-right-radius: 0.7em;
+                                                                                                                        height: 220px;
+                                                                                                                        width: 150%;
+                                                                                                                                                    }
+                                                                                                                
+                                                                                                                    .grid-activite  #act5 img {
+                                                                                                                       
+                                                                                                                        grid-column: 1/6;
+                                                                                                                        grid-row: 11;
+                                                                                                                        height: 160px;
+                                                                                                                        width: 100%;
+                                                                                                                        background-color: yellow;
+                                                                                                                        margin-left: 0px ;
+                                                                                                                                                }
+
+                                                                                                                                                .grid-activite    #act6  {
+                                                                                                                                                    display: flex;
+                                                                                                                                                    grid-column: 1/6;
+                                                                                                                                                    grid-row: 11;
+                                                                                                                                                    height: 00px;
+                                                                                                                                                    padding-left: 50px;
+                                                                                                                                                    width: 120%;
+                                                                                                                                                     margin-left: -55px;
+                                                                                                                                                    margin-top: 260px;
+                                                                                                                                                                        }
+                                                                                                                                            
+                                                                                                                                                .grid-activite  #act6 figure  {
+                                                                                                                                                    grid-column: 1/6;
+                                                                                                                                                    grid-row: 11;  
+                                                                                                                                                    box-shadow: 0px 15px 25px  #555; 
+                                                                                                                                                    border-top-left-radius: 0.7em;
+                                                                                                                                                    border-top-right-radius: 0.7em;
+                                                                                                                                                    border-bottom-left-radius: 0.7em;
+                                                                                                                                                    border-bottom-right-radius: 0.7em;
+                                                                                                                                                    height: 220px;
+                                                                                                                                                    width: 150%;
+                                                                                                                                                                                }
+                                                                                                                                            
+                                                                                                                                                .grid-activite  #act6 img {
+                                                                                                                                                   
+                                                                                                                                                    grid-column: 1/6;
+                                                                                                                                                    grid-row: 11;
+                                                                                                                                                    height: 160px;
+                                                                                                                                                    width: 100%;
+                                                                                                                                                    background-color: yellow;
+                                                                                                                                                    margin-left: 0px ;
+                                                                                                                                                                            }
      
 .grid-footer
 
@@ -1534,7 +1768,7 @@ margin-top:10px;
     display:flex;
     flex-direction: column;
     grid-column: 1/6;
-    grid-row: 9;
+    grid-row: 17;
         width: 100%;
      
  
@@ -1542,6 +1776,7 @@ margin-top:10px;
   
     text-align: center;
     margin-left: 5px;
+    margin-top: 250px;
    
     }
     
