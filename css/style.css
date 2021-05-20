@@ -1276,7 +1276,7 @@ margin-left: 20px;
 .grid-navigation {
 
     
-   margin-left: -120px;
+   margin-left: -100px;
     margin-top:40px;
     display: inline;
 }
@@ -1310,11 +1310,20 @@ background-color: yellow;
 grid-column: 3;
     grid-row: 1;
    margin: 0px;
-    margin-left: 190px;
+    margin-left: 260px;
     margin-top: -60px;
     display: flex;
     flex-direction : row;
   }
+
+  nav #activi  {
+
+    
+      
+        margin-left: 40px;
+       
+       
+      }
 
 
 
@@ -1341,17 +1350,20 @@ font-size: 16px;
           .grid-recherches1  {
             grid-column: 1/6;
             grid-row: 3;
-            width: 110%;
-            margin-left : -10px; 
+            width: 106%;
+            margin-left : 0px; 
         padding-left: 5px;
+        
        
                   }
 
                   .grid-recherches2  {
-                    grid-column: 1/5;
-                    grid-row: 6;
+                    grid-column: 1/6;
+                    grid-row: 6/7;
                     width: 120%;
-                    
+                   
+                    margin-left: 0px;
+                display: flex ;
                 
                   
                 
@@ -1368,13 +1380,13 @@ font-size: 16px;
                                   }
           
 .grid-populaire  {
-display:flex;
+
 grid-column: 1/5;
    grid-row: 8;  
-   width: 110%;
+   width: 115%;
+height:700px ;
 
 
-flex-direction: column;
 }
 
 .grid-populaire figure {
