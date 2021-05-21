@@ -7,13 +7,11 @@
                                 Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.    -->
 
                                 <title> Reservia </title>
-
+                                <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/2ad45f74d7.js" crossorigin="anonymous"></script>   <!--  Chargement des îcones depuis le site fontawesome    -->
 
-    
-            
-
-<meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -25,7 +23,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@publisher_handle">
 <meta name="twitter:title" content="Page Title">
-<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:description" content="Ce site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.">
 <meta name="twitter:creator" content="@author_handle">
 <!-- Twitter Summary card images must be at least 200x200px -->
 <meta name="twitter:image" content="http://www.example.com/image.jpg">
@@ -40,26 +38,26 @@
 <meta property="fb:admins" content="Facebook numeric ID" />
 </head>
 
-<body>
-    <div class="grid-container">                    <!--   CONTAINER POUR DEFINISSION DE CSS GRID   -->                               
-<header class="grid-header">                                            <!--   HEADER   -->                    
+<body>                                                                  <!--   DIV RESPONSIVE   --> 
+    <div class="grid-container">                                                    <!--   CONTAINER POUR DEFINISSION DE CSS GRID   -->                               
+<header class="grid-header">                                                                        <!--   HEADER   -->                    
   
-                                     <!--  Class Grid Logo    -->
+                                     
      
         
-        <figure class="logo" >                              <!--   Logo    -->
+        <figure class="logo" >                                                                          <!--   Logo    -->
             <img src="images/logo/Reservia@3x.png"
-                 alt="Le logo Reservia">             
+                 alt="Image de logo Reservia">             
             
         </figure>
    
     
-    <div class="grid-navigation">                            <!--  Class Grid Navigation   -->
+    <div class="grid-navigation">                                                               <!--  <nav> Navigation   -->
         <nav> 
         <ul> 
-            <li><a href="#mar"> Hébergements </a> </li>
-            <li> <a href="#marsact" > Activités  </a>  </li>
-            <li> <a href="#"> S'inscrire </a> </li>
+            <li class="he"><a href="#mar"> Hébergements </a> </li>
+            <li class="activi"> <a href="#marsact" > Activités  </a>  </li>
+            <li class="inscrire"> <a href="#"> S'inscrire </a> </li>
         </ul>   
     </nav>
     </div>        
@@ -71,61 +69,62 @@
                                    
 
 
-<section class="grid-recherches">                          <!--  Class Grid Recherches   -->
+<div class="grid-recherches">                                                                <!--  Section Class Grid Recherches  / formulaire + descritpion -->
     
 
-<h1>Trouver votre hébergement pour les vacances   </h1>      
+Trouver votre hébergement pour des vacances de rêve      
 <h2>En plein centre ville ou en pleine nature</h2>
-</section>
+    </div>
 
 <div class="grid-recherches1">  
 <form action="#" method="post">  
     <i class="fas fa-map-marker-alt"></i> 
-     <input type="text" name="recherche" class="rech" /> 
+     <input type="text" name="recherche" class="rech" placeholder ="Marseille,France"/> 
      
-     <input  type="submit" value="Rechercher" class="rech1">   
+     <input  type="submit" value="Rechercher" class="rech1" >   
     
     </form> 
 </div>    
    
-<section class="grid-recherches2"> 
+<section class="grid-recherches2">                                                                 <!--   Section Class Grid Recherches2 / puces de section -->
 
     
     <ul id="filtre"> 
-        <li id="textefil">  Filtres :   </li>  
-        <li><a href="#" class="filtresu"><i class="fas fa-money-bill-wave"></i>Economique&nbsp;&nbsp;</a></li>
-        <li><a href="#" class="filtresu"><i class="fas fa-child"></i>Familial&nbsp;&nbsp;</a></li>
-        <li><a href="#" class="filtresu"><i class="fas fa-heart"></i>Romantique&nbsp;&nbsp;</a></li>
-        <li> <a href="#" class="filtresu"><i class="fas fa-dog"></i>Animaux autorisés&nbsp;&nbsp;</a></li>
+        <li id="textefil"> Filtres :  </li>  
+        <li id="mon"><a href="#" class="filtresu money" ><i class="fas fa-money-bill-wave"></i>Economique&nbsp;&nbsp;</a></li>
+        <li id="fam"><a href="#" class="filtresu famille"><i class="fas fa-child"></i>Familial&nbsp;&nbsp;</a></li>
+        <li id="coeur"><a href="#" class="filtresu coeur"><i class="fas fa-heart"></i>Romantique&nbsp;&nbsp;</a></li>
+        <li id="dog"> <a href="#" class="filtresu dog"><i class="fas fa-dog"></i>Animaux autorisés&nbsp;&nbsp;</a></li>
         
         </ul>
         
 </section>
     
-<section class="grid-recherches3"> 
+<section class="grid-recherches3">                                                                    <!--  Section Class Grid Recherches3 / information -->
 
-  <div><i class="fas fa-info"> </i>  Plus de 500 logements de disponibles  </div> 
+  <div><i class="fas fa-info"> </i>  Plus de 500 logements de disponibles dans cette ville </div> 
 </section>
 
 
 
+    
 
+    
 
-
-
-
-<main class="grid-hebergement">      <!--  Class Grid Hebergements  -->
+<section class="grid-hebergement">                                                                       <!-- Section Class Grid Hebergements  -->
        
     
-<div id="mar">
+<div id="mar">                                                                                              <!-- Calque Titre Hébergements  -->
     <h3>Hébergements à Marseille</h3>    </div>                                      
    
   
        
-   <div id="heb"> 
-    <figure>   <a href="#">
-        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-             alt="Auberge la cannebière">    </a>
+   <div id="heb">                                                                                             <!-- Id "[heb]ergement(X)" / Calques englobants les figures  -->
+
+
+    <figure>   <a href="#">                                                                                     <!--  figures  -->
+        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash2.jpg"
+             alt="Image de Auberge la cannebière">    </a>
         <figcaption><h3>Auberge la cannebière </h3><br />
 Nuit à partir de <strong>  25 $ </strong> <br />
 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star noir"></i>
@@ -135,8 +134,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     <div id="heb2">
   
     <figure>  <a href="#">
-        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-             alt="Hôtel du port">  </a>
+        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash2.jpg"
+             alt="Image de Hôtel du port">  </a>
         <figcaption><h3>Hôtel du port </h3><br />
             Nuit à partir de <strong>52 $ </strong><br />
             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  </figcaption>
@@ -146,8 +145,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     <div id="heb3">
     <figure> <a href="#">
     
-        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-             alt="Déscription">     </a>
+        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash2.jpg"
+             alt="Image de Hôtel Les mouettes">     </a>
              <figcaption><h3>Hôtel Les mouettes </h3><br />
                 Nuit à partir de <strong>76 $</strong> <br />
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star noir"></i> 
@@ -155,13 +154,13 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     </figure>  
 
 
-</div>
+</div>  
 
 
 <div id="heb4">
 <figure><a href="#">
-        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-             alt="Déscription">   </a>
+        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplas2.jpg"
+             alt="Image de Hôtel de la mer">   </a>
              <figcaption><h3>Hôtel de la mer </h3><br />
                 Nuit à partir de <strong>46 $</strong> <br />
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star noir"></i><i class="fas fa-star noir"></i>
@@ -169,8 +168,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     </figure>    </div>  
      <div id="heb5">
     <figure>   <a href="#">
-        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-             alt="Déscription">  </a>
+        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash2.jpg"
+             alt="Image de Auberge Le Panier">  </a>
              <figcaption><h3>Auberge Le Panier </h3><br />
                 Nuit à partir de<strong> 23 $</strong> <br />
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star noir"></i>
@@ -178,8 +177,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     </figure>    </div> 
        <div id="heb6">
     <figure>  <a href="#">
-        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-             alt="Déscription">  </a>
+        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash2.jpg"
+             alt="Image de Hôtel chez amina">  </a>
              <figcaption><h3>Hôtel chez amina</h3><br />
                 Nuit à partir de <strong>96$</strong> <br />
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
@@ -187,24 +186,25 @@ Nuit à partir de <strong>  25 $ </strong> <br />
     </figure>   </div>
     
     <div id="plus">
-        <h3>Afficher plus </h3>    <!--  Le bouton n'est pas actif pour la version front-end    -->
+        <h3>Afficher plus </h3>    <!-- Calque afficher +  -->  <!--  Le bouton n'est pas actif pour la version front-end    -->
         </div>
 
 
-</main> 
+    
+</section> 
 
 
            
-<section class="grid-populaire">                    <!--  Class Grid Les plus populaires   -->
-         <div id="pluspo">                                                
-    <h5> Les plus populaires </h5>     <!--  Intégrer ici image graphisme up     --> 
+<section class="grid-populaire" >                                                          <!--  Section Class Grid Les plus populaires   -->
+         <div id="pluspo">                                                              <!--  div titre  / les plus populaires   -->                                   
+    <h5> Les plus populaires </h5>   <i class="fas fa-chart-line graph"></i>   <!--  Intégrer ici image graphisme up     --> 
         
      </div>
         
-    <div id="pop">
-        <figure>                                  
-        <a href="#"> <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-             alt="Hôtel Le soleil du matin, Nuit à partir de 128 $" /> </a>
+    <div id="pop">                                                                                       <!-- Id "[pop]ulaire(X)" / Calques englobants les figures  -->
+        <figure>                                                                                                 <!--  figures  -->                    
+        <a href="#"> <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash3.jpg"
+             alt="Image de Hôtel Le soleil du matin, Nuit à partir de 128 $" /> </a>
              
                 <figcaption>
              <h3> Hôtel Le soleil du matin </h3> <br />
@@ -220,8 +220,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
 
 <div id="pop2">
     <figure>  
-    <a href="#">  <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-             alt="Chambres d'hôtes,Nuit à partir de 71 $ "></a> 
+    <a href="#">  <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash3.jpg"
+             alt="Image de Chambres d'hôtes,Nuit à partir de 71 $ "></a> 
                <figcaption>
                 <h3> Au coeur de l'eau <br />
                 Chambres d'hôtes </h3><br />
@@ -235,8 +235,8 @@ Nuit à partir de <strong>  25 $ </strong> <br />
       
       <div id="pop3">
         <figure>  
-        <a href="#">   <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-             alt="Déscription">  </a>
+        <a href="#">   <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash3.jpg"
+             alt="Image de Hôtel Tout bleu et Blanc">  </a>
 
 
                 <figcaption>
@@ -257,84 +257,86 @@ Nuit à partir de <strong>  25 $ </strong> <br />
 </section>                                                                        
 
 
-<section class="grid-activite wprock-img-zoom-hover">              <!--  Class Grid Activités   -->
-    <div id="marsact"> <h5>Activité à Marseille </h5>  </div>  
+<section class="grid-activite">                                             <!-- Section Class Grid Activités   -->
+    <div id="marsact"> <h5>Activité à Marseille </h5>  </div>                            <!--  div titre  / activité  -->
 
-    <div id="act">  
-    <figure class="verticale wprock-img-zoom">     <a href="#">                                                  
-        <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-             alt="Déscription" class="centre">   </a>
-        <figcaption><h3>Vieux port</h3></figcaption>  
+    <div id="act">                                                                                           <!-- Id "[act]ivité (X)" / Calques englobants les figures  -->
+    <figure id ="a">     <a href="#">                                                       <!--  figures  -->  
+        <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash2.jpg"
+             alt="Image de Image de Vieux port">   </a>
+        <figcaption><h3> Vieux port</h3></figcaption>  
     </figure>  
          </div>  
          <div id="act2">                                                      
-<figure class="wprock-img-zoom">       <a href="#"> 
-    <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-         alt="Déscription">   </a>
+<figure id ="b" >       <a href="#"> 
+    <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash2.jpg"
+         alt="Image de Image de Fort de Pomègues">   </a>
     <figcaption><h3>Fort de Pomègues</h3></figcaption>
-</figure class="verticale wprock-img-zoom">
+</figure> 
 </div> 
 <div id="act3">
-<figure class="wprock-img-zoom">  <a href="#"> 
-    <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-         alt="Déscription" >   </a>
+    <figure id ="c"> <a href="#"> 
+    <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash2.jpg"
+         alt="Image de Image de îles du Frioul" >   </a>
     <figcaption><h3>îles du Frioul</h3></figcaption>
 </figure >
 </div>
 <div id="act4">
- <figure class="verticale wprock-img-zoom">     <a href="#">                                                                              
-    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-         alt="Déscription">   </a>
+    <figure id ="d">    <a href="#">                                                                              
+    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash2.jpg"
+         alt="Image de Image de Parc National des Calanques">   </a>
     <figcaption><h3>Parc National des Calanques</h3></figcaption>
 </figure>
 </div>
 <div id="act5">
-<figure class="wprock-img-zoom">   <a href="#"> 
-    <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-         alt="Déscription">   </a>
+    <figure id ="e">   <a href="#"> 
+    <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash2.jpg"
+         alt="Image de Image de Notre-Dame-de-la-Garde">   </a>
     <figcaption><h3>Notre-Dame-de-la-Garde</h3></figcaption>
 </figure>
 </div>
-<div id="act6">>
-<figure class="wprock-img-zoom">   <a href="#"> 
-    <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-         alt="Déscription">   </a>
+<div id="act6">
+    <figure id ="f">   <a href="#"> 
+    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+         alt="Image de Image de Parc Longchamp">   </a>
     <figcaption><h3>Parc Longchamp</h3></figcaption>
 </figure>
 </div>
 
    </section>                                                                           
    
-<footer class="grid-footer">                                             <!--  FOOTER   -->
+<footer class="grid-footer">                                              <!-- Section Class Grid FOOTER   -->
       
 
-    <div id="liste1"> 
+    <div id="liste1">                                           <!-- div footer / liste à puce -->
    <ul>
 
-<li><h5>A propos </h5> </li>                        <!-- < h3 />  -->
- <li><h6>Fonctionnement du site</h6></li>                             
-<li><h6>Conditions générales de vente</h6></li>
-<li><h6>Données et confidentialité</h6></li>                       
+<li><a href="#"> <h5>A propos </h5></a></li>                        
+ <li><a href="#"> <h6>Fonctionnement du site</h6></a></li>                             
+<li><a href="#"> <h6>Conditions générales de vente</h6></a></li>
+<li><a href="#"> <h6>Données et confidentialité</h6></a></li>                       
    </ul>  </div>
    <div id="liste2">
 <ul>
-<li> <h5> Nos hébergements </h5> </li>                      <!-- < h3 />  -->
-<li><h6>Charte qualité </h6></li>                                          
-<li><h6>Soumettre votre hôtel</h6></li>                                    
+<li><a href="#">  <h5> Nos hébergements </h5> </a></li>                     
+<li><a href="#"> <h6>Charte qualité </h6></a></li>                                          
+<li><a href="#"> <h6>Soumettre votre hôtel</h6></a></li>                                    
 </ul>
 </div>
 <div id="liste3"> 
 <ul>
-<li><h5> Assitance </h5> </li>                              <!-- < h3 />  -->
-<li><h6>Centre d'aide</h6></li>                                          
-<li><h6>Nous contacter</h6></li>                                        
+<li><a href="#"> <h5> Assitance </h5> </a></li>                              
+<li><a href="#"> <h6>Centre d'aide</h6></a></li>                                          
+<li><a href="#"> <h6>Nous contacter</h6></a></li>                                        
 
 
    </ul>   </div>
     
 
 </footer>  
-</div>
+</div>                                          <!-- Fin du DIV CONTAINER POUR DEFINISSION DE CSS GRID  -->   
+
+
 </body>
 
 
