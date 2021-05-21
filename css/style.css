@@ -785,7 +785,14 @@ margin-left: 20px;
 margin-top: 10px;
                                                     }
 
+.grid-activite #a img  {
 
+    height: 480px;
+    width: 100%;
+      
+
+
+}
 
 .grid-activite #a {
 
@@ -816,6 +823,12 @@ margin-top: 10px;
                                                                         
                     
                                                                         }
+.grid-activite #b img  {
+
+height: 220px;
+width: 100%;
+                                                                              
+}
 .grid-activite #b {
 
 
@@ -846,6 +859,14 @@ margin-top: 10px;
                                                                         
                     
                                                                         }
+
+ .grid-activite #c img  {
+
+ height: 160px;
+ width: 100%;
+                                                                                                                                                          
+  }
+
 .grid-activite #c {
 
 
@@ -875,6 +896,11 @@ margin-top: 10px;
                                                                         
                     
                                                                         }
+.grid-activite #d img  {
+
+ height: 480px;
+ width: 100%;
+  }
 
 .grid-activite #d {
 
@@ -905,6 +931,11 @@ margin-top: 10px;
                                                                         
                     
                                                                         }
+ .grid-activite #e img  {
+
+  height: 180px;
+   width: 100%;
+  }
 .grid-activite #e {
 
 
@@ -934,6 +965,11 @@ margin-top: 10px;
                                                                         
                     
                                                                         }
+   .grid-activite #f img  {
+
+   height: 180px;
+   width: 100%;
+     }
 .grid-activite #f {
 
 
@@ -1167,6 +1203,11 @@ height: 230px;
                                                      margin-right: 60px;
                                                     
                                                      } 
+
+  .grid-footer  a                                      {
+                                                      text-decoration: none;
+                                                        color: black;
+                                                         } 
 
 
 
