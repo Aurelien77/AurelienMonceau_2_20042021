@@ -1231,7 +1231,502 @@ height: 230px;
 
 
  /*  Breackpoint  */ 
- @media screen and (max-width: 600px) and (orientation: landscape) { }
+ @media screen and (max-width: 600px) and (orientation: landscape) { .grid-container  {
+
+
+       
+       
+    display: grid;
+    grid-template-rows: 100px  ;
+    grid-template-columns: 10% 31% 31% 31% 10%;
+    max-width: 100%;
+    max-height: 1024px;
+    min-width: 100%;
+    min-height: 1024px;
+    
+
+}    
+ 
+      .grid-hebergement figure:hover                                            {
+        
+        
+        
+
+        }
+
+.grid-populaire figure:hover                                            {
+
+
+            
+            
+            }
+
+
+
+
+      .logo
+
+{
+display: grid;
+grid-column: 2;
+grid-row: 1;
+margin-left: 50px;
+width: 30%;
+margin-top: 5px;
+}
+
+.logo img
+
+{
+width: 100%;
+height: 50px; 
+}
+
+
+
+.grid-navigation {
+
+display: grid;
+grid-column: 2;
+
+margin-top:40px;
+margin-left: 40px;
+}
+#filtre {
+
+margin-left: -30px;
+background-color: #DEEBFF;
+grid-column: 1/5;
+                        grid-row: 7;
+                        width: 100%;
+
+} 
+
+/*  nav #he {
+
+background-color: springgreen;
+
+
+    margin-top: 50px;
+margin-left: -130px;
+    display: flex;
+    flex-direction : row; 
+
+}
+
+*/    
+nav #inscrire  {
+
+background-color: yellow;
+
+margin: 0px;
+margin-left: 220px;
+margin-top: -78px;
+display: flex;
+flex-direction : row;
+}   
+
+nav #he {
+
+
+font-size: 25px;
+margin-top: 10px;
+margin-left: -60px;
+
+
+}
+nav #activi  {
+font-size: 25px;
+
+margin-top: -30px;
+margin-left: 160px;
+       } 
+
+
+.grid-recherches    {
+
+display: inline;
+
+text-align: left;
+
+font-size: 29px;
+grid-column: 1/6;
+                        grid-row: 3;
+                        width: 117%;
+                        font-weight: bold;
+                        
+                        margin-top: 20px;
+                       
+                       
+
+}
+.grid-recherches h2   {
+
+font-size: 20px;
+    margin-top: 10px;                   
+
+}
+/*
+      #activi {
+        grid-column: 3;
+        grid-row: 3;
+        
+        margin-top: 50px;
+        margin-right: 200px;
+        font-size: 20px;
+      }    */
+
+
+      .grid-recherches1  {
+      margin-top: 0px;
+        grid-column: 1/6;
+        grid-row: 4;
+        width: 120%;
+        
+    
+   
+              }
+
+              .grid-recherches2  {
+             
+                grid-column: 3/6;
+                        grid-row: 5;
+                        width: 150%;
+           margin-left: -70px;
+           
+              
+            
+                      }
+
+.grid-recherches2 li  {
+             display: flex;
+                       
+                      
+                      
+                    
+                              }
+
+                      .filtresu:hover                                             {
+                       
+                        }
+
+                        .textefil   {
+
+
+
+
+                        }
+
+                         #mon   {
+
+margin-top: -10px;
+background-color:deeppink;
+
+                            
+                        }
+
+                      .grid-recherches3  {
+                        grid-column: 1/6;
+                        grid-row: 6;
+                        width:100%;
+                      
+                      height: 30px;
+                     
+                      line-height: 1.1;
+                              }
+
+
+
+      
+.grid-populaire  {
+display:flex;
+grid-column: 1/6;
+grid-row:6;
+width: 118%;
+height:660px ;
+flex-direction: column;
+margin-top: 40px;
+padding-right: 17px;
+margin-left: -8px;
+text-align: left;
+}
+
+.grid-populaire figure {
+display: inline-block;
+justify-items: center;
+   width: 85%;
+  
+   margin-left: 15px;
+   
+}
+.grid-populaire i {
+display: inline;
+width: 100%;
+   height: 20px;   
+
+
+}
+
+.grid-hebergement  #mar {
+width: 150%;
+
+font-weight: 900;
+
+margin-left: -40px;
+margin-top: -50px;                         
+padding-bottom: 120px;
+
+}
+
+.grid-hebergement     {
+display: flex;
+
+grid-column: 1/6;
+                        grid-row: 8;
+                        width: 100%;
+
+
+background-color: white;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+margin-top : 80px;
+justify-items: center;
+justify-content: space-between;
+padding-left: 27px;
+}
+.grid-hebergement figure {
+
+}
+
+#heb {
+
+width: 110%;
+margin-left: -15px;
+}
+
+#heb img{
+
+width: 100%;
+
+}
+#heb2 {
+
+width: 110%;
+margin-left: -15px;
+margin-top: -15px;
+}
+#heb3 {
+
+width: 110%;
+margin-left: -15px;
+margin-top: -15px;
+}
+#heb4 {
+
+width: 110%;
+margin-left: -15px;
+margin-top: -15px;
+    }
+
+#heb5 {
+
+width: 110%;
+margin-left: -15px;
+margin-top: 35px;
+        }
+
+#heb6 {
+
+width: 110%;
+margin-left: -15px;
+margin-top: 35px;
+            }
+
+#plus  {
+
+
+grid-column: 1/6;
+grid-row:9;
+margin-top: 30px;
+margin-left: 0px;
+
+            }
+#marsact  {
+
+margin-left: 20px;
+            }
+
+.grid-activite  {
+
+
+display: flex;
+grid-column: 1/6;
+grid-row: 10;
+width: 100%;
+
+margin-left: 20px;
+
+
+flex-direction: column;
+background-color: white;
+margin-top: 970px;
+
+
+
+}   
+
+
+.grid-activite    #act  {
+    display: flex;
+    grid-column: 1/6;
+    grid-row: 10;
+    height: 00px;
+    padding-left: 50px;
+    width: 120%;
+     margin-left: -55px;
+    margin-top: 10px;
+                        }
+
+.grid-activite  #act figure  {
+    grid-column: 1/6;
+    grid-row: 10;  
+    box-shadow: 0px 15px 25px  #555; 
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+    height: 220px;
+    width: 150%;
+                                }
+
+.grid-activite  #act img {
+   
+    grid-column: 1/6;
+    grid-row: 10;
+    height: 160px;
+    width: 100%;
+    
+    margin-left: 0px ;
+                            }
+
+.grid-activite    #act2  {
+                                display: flex;
+                                grid-column: 1/6;
+                                grid-row: 11;
+                                height: 00px;
+                                padding-left: 50px;
+                                width: 120%;
+                                 margin-left: -55px;
+                                margin-top: 260px;
+                                                    }
+                        
+                            .grid-activite  #act2 figure  {
+                                grid-column: 1/6;
+                                grid-row: 11;  
+                                box-shadow: 0px 15px 25px  #555; 
+                                border-top-left-radius: 0.7em;
+                                border-top-right-radius: 0.7em;
+                                border-bottom-left-radius: 0.7em;
+                                border-bottom-right-radius: 0.7em;
+                                height: 220px;
+                                width: 150%;
+                                                            }
+                        
+                            .grid-activite  #act2 img {
+                               
+                                grid-column: 1/6;
+                                grid-row: 11;
+                                height: 160px;
+                                width: 100%;
+                                
+                                margin-left: 0px ;
+                                                        }
+                                                        .grid-activite    #act3  {
+                                                            display: flex;
+                                                            grid-column: 1/6;
+                                                            grid-row: 11;
+                                                            height: 00px;
+                                                            padding-left: 50px;
+                                                            width: 120%;
+                                                             margin-left: -55px;
+                                                            margin-top: 260px;
+                                                                                }
+                                                    
+                                                        .grid-activite  #act3 figure  {
+                                                            grid-column: 1/6;
+                                                            grid-row: 11;  
+                                                            box-shadow: 0px 15px 25px  #555; 
+                                                            border-top-left-radius: 0.7em;
+                                                            border-top-right-radius: 0.7em;
+                                                            border-bottom-left-radius: 0.7em;
+                                                            border-bottom-right-radius: 0.7em;
+                                                            height: 220px;
+                                                            width: 150%;
+                                                                                        }
+                                                    
+                                                        .grid-activite  #act3 img {
+                                                           
+                                                            grid-column: 1/6;
+                                                            grid-row: 11;
+                                                            height: 160px;
+                                                            width: 100%;
+                                                            
+                                                            margin-left: 0px ;
+                                                                                    }
+                                                                                    .grid-activite    #act4  {
+                                                                                        display: flex;
+                                                                                        grid-column: 1/6;
+                                                                                        grid-row: 11;
+                                                                                        height: 00px;
+                                                                                        padding-left: 50px;
+                                                                                        width: 120%;
+                                                                                         margin-left: -55px;
+                                                                                        margin-top: 260px;
+                                                                                                            }
+                                                                                
+                                                                                    .grid-activite  #act4 figure  {
+                                                                                        grid-column: 1/6;
+                                                                                        grid-row: 11;  
+                                                                                        box-shadow: 0px 15px 25px  #555; 
+                                                                                        border-top-left-radius: 0.7em;
+                                                                                        border-top-right-radius: 0.7em;
+                                                                                        border-bottom-left-radius: 0.7em;
+                                                                                        border-bottom-right-radius: 0.7em;
+                                                                                        height: 220px;
+                                                                                        width: 150%;
+                                                                                                                    }
+                                                                                
+                                                                                    .grid-activite  #act4 img {
+                                                                                       
+                                                                                        grid-column: 1/6;
+                                                                                        grid-row: 11;
+                                                                                        height: 160px;
+                                                                                        width: 100%;
+                                                                                      
+                                                                                        margin-left: 0px ;
+                                                                                                                }
+                                                                                                                
+
+                                                                                                                                   
+ 
+.grid-footer
+
+{
+display:flex;
+flex-direction: column;
+grid-column: 1/6;
+grid-row: 17;
+    width: 100%;
+ 
+
+background-color: white;
+
+text-align: center;
+margin-left: 5px;
+margin-top: 250px;
+
+}   }
 
 @media screen and (max-width: 600px) and (orientation: portrait) { 
 
