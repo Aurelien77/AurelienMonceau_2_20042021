@@ -3,11 +3,14 @@
 
 body    {
         background-color: white;
-        font-family: Raleway;
+        font-family: 'Raleway',sans-serif;
+        
+        width: 100%;
+        
         }
 
 @font-face   {
-            font-family: 'Raleway';
+            font-family: 'Raleway', sans-serif;
             font-style: normal;
             font-weight: 100;
             font-display: swap;
@@ -22,11 +25,12 @@ body    {
 .grid-container                     {
                                     display: grid;
                                     grid-template-rows: 100px  ;
-                                    grid-template-columns: 2% 31% 31% 31% 2%;
+                                    grid-template-columns: 2.5% 31% 31% 31% 2%;
                                     max-width: 2000px;
                                     max-height: 768px;
                                     min-width: 2000px;
-                                    min-height: 768px;
+                                    min-height: 2000px;
+                                    
                                     }
                                                                                 /*  HEADER   */ 
 
@@ -1081,6 +1085,13 @@ margin-left: 10px;
                                                         font-weight: bold;
                                                         }  
 
+
+.recha {
+                                                            display: none;
+                                                        }
+
+
+
 /*  Breackpoint  */ 
 
 
@@ -1103,13 +1114,15 @@ margin-left: 10px;
     .grid-container     {
         display: grid;
         grid-template-rows: 100px  ;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33% ;
         max-width: 100%;
         max-height: 1350px;
         min-width: 100%;
         min-height: 1350px;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 0px;
+       padding-left: 48px;
+       padding-right: -40px;
+        
+       
                         }    
      
 
@@ -1165,6 +1178,8 @@ nav .inscrire  {
         border-top: 0px;
     
       }
+
+      
   
   .inscrire {
 
@@ -1691,7 +1706,36 @@ margin-top: 970px;
     margin-top: 250px;
             }      }
 
+          
 
+            @media only screen and (max-width: 481px) {
+                .rech1 {
+                    display: none;
+                }
+
+                .recha {
+                    display: inline;
+                  padding: 10px 10px 10px 10px ;
+                   color: white ;
+                   border-top-left-radius: 0.7em;
+                   border-top-right-radius: 0.7em;
+                   border-bottom-left-radius: 0.7em;
+                   border-bottom-right-radius: 0.7em;
+                   background-color: #0065FC;
+            }
+
+            .recha i {
+                display: inline;
+             
+               color: white ;
+               border-top-left-radius: 0.7em;
+               border-top-right-radius: 0.7em;
+               border-bottom-left-radius: 0.7em;
+               border-bottom-right-radius: 0.7em;
+
+        }
+
+        
 @media only screen and (max-width: 1000px) and (min-width: 767px) {  
 body  {
 
@@ -1706,9 +1750,9 @@ body  {
         display: grid;
         grid-template-rows: 100px  ;
         grid-template-columns: 2% 31% 31% 31% 2%;
-        max-width: 767px;
+        max-width: 100%;
         max-height: 1000px;
-        min-width: 767px;
+        min-width: 100%;
         min-height: 1000px;
         }
              
