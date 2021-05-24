@@ -1037,12 +1037,37 @@ padding-left: -100px;
                                                         font-size: 18px;
                                                         margin-bottom: -15px; 
                                                         margin-top: 2px;
+                                                        margin-left: 10px;
                                                         }
     
     h4                                                  {
-                                                        font-size: 18px; 
-                                                        font-weight: 700;
+                                                        font-size: 16px; 
+                                                        line-height: 0.5;
+                                                        margin-top: 4px;
+                                                        font-family: relaway;
+                                                        font-weight: 100;
+                                                        margin-bottom: 9px;
+                                                        margin-left: 10px;
                                                         }
+.dec {
+
+    margin-left: 10px;
+
+}
+
+.decpop {
+
+margin-top: 80px;
+margin-left: 10px;
+
+}
+
+.decpop2 {
+
+    margin-top: 60px;
+    margin-left: 10px;
+    
+    }
         
     h5                                                  {
                                                         font-size: 18px;
@@ -1604,45 +1629,15 @@ margin-top: 970px;
     width: 220%;
     text-align: center;
     margin-top: 250px;
-            }   
+            }      }
 
 
+            @media only screen and (max-width: 10000px) and (min-width: 770px) {  
+body  {
 
-
-            @media only screen and (max-width: 1350px) and (orientation: landscape) { 
-
-
-
-           
-
-                }
-
-
-/*responsive* *Tablette*/
-
-@media only screen and (max-width: 1350px) { 
 
     
-        
-        }   
-        
- 
- 
-/*responsive middle*/
+}  }
 
-@media only screen and (max-width: 1140px) {  }
-/*responsive Mobile*/
-
-
-@media (min-width: 30em) and (orientation: landscape) { ... }
-
-@media (min-height: 680px), screen and (orientation: portrait) { 
-
-
-
-
-
-
-}
-
+           
     
