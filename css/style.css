@@ -1086,7 +1086,7 @@ margin-left: 10px;
 
 
 
-@media only screen and (max-width: 760px) and (orientation: portrait) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
  
    
 
@@ -1632,12 +1632,32 @@ margin-top: 970px;
             }      }
 
 
-            @media only screen and (max-width: 10000px) and (min-width: 770px) {  
+@media only screen and (max-width: 1000px) and (min-width: 767px) {  
 body  {
 
 
-    
-}  }
+
+
+
+}
+.grid-container {
+
+    .grid-container                     {
+        display: grid;
+        grid-template-rows: 100px  ;
+        grid-template-columns: 2% 31% 31% 31% 2%;
+        max-width: 767px;
+        max-height: 1000px;
+        min-width: 767px;
+        min-height: 1000px;
+        }
+             
+
+}
+
+
+}
+
 
            
     
