@@ -87,7 +87,7 @@ nav li {
 }
 
 .activi a {
-    
+    color: black;
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ nav li {
 }
 
 .he a {
-    
+    color: black;
     text-decoration: none;
 }
 
@@ -523,15 +523,31 @@ margin-right: 20px;
 }
 */
 /* SECTION ACTIVITES */
+.section-activite {
+
+display: grid;
+text-align: center;
+grid-column-start: 2;
+grid-column-end: 5;
+grid-row-start: 12;
+grid-row-end: 17;
+width: 100%;
+display: flex;
+justify-content: stretch;
+
+}
+
 
 .grid-activite {
     display: grid;
-    text-align: center;
+    
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 12;
     grid-row-end: 17;
+
 }
+
 
 .grid-activite figcaption {
     text-align: left;
@@ -646,6 +662,8 @@ margin-right: 20px;
 .grid-activite #f img {
     height: 180px;
     width: 100%;
+    
+    
 }
 .grid-activite #f {
     height: 240px;
@@ -656,6 +674,8 @@ margin-right: 20px;
     border-top-right-radius: 0.7em;
     border-bottom-left-radius: 0.7em;
     border-bottom-right-radius: 0.7em;
+    
+
 }
 
 .grid-activite #f img:hover {
@@ -667,8 +687,9 @@ margin-right: 20px;
 
 /*  CSS TITRE */
 #marsact {
-    margin-left: -170px;
+    margin-left: -180px;
     margin-top: 20px;
+    
 }
 /*  CSS DES CALQUES [act(X)] QUI RECOIVENT LES FIGURES */
 #act {
@@ -677,7 +698,7 @@ margin-right: 20px;
     grid-row-start: 12;
     grid-row-end: 12;
     box-shadow: 0px 15px 25px #555;
-    width: 100%;
+    width: 115%;
     height: 520px;
     border-top-left-radius: 0.7em;
     border-top-right-radius: 0.7em;
@@ -708,6 +729,7 @@ margin-right: 20px;
     width: 90%;
     height: 280px;
     margin-top: 25px;
+    margin-left: 100px;
 }
 
 #act2 img {
@@ -732,7 +754,7 @@ margin-right: 20px;
     width: 90%;
     height: 193px;
     margin-top: 350px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 #act3 img {
     width: 100%;
@@ -754,7 +776,7 @@ margin-right: 20px;
     border-bottom-right-radius: 0.7em;
     margin-top: 25px;
     box-shadow: 0px 15px 25px #555;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 #act4 img {
     height: 470px;
@@ -778,6 +800,7 @@ margin-right: 20px;
     width: 80%;
     height: 230px;
     margin-top: 25px;
+    margin-left: 105px;
 }
 
 #act5 img {
@@ -795,7 +818,7 @@ margin-right: 20px;
     grid-row-start: 12;
     grid-row-end: 12;
     box-shadow: 0px 15px 25px #555;
-    margin-left: 10px;
+    
     margin-top: 315px;
     border-top-left-radius: 0.7em;
     border-top-right-radius: 0.7em;
@@ -803,6 +826,7 @@ margin-right: 20px;
     border-bottom-right-radius: 0.7em;
     width: 80%;
     height: 230px;
+    margin-left: 105px;
 }
 
 #act6 img {
@@ -819,13 +843,14 @@ margin-right: 20px;
 .grid-footer {
     display: grid;
     text-align: left;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 18;
     grid-row-end: 22;
     background: #f2f2f2;
     margin-top: 30px;
-    margin-right: 60px;
+    
+    
 }
 
 .grid-footer a {
