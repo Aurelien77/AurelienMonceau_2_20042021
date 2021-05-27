@@ -87,7 +87,7 @@ nav li {
 }
 
 .activi a {
-    color: black;
+    
     text-decoration: none;
 }
 
@@ -98,11 +98,16 @@ nav li {
 }
 
 .activi :visited {
+    color: black;
+}
+.activi :active {
     color: #0065fc;
+    border-top: 4px solid #0065fc;
+    padding-top: 20px;
 }
 
 .he a {
-    color: black;
+    
     text-decoration: none;
 }
 
@@ -113,7 +118,13 @@ nav li {
 }
 
 .he :visited {
+    color: black;
+}
+
+.he :active {
     color: #0065fc;
+    border-top: 4px solid #0065fc;
+    padding-top: 20px;
 }
 
 /*  SECTION RECHERCHER  */
@@ -322,6 +333,7 @@ nav li {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: stretch;
+    line-height: 1.4;
 }
 
 .grid-hebergement figure:hover {
@@ -341,7 +353,7 @@ nav li {
     align-items: stretch;
     align-content: space-around;
 }
-
+  /* DEFINIT LES SOUS TITRES    */
 p
 
 {
@@ -353,7 +365,7 @@ font-family: relaway sans-serif;
 .titre{
     padding-top: 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 10px;
 }
 
@@ -369,7 +381,8 @@ font-family: relaway sans-serif;
 .fa-chart-line {
 color: black;
 display: inline;
-margin-left: 220px;
+margin-left: 200px;
+margin-right: 20px;
 }
 
 /*  Ce CSS ( calque )  recoit le styles des figures de la section (.grid-hebergement figure img )  */
@@ -443,7 +456,7 @@ margin-left: 220px;
     background-color: white;
     border: 5px solid white;
     border-radius: 0px 25px 25px 0px;
-    height: 144px;
+    height: 164px;
     /* position: relative; */
     border: 8px solid white;
 
@@ -454,7 +467,7 @@ margin-left: 220px;
 .grid-populaire img {
 
 
-    height: 150px;
+    height: 170px;
     border-radius: 0.7em;
 
     border-radius: 25px 0px 0px 25px;
@@ -469,7 +482,7 @@ margin-left: 220px;
     display: flex;
 
     flex-direction: row;
-    height: 180px;
+    height: 200px;
 
 
 
@@ -888,16 +901,17 @@ h4 {
     margin-left: 10px;
 }
 .dec {
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-top: -12px;
 }
  /*  Class pour centrer les étoiles  */
 .decpop {
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 10px;
 }
 
 .decpop2 {
-    margin-top: 50px;
+    margin-top: 33px;
     margin-left: 10px;
 }
 
