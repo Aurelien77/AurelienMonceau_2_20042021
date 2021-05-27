@@ -1468,8 +1468,8 @@ align-items: center;
        width: 100%;
       
         align-items: center;
-    background-color: rgb(69, 42, 165);
-    background-color: teal;
+    
+    
     
     
     
@@ -1484,13 +1484,70 @@ align-items: center;
     
     }
     
+    .pop-class  {
+
+        display: flex;
+        width: 160%;
+     
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    
+    .pop-class figure {
+        
+       
+        padding: -50px;
+        height: 210px;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 110px;
+    }
+    
+    .pop-class figure img {
+    
+        
+        display: flex;
+        width: 120%;
+      height: 300px;
+     
+    
+    }
+    .grid-populaire figcaption {
+    
+        background-color: white;
+        
+        border-radius: 0px 25px 25px 0px;
+        height: 295px;
+        
+        border: 8px solid white;
+    
+    
+        box-shadow: 0px 15px 45px #555;
+        
+      
+    
+    }
+    
+    
+    
+    
+    .decpop {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .decpop2 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
     
     
     
     
     
     .grid-hebergement {
-        background: #f2f2f2;
+        background: white;
         border-radius: 0.7em;
         
         width: 100%;
