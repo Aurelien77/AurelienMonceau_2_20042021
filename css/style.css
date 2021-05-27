@@ -912,7 +912,11 @@ h6 {
 /*  Breackpoint  */
 /*  MEDIA RESPONSIBLE PHONE PORTRAIT */
 @media only screen and (max-width: 767px) and (orientation: portrait)  {
-  
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2% 32% 32% 32% 2%;
+        padding: 1px;
+    }
     nav .inscrire  {
         font-size: 17px;
         grid-column: 1/3;
@@ -1163,14 +1167,11 @@ h6 {
     font-weight: 800;
     line-height: 1;
     margin-top: 10px;
+    
 
 }  
 
-.grid-recherches3 .fa-info {
 
-   
-
-}
 
 
 .section-hebergement {
@@ -1187,16 +1188,58 @@ h6 {
 
 }
 .grid-populaire {
+    display: ;
     width: 100%;
 margin-top: 30px;
-    display: flex;
+  
     background: #f2f2f2;
     border-radius: 0.7em;
     flex-direction: column;
-
+    
 }
 
 
+.grid-populaire figcaption {
+    
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 0px 25px 25px 0px;
+    height: 164px;
+    border: 8px solid white;
+    box-shadow: 0px 15px 45px #555;
+    
+}
+
+.grid-populaire img {
+    height: 170px;
+    border-radius: 0.7em;
+    border-radius: 25px 0px 0px 25px;
+    border: 5px solid white;
+    box-shadow: 0px 15px 25px #555;
+    
+ 
+}
+div.pop-class {
+ 
+}
+
+
+
+
+.titre{
+  
+    font-family: "relaway",sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+.grid-populaire  .fa-chart-line {
+
+margin-left: 50px;
+
+}
 
 .grid-activite  {
 
@@ -1259,21 +1302,7 @@ margin: 0px;
   
 
 }
-.grid-populaire figcaption {
 
-    background-color: white;
-    
-    border-radius: 0px 25px 25px 0px;
-    height: 144px;
-    
-    border: 8px solid white;
-
-
-    box-shadow: 0px 15px 45px #555;
-    
-  
-
-}
 
 
 
@@ -1324,6 +1353,7 @@ margin: 0px;
     height: 00px;
     margin-left: 20px;
     margin-top: 10px;
+    width: 80%;
                         }
 
 .grid-activite  #act figure  {
@@ -2056,6 +2086,13 @@ align-items: center;
 
 @media only screen and (max-width: 1000px) and (orientation: portrait)  {
   
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2% 32% 32% 32% 2%;
+     
+    }
+
+
     .section-hebergement {
     
         display: flex;
@@ -2244,6 +2281,7 @@ align-items: center;
         border-bottom-left-radius: 0.7em;
         border-bottom-right-radius: 0.7em;
         height: 220px;
+        width: 80%;
         }
     
     .grid-activite  #act img {
@@ -2415,7 +2453,9 @@ align-items: center;
     
     
     .grid-footer {
-        
+       
+        grid-column: 1/5;
+             grid-row: 17;
         margin-top: 250px;
     width: 100%;
     display: flex;
