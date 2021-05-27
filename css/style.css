@@ -358,7 +358,7 @@ p
 {
 
 margin-left: 10px;
-font-family: relaway sans-serif;
+font-family: "relaway" sans-serif;
 }
 
 .titre{
@@ -1184,7 +1184,7 @@ margin: 0px;
 .pop-class figure {
     
    
-    padding: -50px;
+    /* padding: -50px; */
     height: 210px;
     margin-left: 8px;
     margin-right: 8px;
@@ -1726,7 +1726,7 @@ margin: 0px;
 .pop-class figure {
     
    
-    padding: -50px;
+    /* padding: -50px; */
     height: 210px;
     margin-left: 8px;
     margin-right: 8px;
@@ -2034,7 +2034,7 @@ align-items: center;
     .pop-class figure {
         
        
-        padding: -50px;
+       /*  padding: -50px; */
         height: 210px;
         margin-left: 8px;
         margin-right: 8px;
@@ -2406,7 +2406,7 @@ align-items: center;
         .pop-class figure {
             
            
-            padding: -50px;
+           /*  padding: -50px; */
             height: 210px;
             margin-left: 8px;
             margin-right: 8px;
@@ -2429,7 +2429,7 @@ align-items: center;
             border-radius: 0px 25px 25px 0px;
             height: 295px;
             
-            border: 8px solid white;
+           
         
         
             box-shadow: 0px 15px 45px #555;
@@ -2737,7 +2737,7 @@ align-items: center;
         }
 
 
-}
+
 
 
 
