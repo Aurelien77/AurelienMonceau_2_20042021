@@ -1907,6 +1907,7 @@ margin: 0px;
     border-bottom-left-radius: 0.7em;
     border-bottom-right-radius: 0.7em;
     height: 220px;
+    width: 80%;
     }
 
 .grid-activite  #act img {
@@ -2073,7 +2074,8 @@ margin: 0px;
 
 
 .grid-footer {
-    
+    grid-column: 1/5;
+        grid-row: 18;
     margin-top: 250px;
 width: 100%;
 display: flex;
@@ -2281,7 +2283,7 @@ align-items: center;
         border-bottom-left-radius: 0.7em;
         border-bottom-right-radius: 0.7em;
         height: 220px;
-        width: 80%;
+        width: 70%;
         }
     
     .grid-activite  #act img {
@@ -2656,6 +2658,7 @@ align-items: center;
             border-bottom-left-radius: 0.7em;
             border-bottom-right-radius: 0.7em;
             height: 220px;
+            width: 80%;
             }
         
         .grid-activite  #act img {
