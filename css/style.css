@@ -793,7 +793,7 @@ justify-content: stretch;
 .grid-footer {
     display: grid;
     text-align: left;
-    grid-column-start: 2;
+    grid-column-start: ;
     grid-column-end: 5;
     grid-row-start: 18;
     grid-row-end: 22;
@@ -1187,27 +1187,73 @@ h6 {
 
 
 }
-.grid-populaire {
-    display: ;
+
+
+
+/* SECTION LES PLUS POPULAIRES */
+.pop-class  {
+
+
+height: 50%;
+
+}
+
+#pop{
+
+width: 100%;
+   
+
+    height: 20%;
+}
+
+#pop2 {
+
     width: 100%;
-margin-top: 30px;
-  
-    background: #f2f2f2;
-    border-radius: 0.7em;
-    flex-direction: column;
+       
+    
+        height: 20%;
+    }
+#pop3{
+
+        width: 100%;
+           
+        
+            height: 20%;
+        }
+    
+
+
+/* SECTION LES PLUS POPULAIRES */
+
+.grid-populaire figure:hover {
+
     
 }
 
-
-.grid-populaire figcaption {
     
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 0px 25px 25px 0px;
+
+.grid-populaire {
+    grid-template-columns: 2/5;
+    
+    width: 110%;
+    display: flex;
+    background: #f2f2f2;
+    border-radius: 0.7em;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.grid-populaire figure figcaption {
+
+    
+   
     height: 164px;
     border: 8px solid white;
     box-shadow: 0px 15px 45px #555;
-    
+   
 }
 
 .grid-populaire img {
@@ -1216,14 +1262,15 @@ margin-top: 30px;
     border-radius: 25px 0px 0px 25px;
     border: 5px solid white;
     box-shadow: 0px 15px 25px #555;
-    
- 
-}
-div.pop-class {
- 
 }
 
 
+.grid-populaire figure {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+margin-left: 0px;
+}
 
 
 .titre{
@@ -1275,45 +1322,25 @@ flex-direction: column;
 }
 
 
-.pop-class  {
 
-    display: flex;
-    width: 100%;
-padding: 0px;
-margin: 0px;
 
-}
 
-.pop-class figure {
-    
-   
-    /* padding: -50px; */
-    height: 210px;
-    margin-left: 8px;
-    margin-right: 8px;
-    
-}
 
-.pop-class figure img {
-
-    
-    display: flex;
-    width: 120%;
-  
+/* CLASS POUR LA TAILLE DES ETOILE FIGURE + POP  */
+.grid-populaire figure i  {
+font-size: 13px;
 
 }
 
-
-
-
-
-.decpop {
-    margin-top: 10px;
+/* CLASS POUR LA HAUTEUR DES ETOIELS CALQUES + POP  */
+.grid-populaire  .decpop {
+    margin-top: 50px;
     margin-left: 10px;
+    
 }
 
-.decpop2 {
-    margin-top: 10px;
+.grid-populaire .decpop2 {
+    margin-top: 50px;
     margin-left: 10px;
 }
 
@@ -1541,7 +1568,7 @@ align-items: center;
 }
 
 
-/*  MEDIA RESPONSIBLE PHONE PAYSAGE */
+/*  MEDIA RESPONSIBLE PHONE PAYSAGE */     
 
 @media only screen and (max-width: 767px) and (orientation: landscape)  {
   
@@ -2085,7 +2112,7 @@ align-items: center;
 }
 
 /*  MEDIA RESPONSIBLE TABLETTE PORTRAIT */
-
+/* 
 @media only screen and (max-width: 1000px) and (orientation: portrait)  {
   
     .grid-container {
@@ -2468,7 +2495,7 @@ align-items: center;
     
 /*  MEDIA RESPONSIBLE TABLETTE PAYSAGE */
 
-    @media only screen and (max-width: 1024px) and (orientation: landscape)  {
+    @media only screen and (max-width: 1000px) and (orientation: landscape)  {
   
         .section-hebergement {
         
@@ -2837,7 +2864,7 @@ align-items: center;
         flex-direction: column;
         align-items: center;
         }
-        }
+        } */
 
 
 
