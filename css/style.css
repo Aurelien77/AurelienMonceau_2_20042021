@@ -793,7 +793,7 @@ justify-content: stretch;
 .grid-footer {
     display: grid;
     text-align: left;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 18;
     grid-row-end: 22;
