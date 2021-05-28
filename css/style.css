@@ -911,7 +911,7 @@ h6 {
 
 /*  Breackpoint  */
 /*  MEDIA RESPONSIBLE PHONE PORTRAIT */
-@media only screen and (max-width: 767px) and (orientation: portrait)  {
+@media only screen and (max-width: 768px) and (orientation: portrait)  {
     .grid-container {
         display: grid;
         grid-template-columns: 2% 32% 32% 32% 2%;
@@ -1570,7 +1570,7 @@ align-items: center;
 
 /*  MEDIA RESPONSIBLE PHONE PAYSAGE */     
 
-@media only screen and (max-width: 767px) and (orientation: landscape)  {
+@media only screen and (max-width: 768px) and (orientation: landscape)  {
   
     nav .inscrire  {
         font-size: 23px;
@@ -2112,8 +2112,8 @@ align-items: center;
 }
 
 /*  MEDIA RESPONSIBLE TABLETTE PORTRAIT */
-/* 
-@media only screen and (max-width: 1000px) and (orientation: portrait)  {
+
+@media only screen and (min-width: 1000px) and (orientation: portrait)  {
   
     .grid-container {
         display: grid;
