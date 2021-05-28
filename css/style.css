@@ -911,7 +911,14 @@ h6 {
 
 /*  Breackpoint  */
 /*  MEDIA RESPONSIBLE PHONE PORTRAIT */
-@media only screen and (max-width: 768px) and (orientation: portrait)  {
+@media only screen and (max-width: 375px) and (orientation: portrait)  {
+    body {
+
+
+       
+    }
+    
+    
     .grid-container {
         display: grid;
         grid-template-columns: 2% 32% 32% 32% 2%;
@@ -1334,13 +1341,13 @@ font-size: 13px;
 
 /* CLASS POUR LA HAUTEUR DES ETOIELS CALQUES + POP  */
 .grid-populaire  .decpop {
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 10px;
     
 }
 
 .grid-populaire .decpop2 {
-    margin-top: 50px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 
@@ -1558,7 +1565,8 @@ font-size: 13px;
 
 
 .grid-footer {
-    
+    grid-column: 2/5;
+    grid-row: 18;
     margin-top: 250px;
 width: 100%;
 display: flex;
@@ -1570,7 +1578,7 @@ align-items: center;
 
 /*  MEDIA RESPONSIBLE PHONE PAYSAGE */     
 
-@media only screen and (max-width: 768px) and (orientation: landscape)  {
+@media only screen and (max-width: 375px) and (orientation: landscape)  {
   
     nav .inscrire  {
         font-size: 23px;
@@ -2113,7 +2121,7 @@ align-items: center;
 
 /*  MEDIA RESPONSIBLE TABLETTE PORTRAIT */
 
-@media only screen and (min-width: 1000px) and (orientation: portrait)  {
+@media only screen and (min-width: 768px) and (orientation: portrait)  {
   
     .grid-container {
         display: grid;
@@ -2495,7 +2503,7 @@ align-items: center;
     
 /*  MEDIA RESPONSIBLE TABLETTE PAYSAGE */
 
-    @media only screen and (max-width: 1000px) and (orientation: landscape)  {
+    @media only screen and (max-width: 768px) and (orientation: landscape)  {
   
         .section-hebergement {
         
