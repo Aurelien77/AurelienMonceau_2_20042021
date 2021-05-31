@@ -2064,7 +2064,7 @@ width: 100%;
 
 }
 .grid-activite  {
-width: 80%;
+width: 70%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -2076,7 +2076,7 @@ justify-content: space-between;
 grid-column: 1/3;
 grid-row: 10;
 height: 00px;
-margin-left: 70px;
+margin-left: 110px;
 margin-top: 30px;
 width: 100%;
                     }
@@ -2103,7 +2103,7 @@ margin-left: 0px ;
  grid-column: 1/3;
  grid-row: 11;
  height: 00px;
- margin-left: 70px;
+ margin-left: 110px;;
  width: 100%;
  margin-top: 260px;
                   }
@@ -2128,7 +2128,7 @@ height: 160px;
 grid-column: 1/3;
 grid-row: 12;
 height: 00px;
-margin-left: 70px;
+margin-left: 110px;
 width: 100%;
 margin-top: 260px;
                  }
@@ -2155,7 +2155,7 @@ margin-top: 260px;
  grid-column: 1/3;
  grid-row: 13;
  height: 00px;
- margin-left: 70px;
+ margin-left: 110px;
  width: 100%;
  margin-top: 260px;
  
@@ -2192,7 +2192,7 @@ margin-left: 0px ;
 grid-column: 1/3;
 grid-row: 14;
 height: 00px;
-margin-left: 70px;
+margin-left: 110px;
 width: 100%;
 margin-top: 260px;
                 }
@@ -2220,7 +2220,7 @@ margin-left: 0px ;
 grid-column: 1/3;
 grid-row: 15;
 height: 00px;
-margin-left: 70px;
+margin-left: 110px;;
 width: 100%;
 margin-top: 260px;
                     }
