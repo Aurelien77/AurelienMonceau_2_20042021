@@ -2263,11 +2263,7 @@ align-items: left;
 
 @media only screen and (min-width: 768px) and (orientation: portrait)  {
   
-    body {
-
-
-       
-    }
+   
     
     
     .grid-container {
@@ -2284,14 +2280,15 @@ align-items: left;
                             
                                         }
     nav .inscrire  {
-        font-size: 17px;
+        font-size: 27px;
         grid-column: 1/3;
         grid-row: 1;
-        margin-top: -78px;
+        margin-top: 0px;
         margin-left: 70px;
         border-top: 0px;
         font-weight: bold;
         font-family: "relaway",sans-serif;
+
         
       }  
 
@@ -2300,7 +2297,7 @@ align-items: left;
     .logo img {
         width: auto;
         height: 50px;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-top: -10px;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -2336,12 +2333,13 @@ align-items: left;
       nav .he {
         font-weight: bold;
        font-family: "Raleway",sans-serif;
-       font-size: 17px;
+       font-size: 27px;
         margin-top: 65px;
         grid-column: 1/3;
         grid-row: 2;
-        margin-left: -170px;
+        margin-left: -70px;
         border-bottom: 0px;
+       
        
             }
     
@@ -2394,11 +2392,11 @@ align-items: left;
                         
                                  
     nav .activi  {
-        font-size: 17px;
+        font-size: 27px;
         grid-column: 1/3;
         grid-row: 2;
         margin-left: 40px;
-        margin-top: 62px;
+        margin-top: 65px;
        
         
                } 
@@ -2467,36 +2465,45 @@ align-items: left;
                                             } 
 
                                             #mon   {
-                                                width: 45%;
+                                                width: 21%;
                                                 height: 40px;
                                                 margin-top: 40px;
                                                 margin-left: -110px;
                                                 padding-top: 10px;
+                                               
                                                 
                                                 }
                                                 
                                                 #fam   {
-                                                width: 35%;
+                                                width: 15%;
                                                 height: 40px;
-                                                margin-top: -55px;
-                                                margin-left: 185px;
+                                                margin-top: 40px;
+                                                margin-left: -20px;
                                                 padding-top: 10px;
                                                 }
                                                 
                                                 
                                                 #coeur   {
-                                                width: 55%;
+                                                    display: flex;
+                                                width: 20%;
                                                 height: 40px;
-                                                margin-left: 10px;
+                                                margin-left: -20px;
                                                 padding-top: 10px;
-                                                margin-top: 10px;
+                                                margin-top: 39px;
+                                                
+                                               
                                                 }
                                                 #dog  {
-                                                width: 65%;
+                                                width: 27%;
                                                 height: 40px;
-                                                margin-left: 10px;
+                                                margin-left: 160px;
                                                 padding-top: 10px;
-                                                margin-top: 10px;
+                                                margin-top: -55px;
+                                                    }
+
+                                                    #filtre {
+  width: 100%;
+
                                                     }
 
 .grid-recherches3 {
