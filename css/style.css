@@ -355,7 +355,7 @@ nav li {
   /*PARAGRAPHE DEFINIT LES SOUS TITRES    */
 p{
 margin-left: 10px;
-font-family: "relaway" sans-serif;
+font-family: "relaway", sans-serif;
 }
 
 .titre{
@@ -363,6 +363,14 @@ font-family: "relaway" sans-serif;
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 50px;
+    font-family: "relaway",sans-serif;
+}
+
+.titreheb {
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
     font-family: "relaway",sans-serif;
 }
 
@@ -445,7 +453,7 @@ flex-direction: column;
     background: #f2f2f2;
     border-radius: 0.7em;
     
-   
+   padding-bottom: 20px;
     
 }
 
@@ -921,8 +929,9 @@ h6 {
 }
 
 .decpop2 {
-    margin-top: 33px;
+    margin-top: 55px;
     margin-left: 10px;
+    
 }
 /* BOUTON LOUPE POUR LA VERSION IPHONE / DISPLAY NONE  */
 .recha {
