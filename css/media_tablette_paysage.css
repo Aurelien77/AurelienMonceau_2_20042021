@@ -1,0 +1,72 @@
+/*  MEDIA RESPONSIBLE TABLETTE PAYSAGE */
+
+   
+
+@media only screen and (width: 1024px)  and (orientation: landscape)  {
+  
+    .grid-populaire {
+
+     width: 70%;
+    }
+
+    .pop-class {
+
+width: 100%;
+
+    }
+
+    .grid-populaire #pop2{
+     width: 82%;
+     
+     
+ }
+    .decpop  {
+
+
+    }
+
+    .decpop2  {
+margin-top: 0px;
+
+    }
+
+    .grid-activite {
+
+width: 80%;
+
+
+    }
+
+ #marsact {
+
+width: 150%;
+     margin-left: 0px;
+    
+ }
+#act4 img{
+width: 100%;
+
+}
+#act4  {
+
+
+}
+
+#act  {
+margin-right: 20px;
+
+}
+
+.section-activite img {
+max-height: 450px;
+
+
+}
+
+
+.section-activite #act {
+
+width: 160%;
+}
+
+ }
