@@ -1751,7 +1751,7 @@ h6 {
 
 /*  MEDIA RESPONSIBLE TABLETTE PAYSAGE */
 
-@media only screen and (min-width: 819px) and (orientation: landscape) {
+@media only screen and (min-width: 819px) and (max-width: 1450px) and  (orientation: landscape) {
     .grid-populaire {
       width: 100%;
   
