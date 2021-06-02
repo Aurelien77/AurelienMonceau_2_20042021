@@ -2806,10 +2806,20 @@ h6 {
 @media only screen and (width: 1024px) and (orientation: landscape) {
   .grid-populaire {
     width: 100%;
+
   }
 
   .pop-class {
     width: 100%;
+    padding:15px;
+    margin-bottom: -50px;
+    
+
+    
+  }
+ .titre {
+
+    margin-top: 50px;
   }
 
   .decpop {
@@ -2828,9 +2838,278 @@ h6 {
     font-size: 14px;
   }
 
+  .grid-hebergement {
+    width: 100%;
+    padding: 1px;
+  }
+
+ 
+
+.fa-chart-line  {
+
+margin-left: 130px;
+
+}
   #marsact {
     width: 150%;
+    margin-left: -40px;
+  }
+
+  .section-activite {
+    display: flex;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 17;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .grid-activite {
+    display: grid;
+  
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 17;
+  }
+  
+  .grid-activite figcaption {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+  
+  }
+  
+  .grid-activite #a img {
+    height: 360px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  .grid-activite #a {
+    height: 430px;
+    width: 100%;
+    margin-top: -10px;
     margin-left: 0px;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #a img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #b img {
+    height: 160px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #b {
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+  }
+  
+  .grid-activite #b img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  .grid-activite #c img {
+    height: 130px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  .grid-activite #c {
+    height: 205px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+  }
+  .grid-activite #c img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #d img {
+    height: 350px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  .grid-activite #d {
+    height: 430px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #d img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #e img {
+    height: 130px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #e {
+    height: 200px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+  }
+  .grid-activite #e img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #f img {
+    height: 140px;
+    width: 100%;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  .grid-activite #f {
+    height: 200px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+  }
+  
+  .grid-activite #f img:hover {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 10.7em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  /*  CSS TITRE */
+ 
+  }
+  /*  CSS DES CALQUES [act(X)] QUI RECOIVENT LES FIGURES DE TAILLES VARIABLES*/
+  #act {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    box-shadow: 0px 15px 25px #555;
+    width: 120%;
+    height: 400px;
+    border-radius: 0.7em;
+    margin-top: 25px;
+  }
+  
+  #act2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    box-shadow: 0px 15px 25px #555;
+    margin-left: 60px;
+    border-radius: 0.7em;
+    width: 90%;
+    height: 200px;
+    margin-top: 25px;
+  }
+  
+  #act3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    box-shadow: 0px 15px 25px #555;
+    border-radius: 0.7em;
+    width: 90%;
+    height: 163px;
+    margin-top: 260px;
+    margin-left: 60px;
+  }
+  
+  #act4 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    width: 80%;
+    height: 400px;
+    border-radius: 0.7em;
+    margin-top: 25px;
+    box-shadow: 0px 15px 25px #555;
+    margin-left: 58px;
+  }
+  
+  #act5 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    box-shadow: 0px 15px 25px #555;
+    margin-left: 25px;
+    border-radius: 0.7em;
+    width: 90%;
+    height: 180px;
+    margin-top: 25px;
+  }
+  
+  #act6 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    box-shadow: 0px 15px 25px #555;
+ 
+    margin-top: 245px;
+    border-radius: 0.7em;
+    margin-left: 25px;
+    width: 90%;
+    height: 180px;
   }
 }
 
@@ -3389,7 +3668,7 @@ h6 {
     margin-top: 350px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: left;
   }
 }
