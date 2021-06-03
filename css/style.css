@@ -1422,11 +1422,7 @@ h6 {
   
     /* SECTION LES PLUS POPULAIRES */
   
-    . .pop-class {
-      display: flex;
-      width: 100%;
-      margin-left: 5px;
-    }
+  
   
     #pop {
       margin-top: auto;
@@ -1466,7 +1462,7 @@ h6 {
     }
   
     .grid-populaire {
-      grid-template-columns: 2/5;
+      
   
       width: 111%;
       display: flex;
@@ -1755,7 +1751,8 @@ h6 {
       width: 100%;
       display: flex;
       flex-direction: row;
-      align-items: left;
+      text-align: left;
+      justify-content: space-around;
     }
   }
   
@@ -2335,10 +2332,7 @@ h6 {
     }
   
     .grid-populaire {
-      grid-template-columns: 2/5;
-  
       width: 100%;
-  
       background: #f2f2f2;
       border-radius: 0em;
     }
@@ -2613,7 +2607,8 @@ h6 {
       width: 100%;
       display: flex;
       flex-direction: row;
-      align-items: left;
+      text-align: left;
+      justify-content: space-around;
     }
   }
   
@@ -2880,8 +2875,6 @@ h6 {
   }
 
   .grid-populaire {
-    grid-template-columns: 2/5;
-
     width: 100%;
     display: flex;
     background: #f2f2f2;
@@ -3180,7 +3173,8 @@ h6 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    text-align: left;
+    justify-content: space-around;
   }
 }
 /* PHONE 5s */
@@ -3701,7 +3695,8 @@ h6 {
       width: 110%;
       display: flex;
       flex-direction: column;
-      align-items: left;
+      text-align: left;
+      justify-content: space-around;
     }
   }
 
@@ -4235,7 +4230,7 @@ margin-top: 45px;
   }
  
   }
-}
+
 
 
   
