@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
+  
   width: 100%;
 }
 
@@ -68,6 +69,7 @@ nav li {
   text-decoration: none;
   list-style: none;
   margin-right: 25px;
+  
 }
 
 .inscrire a {
@@ -88,6 +90,8 @@ nav li {
 .activi a {
   color: black;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+ 
 }
 
 .activi :hover {
@@ -108,6 +112,9 @@ nav li {
 .he a {
   color: black;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+ 
+
 }
 
 .he :hover {
@@ -419,6 +426,9 @@ p {
 .pop-class {
   width: 100%;
 }
+
+
+
 #pop2 h3 {
   font-family: "relaway", sans-serif;
   font-weight: bold;
@@ -793,7 +803,8 @@ h2 {
   font-size: 12px;
   margin-top: -0px;
   font-weight: bold;
-  color: #494848;
+  color: #949292;
+  font-family: "Relaway",sans-serif;
 }
 
 h3 {
@@ -1738,7 +1749,7 @@ h6 {
     }
   
     .grid-footer {
-      grid-column: 2/5;
+      grid-column: 1/6;
       grid-row: 18;
       margin-top: 350px;
       width: 100%;
@@ -2215,13 +2226,20 @@ h6 {
   
       background-color: white;
     }
+
+    #filtre i {
+      padding: 10px;
+  
+   
+    }
+  
   
     #mon {
       width: 30%;
       height: 40px;
       margin-top: 40px;
       margin-left: -110px;
-      padding-top: 10px;
+      padding-top: 0px;
     }
   
     #fam {
@@ -2229,21 +2247,21 @@ h6 {
       height: 40px;
       margin-top: 40px;
       margin-left: -30px;
-      padding-top: 10px;
+      padding-top: 0px;
     }
   
     #coeur {
-      width: 25%;
+      width: 27%;
       height: 40px;
       margin-left: -380px;
-      padding-top: 10px;
+      padding-top: 0px;
       margin-top: 105px;
     }
     #dog {
       width: 35%;
       height: 40px;
   
-      padding-top: 10px;
+      padding-top: 0px;
       margin-top: 170px;
       margin-left: -380px;
     }
@@ -2763,34 +2781,41 @@ h6 {
     background-color: white;
   }
 
+  #filtre i {
+    font-size: 20px;
+    padding: 10px;
+    
+  }
+
+
   #mon {
-    width: 45%;
+    width: 48%;
     height: 40px;
     margin-top: 40px;
     margin-left: -110px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   #fam {
     width: 35%;
     height: 40px;
-    margin-top: -55px;
-    margin-left: 185px;
-    padding-top: 10px;
+    margin-top: -45px;
+    margin-left: 200px;
+    padding-top: 0px;
   }
 
   #coeur {
-    width: 55%;
+    width: 46%;
     height: 40px;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-top: 10px;
   }
   #dog {
-    width: 65%;
+    width: 62%;
     height: 40px;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-top: 10px;
   }
 
@@ -3317,38 +3342,43 @@ h6 {
   
     #filtre {
       font-size: 20px;
-  
+ 
       background-color: white;
+    }
+
+    #filtre i {
+      padding: 12px;
     }
   
     #mon {
-      width: 55%;
+      width: 56%;
       height: 40px;
       margin-top: 40px;
       margin-left: -110px;
-      padding-top: 10px;
+      padding-top: 0px;
+     
     }
   
     #fam {
-      width: 45%;
+      width: 40%;
       height: 40px;
-      margin-top: -55px;
-      margin-left: 185px;
-      padding-top: 10px;
+      margin-top: -45px;
+      margin-left: 195px;
+      padding-top: 0px;
     }
   
     #coeur {
-      width: 55%;
+      width: 53%;
       height: 40px;
       margin-left: 10px;
-      padding-top: 10px;
+      padding-top: 0px;
       margin-top: 10px;
     }
     #dog {
-      width: 75%;
+      width: 70%;
       height: 40px;
       margin-left: 10px;
-      padding-top: 10px;
+      padding-top: 0px;
       margin-top: 10px;
     }
   
@@ -3953,9 +3983,259 @@ margin-top: 45px;
   }
 
 }
+
+/*  gestion puces  */
+@media only screen and (width: 731px) and (orientation: landscape)   {
+
+
+  #coeur {
+    width: 27%;
+    height: 40px;
+    margin-left: -425px;
+    padding-top: 0px;
+    margin-top: 105px;
+  }
+  #dog {
+    width: 35%;
+    height: 40px;
+  
+    padding-top: 0px;
+    margin-top: 170px;
+    margin-left: -425px;
+  }
   
 
 
+}
+  /* puces PHONE 5s PAYSAGE*/
+@media only screen and (width: 568px) and (orientation: landscape)   {
+
+
+  #filtre {
+    font-size: 20px;
+
+    background-color: white;
+  }
+
+  #filtre i {
+    padding: 12px;
+  }
+
+  #mon {
+    width: 32%;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: -100px;
+    padding-top: 0px;
+   
+  }
+
+  #fam {
+    width: 24%;
+    height: 40px;
+    margin-top: -45px;
+    margin-left: 215px;
+    padding-top: 0px;
+  }
+
+  #coeur {
+    width: 30%;
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+  #dog {
+    width: 40%;
+    height: 40px;
+    margin-left: -215px;
+    padding-top: 0px;
+    margin-top: 65px;
+  }
+  
+
+
+}
+/* puces PHONE 6/7/8 PAYSAGE*/
+@media only screen and (width: 667px)  and (orientation: landscape) {
+
+  #coeur {
+    margin-left: -390px;
+  }
+  #dog {
+    margin-left: -390px;
+  }
+
+}
+/*puces PHONE 6/7/8 plus PAYSAGE*/
+@media only screen and (width: 736px)  and (orientation: landscape) {
+
+  #coeur {
+    margin-left: -425px;
+  }
+  #dog {
+    margin-left: -425px;
+  }
+
+}
+/* puces PHONE X PAYSAGE*/
+@media only screen and (width: 812px)  and (orientation: landscape) {
+
+  #coeur {
+    margin-left: -460px;
+  }
+  #dog {
+    margin-left: -460px;
+  }
+
+}
+/* puces surface duo portrait*/
+@media only screen and (width: 540px)  and (orientation: portrait) {
+
+  #filtre {
+    font-size: 20px;
+
+    background-color: white;
+  }
+
+  #filtre i {
+    padding: 12px;
+  }
+
+  #mon {
+    width: 33%;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: -100px;
+    padding-top: 0px;
+   
+  }
+
+  #fam {
+    width: 24%;
+    height: 40px;
+    margin-top: -45px;
+    margin-left: 215px;
+    padding-top: 0px;
+  }
+
+  #coeur {
+    width: 32%;
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+  #dog {
+    width: 43%;
+    height: 40px;
+    margin-left: -215px;
+    padding-top: 0px;
+    margin-top: 65px;
+  }
+  
+
+}
+
+/* puces surface duo paysage*/
+@media only screen and (width: 720px)  and (orientation: landscape) {
+
+  #filtre {
+    font-size: 20px;
+
+    background-color: white;
+  }
+
+  #filtre i {
+    padding: 12px;
+  }
+
+  #mon {
+    width: 25%;
+    
+   
+  }
+
+  #fam {
+    width: 18%;
+    
+  }
+
+  #coeur {
+    width: 24%;
+    height: 40px;
+    margin-left: -365px;
+    padding-top: 0px;
+    margin-top: 95px;
+  }
+  #dog {
+    width: 32%;
+    height: 40px;
+    margin-left: -365px;
+    padding-top: 0px;
+    margin-top: 150px;
+  }
+  
+
+}
+/* puces galaxy fold portrait*/
+@media only screen and (width: 280px)  and (orientation: portrait) {
+
+.grid-recherches1 {
+
+  
+  width: 110%;
+}
+
+
+  #filtre {
+    font-size: 20px;
+
+    background-color: white;
+  }
+
+  #filtre i {
+    padding: 12px;
+  }
+
+  #mon {
+    width: 55%;
+    
+   
+  }
+
+  #fam {
+    width: 40%;
+    
+  }
+
+  #coeur {
+    width: 60%;
+    height: 40px;
+    margin-left: -365px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+  #dog {
+    width: 70%;
+    height: 40px;
+    margin-left: -365px;
+    padding-top: 0px;
+    margin-top: 66px;
+  }
+  .grid-populaire{
+
+    width: 120%;
+  }
+  .section-activite{
+    width: 100%;
+  }
+  .pop-class {
+    width: 100%;
+  }
+ 
+  }
+}
 
 
   
