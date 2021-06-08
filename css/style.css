@@ -4128,6 +4128,17 @@ margin-top: 45px;
     padding-top: 0px;
     margin-top: 65px;
   }
+
+  nav .inscrire {
+    font-size: 17px;
+    grid-column: 1/3;
+    grid-row: 1;
+    margin-top: 0px;
+    margin-left: 70px;
+    border-top: 0px;
+    font-weight: bold;
+    font-family: "relaway", sans-serif;
+  }
   
 
 }
