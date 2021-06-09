@@ -2736,7 +2736,7 @@ h6 {
    color: #0065fc;
     padding-bottom: 15px;
     padding-left: 35px;
-    padding-right: 60px;
+    padding-right: 35px;
  border-top: 0px;
   }
 
@@ -3241,8 +3241,11 @@ h6 {
      
     }
     .activi :visited {
-      color: #0065fc;
-      border-bottom: 0px;
+      color: black;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 46px;
+      padding-right: 65px;
     }
   
     .activi a {
@@ -3257,13 +3260,26 @@ h6 {
       color: #0065fc;
       border-bottom: 4px solid #0065fc;
       padding-bottom: 15px;
-      border-top: 0px;
+     border-top: 0px;
+      padding-bottom: 15px;
+      padding-left: 35px;
+      padding-right: 60px;
+    }
+  
+    .activi :active {
+      color: #0065fc;
+      border-bottom: 4px solid #0065fc;
+      padding-bottom: 15px;
+     
     }
     
   
     .he :visited {
-      color: #0065fc;
-      border-bottom: 0px;
+      color: black;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 46px;
+      padding-right: 65px;
     }
   
     .he a {
@@ -3275,20 +3291,23 @@ h6 {
     }
   
     .he :hover {
-      color: #0065fc;
       border-bottom: 4px solid #0065fc;
       padding-bottom: 15px;
-      border-top: 0px;
+     color: #0065fc;
       padding-bottom: 15px;
       padding-left: 35px;
-      padding-right: 60px;
+      padding-right: 35px;
+   border-top: 0px;
     }
   
     .he :active {
       color: #0065fc;
       border-bottom: 4px solid #0065fc;
       padding-bottom: 15px;
-      border-top: 0px;
+     
+      padding-bottom: 15px;
+      padding-left: 35px;
+      padding-right: 60px;
   
     }
   
