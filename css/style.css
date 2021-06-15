@@ -2596,11 +2596,33 @@ h6 {
 /*  MEDIA RESPONSIBLE PHONE PORTRAIT */
 
 @media only screen and (max-width: 735px) and (orientation: portrait) {
+
+  body {
+
+    margin: 0px;
+  }
+  .grid-header {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 0px;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 0% 33% 33% 33% 0%;
   }
- 
+.grid-navigation {
+
+  width: 90%;
+}
+.grid-recherches2 {
+margin-left: 0px;
+
+
+}
+
   nav {
     border-top: 0px;
     border-bottom: 0px;
@@ -2648,7 +2670,7 @@ h6 {
     margin-top: 65px;
     grid-column: 1/3;
     grid-row: 2;
-    margin-left: -160px;
+    margin-left: -100px;
    
   }
   .activi :visited {
@@ -2730,13 +2752,41 @@ h6 {
     margin-top: -20px;
   }
 
-  
+  .grid-recherches {
+    display: grid;
+    margin-top: -50px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-top: -25px;
+    width: 100%;
+  }
 
   .grid-recherches {
     text-align: left;
 
     margin-top: 0px;
   }
+
+  .grid-recherches1 {
+    display: grid;
+    line-height: 6;
+    align-content: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 50px;
+   
+    width: 90%;
+  }
+
+
 
   h1 {
     font-size: 25px;
@@ -2760,7 +2810,7 @@ h6 {
 
   #filtre {
     font-size: 20px;
-
+margin-left: 0px;
     background-color: white;
   }
 
@@ -2775,7 +2825,7 @@ h6 {
     width: 48%;
     height: 40px;
     margin-top: 40px;
-    margin-left: -110px;
+    margin-left: 30px;
     padding-top: 0px;
   }
 
@@ -2783,21 +2833,21 @@ h6 {
     width: 35%;
     height: 40px;
     margin-top: -45px;
-    margin-left: 200px;
+    margin-left: 0px;
     padding-top: 0px;
   }
 
   #coeur {
     width: 46%;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-top: 0px;
     margin-top: 10px;
   }
   #dog {
     width: 62%;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-top: 0px;
     margin-top: 10px;
   }
@@ -2868,13 +2918,22 @@ h6 {
     background: #f2f2f2;
     border-radius: 0em;
     flex-direction: column;
-    
+    .grid-header {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
   
     margin-top: 30px;
     padding-bottom: 30px;
     
   }
+.pop-encadrement {
+width: 80%;
 
+}
   .grid-populaire figure figcaption {
     height: 124px;
     border: 8px solid white;
@@ -2910,17 +2969,22 @@ h6 {
   /* SECTION HEBERGEMENT */
   .section-hebergement {
     flex-direction: column-reverse;
-
+width: 100%;
 
   }
+
+
+
+  
 
   .grid-hebergement {
     background: white;
     border-radius: 0.7em;
-
+    margin-right: 0px;
     width: 100%;
     display: flex;
-
+    padding-left: 0px;
+    padding-right: 0px;
     flex-direction: column;
   }
 
@@ -2987,7 +3051,7 @@ h6 {
   .grid-activite {
     grid-column: 1/3;
     grid-row: 10;
-    width: 280%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   
@@ -4332,7 +4396,7 @@ margin-top: 45px;
     .grid-recherches1 {
     
       
-      width: 110%;
+      width: 100%;
     }
     
     
