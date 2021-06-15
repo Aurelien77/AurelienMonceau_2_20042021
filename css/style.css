@@ -151,6 +151,7 @@ nav li {
   grid-row-start: 3;
   grid-row-end: 3;
   height: 50px;
+  
 }
 
 /*  BOUTON SECTION RECHERCHER    */
@@ -168,6 +169,7 @@ nav li {
   border-top-right-radius: 0.9em;
   width: 120px;
   height: 40px;
+  border: none;
 }
 
 /*  CLASS POUR LES FILTRES DE LA SECTION RECHERCHE  */
@@ -418,9 +420,13 @@ p {
 /* SECTION LES PLUS POPULAIRES */
 .pop-class {
   width: 100%;
+ 
 }
 
+#pop {
+padding-top: 7px;
 
+}
 
 #pop2 h3 {
   font-family: "relaway", sans-serif;
@@ -472,6 +478,7 @@ transform: scale(1);
   flex-direction: row;
   height: 200px;
   justify-content: center;
+ 
 }
 
 .nuit {
