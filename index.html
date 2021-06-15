@@ -37,20 +37,20 @@
       <!--   CONTAINER POUR DEFINISSION DE CSS GRID   -->
       <header class="grid-header">
         <!--   HEADER   -->
-        <figure class="logo">
+        <div class="logo">
           <!--   Logo    -->
           <img src="images/logo/Reservia@3x.png" alt="Image de logo Reservia" />
-        </figure>
-        <div class="grid-navigation">
+        </div>
+        
           <!--  <nav> Navigation   -->
-          <nav>
+          <nav class="grid-navigation">
             <ul>
               <li class="he"><a href="#mar"> Hébergements </a></li>
               <li class="activi"><a href="#marsact"> Activités </a></li>
               <li class="inscrire"><a href="#"> S'inscrire </a></li>
             </ul>
           </nav>
-        </div>
+        
       </header>
 
       <div class="grid-recherches">
@@ -128,11 +128,11 @@
               </a>
               <figcaption>
                 <h3>Auberge la cannebière</h3>
-                <p>Nuit à partir de <strong> 25 $ </strong></p>
+                <p>Nuit à partir de <span class="bold"> 25 $ </span></p>
                 <div class="dec">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i
-                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                  ><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
               </figcaption>
             </figure>
@@ -148,7 +148,7 @@
               </a>
               <figcaption>
                 <h3>Hôtel du port</h3>
-                <p>Nuit à partir de <strong>52 $ </strong></p>
+                <p>Nuit à partir de <span class="bold">52 $ </span></p>
                 <div class="dec">
                   <i class="fas fa-star"></i><i class="fas fa-star"></i
                   ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -168,7 +168,7 @@
               </a>
               <figcaption>
                 <h3>Hôtel Les mouettes</h3>
-                <p>Nuit à partir de <strong>76 $</strong></p>
+                <p>Nuit à partir de <span class="bold">76 $</span></p>
                 <div class="dec">
                   <i class="fas fa-star"></i><i class="fas fa-star"></i
                   ><i class="fas fa-star"></i><i class="fas fa-star noir"></i>
@@ -187,7 +187,7 @@
               </a>
               <figcaption>
                 <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de <strong>46 $</strong></p>
+                <p>Nuit à partir de <span class="bold">46 $</span></p>
                 <div class="dec">
                   <i class="fas fa-star"></i><i class="fas fa-star"></i
                   ><i class="fas fa-star"></i><i class="fas fa-star noir"></i
@@ -207,7 +207,7 @@
               </a>
               <figcaption>
                 <h3>Auberge Le Panier</h3>
-                <p>Nuit à partir de<strong> 23 $</strong></p>
+                <p>Nuit à partir de <span class="bold"> 23 $</span></p>
                 <div class="dec">
                   <i class="fas fa-star"></i><i class="fas fa-star"></i
                   ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -227,7 +227,7 @@
               </a>
               <figcaption>
                 <h3>Hôtel chez amina</h3>
-                <p>Nuit à partir de <strong>96$</strong></p>
+                <p>Nuit à partir de <span class="bold">96$</span></p>
                 <div class="dec">
                   <i class="fas fa-star"></i><i class="fas fa-star"></i
                   ><i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -263,7 +263,7 @@
 
                 <figcaption>
                   <h3>Hôtel Le soleil du matin</h3>
-                  <h4 class="nuit">Nuit à partir de 128 <strong>$</strong></h4>
+                  <h4 class="nuit">Nuit à partir de 128 <span class="bold">$</span></h4>
                   <div class="decpop">
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
@@ -282,7 +282,7 @@
                 /></a>
                 <figcaption>
                   <h3>Au coeur de l'eau <br />Chambres d'hôtes</h3>
-                  <h4 class="nuit">Nuit à partir de 71 <strong>$</strong></h4>
+                  <h4 class="nuit">Nuit à partir de 71 <span class="bold">$</span></h4>
                   <div class="decpop2">
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
@@ -303,7 +303,7 @@
 
                 <figcaption>
                   <h3>Hôtel Tout bleu et Blanc</h3>
-                  <h4 class="nuit">Nuit à partir de 68 <strong>$</strong></h4>
+                  <h4 class="nuit">Nuit à partir de 68 <span class="bold">$</span></h4>
                   <div class="decpop">
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i> <i class="fas fa-star"></i>
@@ -315,7 +315,7 @@
           </section>
         </div>
       </div>
-      <div class="section-activite">
+      
         <section class="grid-activite">
           <!-- Section Class Grid Activités   -->
           <div id="marsact"><h5>Activité à Marseille</h5></div>
@@ -390,7 +390,7 @@
             </figure>
           </div>
         </section>
-      </div>
+ 
 
       <footer class="grid-footer">
         <!-- Section Class Grid FOOTER   -->

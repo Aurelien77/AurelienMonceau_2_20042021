@@ -33,18 +33,11 @@ body {
   grid-row-end: 1;
 }
 
-.grid-logo {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
 
 .logo img {
   width: auto;
-  height: 30px;
-  margin-left: -40px;
+  height: 40px;
+  margin-left: 0px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -346,7 +339,7 @@ nav li {
   background: #f2f2f2;
   border-radius: 0.7em;
   margin-right: 40px;
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding-left: 35px;
@@ -434,9 +427,10 @@ p {
   font-weight: bold;
   padding-right: 30px;
 }
-
+/* gère la taille de la section Les plus populaire */
 .pop-encadrement {
   display: flex;
+  width: 40%;
 }
 
 .grid-populaire {
@@ -485,20 +479,11 @@ transform: scale(1);
 }
 
 /* SECTION ACTIVITES */
-.section-activite {
-  display: flex;
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 12;
-  grid-row-end: 17;
-  width: 100%;
-  justify-content: space-around;
-}
+
 
 .grid-activite {
   display: grid;
-
+width: auto;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 12;
@@ -661,7 +646,7 @@ transform: scale(1);
 
 /*  CSS TITRE */
 #marsact {
-  margin-left: -170px;
+  margin-left: 0px;
   margin-top: 20px;
   font-family: "relaway", sans-serif;
   margin-bottom: -15px;
@@ -792,7 +777,11 @@ transform: scale(1);
 }
 
 /*  GENERIQUE */
+.bold {
 
+font-family: "relaway",sans-serif;
+font-weight: bold;
+}
 ul {
   list-style: none;
   display: inline-block;
@@ -879,16 +868,8 @@ h6 {
     margin-top: 20px;
   }
 
-  .logo img {
-    height: 150px;
-    margin-right: 230px;
-  }
-  .grid-logo {
-    display: flex;
-    width: auto;
-
-    justify-content: left;
-  }
+ 
+ 
 
   .grid-recherches1 {
     display: flex;
@@ -1234,7 +1215,7 @@ h6 {
     .logo img {
       width: auto;
       height: 50px;
-      margin-left: -20px;
+      margin-left: 0px;
       margin-top: -10px;
       grid-column-start: 2;
       grid-column-end: 3;
@@ -1583,12 +1564,7 @@ h6 {
       margin-left: 0px;
     }
   
-    .section-activite {
-      display: flex;
-      flex-direction: column;
-  
-      width: 80%;
-    }
+   
     .grid-activite {
       width: 100%;
       display: flex;
@@ -1819,16 +1795,7 @@ h6 {
       margin-left: -40px;
     }
   
-    .section-activite {
-      display: flex;
-      text-align: center;
-      grid-column-start: 2;
-      grid-column-end: 5;
-      grid-row-start: 12;
-      grid-row-end: 17;
-      width: 100%;
-      justify-content: space-around;
-    }
+  
     
     .grid-activite {
       display: grid;
@@ -2095,7 +2062,7 @@ h6 {
     .logo img {
       width: auto;
       height: 50px;
-      margin-left: -40px;
+      margin-left: 0px;
       margin-top: -10px;
       grid-column-start: 2;
       grid-column-end: 3;
@@ -2440,10 +2407,7 @@ h6 {
       
     }
   
-    .section-activite {
-      width: 100%;
-      display: flex;
-    }
+   
     .grid-activite {
       width: 70%;
       display: flex;
@@ -2629,7 +2593,7 @@ h6 {
     display: grid;
     grid-template-columns: 0% 33% 33% 33% 0%;
   }
-
+ 
   nav {
     border-top: 0px;
     border-bottom: 0px;
@@ -2638,8 +2602,8 @@ h6 {
     font-size: 17px;
     grid-column: 1/3;
     grid-row: 1;
-    margin-top: -78px;
-    margin-left: 70px;
+    margin-top: -95px;
+    margin-left: 100px;
     border-top: 0px;
     font-weight: bold;
     font-family: "relaway", sans-serif;
@@ -2648,7 +2612,7 @@ h6 {
   .logo img {
     width: auto;
     height: 50px;
-    margin-left: -40px;
+    margin-left: 0px;
     margin-top: -10px;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -2677,7 +2641,7 @@ h6 {
     margin-top: 65px;
     grid-column: 1/3;
     grid-row: 2;
-    margin-left: -190px;
+    margin-left: -160px;
    
   }
   .activi :visited {
@@ -2755,7 +2719,7 @@ h6 {
     font-size: 17px;
     grid-column: 1/3;
     grid-row: 2;
-    margin-left: 0px;
+    margin-left: 22px;
     margin-top: -20px;
   }
 
@@ -2846,8 +2810,8 @@ h6 {
 
   /* SECTION LES PLUS POPULAIRES */
   .pop-class {
-    width: 90%;
-    margin-left: 5px;
+    width: 100%;
+    
   }
 
   #pop {
@@ -2892,13 +2856,13 @@ h6 {
   }
 
   .grid-populaire {
-    width: 100%;
+    width: auto;
     display: flex;
     background: #f2f2f2;
     border-radius: 0em;
     flex-direction: column;
-    align-items: center;
-    margin-left: 0px;
+    
+  
     margin-top: 30px;
     padding-bottom: 30px;
     
@@ -2940,14 +2904,14 @@ h6 {
   .section-hebergement {
     flex-direction: column-reverse;
 
-    width: 105%;
+
   }
 
   .grid-hebergement {
     background: white;
     border-radius: 0.7em;
 
-    width: 84%;
+    width: 100%;
     display: flex;
 
     flex-direction: column;
@@ -2960,14 +2924,18 @@ h6 {
   .grid-hebergement figure img {
     height: 130px;
     width: 100%;
+    
   }
 
+ 
+
   .heb-class {
-    width: 100%;
+    width: 90%;
     margin-bottom: 30px;
     box-shadow: 0px 15px 25px #555;
     border: 3px solid white;
     border-radius: 25px 25px 25px 25px;
+    margin-left: -30px;
   }
 
   .titrea {
@@ -3008,16 +2976,15 @@ h6 {
     margin-left: 0px;
   }
 
-  .section-activite {
-    width: 96%;
-  }
+ 
   .grid-activite {
     grid-column: 1/3;
     grid-row: 10;
-    width: 100%;
+    width: 280%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  
+    
   }
 
   #act {
@@ -3222,7 +3189,7 @@ h6 {
     .logo img {
       width: auto;
       height: 50px;
-      margin-left: -40px;
+      margin-left: 0px;
       margin-top: -10px;
       grid-column-start: 2;
       grid-column-end: 3;
@@ -3522,11 +3489,7 @@ h6 {
       margin-left: 0px;
     }
   
-    .section-activite {
-      width: 115%;
-      margin-left: 0px;
-      margin-right: 10px;
-    }
+  
     .grid-activite {
       grid-column: 1/3;
       grid-row: 10;
@@ -3754,17 +3717,7 @@ margin-top: 45px;
     margin-left: -40px;
   }
 
-  .section-activite {
-    display: flex;
-    text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 12;
-    grid-row-end: 17;
-    width: 100%;
-    justify-content: space-around;
-  }
-  
+ 
   .grid-activite {
     display: grid;
   
@@ -4359,9 +4312,7 @@ margin-top: 45px;
 
     width: 120%;
   }
-  .section-activite{
-    width: 100%;
-  }
+ 
   .pop-class {
     width: 100%;
   }
@@ -4421,10 +4372,7 @@ margin-top: 45px;
 
 margin-left: -15px;
       }
-      .section-activite{
-        width: 94%;
-        
-      }
+    
       .pop-class {
         width: 100%;
       }
@@ -4776,9 +4724,7 @@ margin-left: -15px;
   width: 110%;
 }
 
-.section-activite {
-  width: 110%;
-}
+
 
      .grid-footer {
 
@@ -5053,9 +4999,7 @@ margin-left: -15px;
        width: 80%;
      }
 
-     .section-activite {
-      width: 80%;
-    }
+ 
 
     .grid-footer {
       width: 80%;
