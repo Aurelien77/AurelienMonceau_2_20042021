@@ -2,7 +2,7 @@ body {
   background-color: white;
   font-family: "Raleway", sans-serif;
   
- 
+ border: 2px solid;
 }
 
 @font-face {
@@ -2186,8 +2186,8 @@ h6 {
     .logo img {
       width: auto;
       height: 50px;
-      margin-left: 0px;
-      margin-top: -10px;
+      margin-left: 20px;
+      margin-top: 0px;
       grid-column-start: 2;
       grid-column-end: 3;
       grid-row-start: 1;
@@ -2208,93 +2208,96 @@ h6 {
       border-bottom: 0px;
     }
   
-    nav .he {
-      font-weight: bold;
-      font-family: "Raleway", sans-serif;
-      font-size: 17px;
-  
-      grid-column: 1/3;
-      grid-row: 2;
-      margin-left: -50px;
-      border-bottom: 0px;
-      margin-top: 60px;
+    .activi :visited {
+      color: black;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 46px;
+      padding-right: 65px;
     }
   
     .activi a {
       color: black;
-      text-decoration: none;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-      border-top: 0px;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-left: 0px;
     }
   
+    
     .activi :hover {
       color: #0065fc;
       border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-      border-top: 0px;
-      border-bottom: 0px;
+      padding-bottom: 15px;
+     border-top: 0px;
+      padding-bottom: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
     }
   
-    .activi :visited {
+    .activi :active {
       color: #0065fc;
       border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-      border-top: 0px;
-      border-bottom: 0px;
+      padding-bottom: 15px;
+     
     }
+    
   
     .he :visited {
-      color: #0065fc;
-      border-bottom: 0px;
+      color: black;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 46px;
+      padding-right: 65px;
     }
   
     .he a {
       color: black;
-      text-decoration: none;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 9px;
-      border-top: 0px;
-      border-bottom: 0px;
+      border-bottom: 4px solid #f2f2f2;
+      padding-bottom: 15px;
+      padding-left: 100px;
+      padding-right:70px;
+      margin-left: 0px;
+    
+    }
+    nav .he {
+      margin-left: -150px;
+      margin-top: 50px;
     }
   
     .he :hover {
-      color: #0065fc;
       border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-      border-top: 0px;
+      padding-bottom: 15px;
+     color: #0065fc;
+      padding-bottom: 15px;
+      padding-left: 100px;
+      padding-right:70px;
+   border-top: 0px;
     }
   
+    .he :active {
+      color: #0065fc;
+      border-bottom: 4px solid #0065fc;
+      padding-bottom: 15px;
+     
+      padding-bottom: 15px;
+      padding-left: 35px;
+      padding-right: 60px;
+  
+    }
+ 
     nav .activi {
-      font-size: 17px;
-      grid-column: 1/3;
-      grid-row: 2;
-      margin-top: 60px;
-      margin-left: 120px;
-    }
-  
-    .activi a {
-      color: black;
-      text-decoration: none;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-      border-bottom: 0px;
-    }
-  
-    .activi :hover {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 5px;
-    }
-  
-    .activi :visited {
-      color: #0065fc;
-    }
+     
+     margin-top:-22px;
+     margin-left: 150px;
+   }
   
     .grid-recherches {
       text-align: left;
-  
+  width: 90%;
       margin-top: 0px;
+      margin-left: 20px;
     }
   
     h1 {
@@ -2302,7 +2305,14 @@ h6 {
       font-weight: bold;
       font-family: "relaway", sans-serif;
     }
-  
+
+    .grid-recherches1 {
+
+      margin-left: 20px;
+    }
+  .grid-recherches2 {
+    margin-left: 20px;
+  }
     .grid-recherches h2 {
       text-align: left;
       font-family: "relaway", sans-serif;
@@ -2319,7 +2329,7 @@ h6 {
   
     #filtre {
       font-size: 20px;
-  
+  margin-left: -50px;
       background-color: white;
     }
 
@@ -2339,7 +2349,7 @@ h6 {
     }
   
     #fam {
-      width: 20%;
+      width: 22%;
       height: 40px;
       margin-top: 40px;
       margin-left: -30px;
@@ -2347,14 +2357,14 @@ h6 {
     }
   
     #coeur {
-      width: 27%;
+      width: 30%;
       height: 40px;
       margin-left: -380px;
       padding-top: 0px;
       margin-top: 105px;
     }
     #dog {
-      width: 35%;
+      width: 40%;
       height: 40px;
   
       padding-top: 0px;
@@ -2379,8 +2389,12 @@ h6 {
     .section-hebergement {
       display: flex;
       flex-direction: column-reverse;
-  
-      width: 100%;
+ 
+      width: 90%;
+    }
+    .pop-encadrement {
+
+      width: 112%;
     }
     .pop-class {
       display: flex;
@@ -2392,7 +2406,7 @@ h6 {
   
     #pop {
       display: flex;
-      margin-left: 10px;
+      
       width: 100%;
       justify-content: center;
     }
@@ -2400,11 +2414,16 @@ h6 {
     #pop2 {
       width: 100%;
       justify-content: center;
-      margin-left: 10px;
+     
+    }
+
+    #pop2 h3 {
+      padding
+     
     }
     #pop3 {
       width: 100%;
-      margin-left: 10px;
+      
       justify-content: center;
     }
   
@@ -2434,6 +2453,7 @@ h6 {
       width: 100%;
       background: #f2f2f2;
       border-radius: 0em;
+  
     }
   
     .grid-populaire img {
@@ -2460,15 +2480,16 @@ h6 {
     .grid-hebergement {
       border-radius: 0.7em;
       background-color: white;
-      width: 90%;
+      width: 100%;
       display: flex;
-  
+      margin-left: 0px;
       flex-direction: column;
     }
   
     .grid-hebergement .titre {
       margin-left: 55px;
       width: 100%;
+      
     }
   
     .grid-hebergement figure img {
@@ -2477,12 +2498,12 @@ h6 {
     }
   
     .heb-class {
-      width: 75%;
+      width: 100%;
       margin-bottom: 30px;
       box-shadow: 0px 15px 25px #555;
       border: 3px solid white;
       border-radius: 25px 25px 25px 25px;
-      margin-left: 55px;
+      margin-left: 0px;
     }
   
     .titrea {
@@ -2533,10 +2554,11 @@ h6 {
   
    
     .grid-activite {
-      width: 70%;
+      width: 90%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      margin-left: 40px;
     }
   
     #act {
@@ -3371,7 +3393,7 @@ padding: 0px;
     
   }
 }
-/* PHONE 5s */
+/* PHONE 5s portrait */ 
 
 @media only screen and (width: 320px)  and (orientation: portrait) {
   body {
@@ -4069,6 +4091,62 @@ padding: 0px;
         
       }
   }
+/* PHONE 5s paysage */ 
+
+@media only screen and (width: 568px) and (orientation: landscape) {
+
+nav {
+width: 80%;
+ margin-left: 20px; 
+ 
+}
+#filtre {
+  font-size: 15px;
+  margin-left: 0px;
+  background-color: white;
+  padding: 0px;
+  width: 90%;
+}
+
+#filtre i {
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+
+#mon {
+  width: 33%;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: -90px;
+  padding-top: 0px;
+}
+
+#fam {
+  width: 23%;
+  height: 40px;
+  margin-top: -45px;
+  margin-left: 180px;
+  padding-top: 0px;
+}
+
+#coeur {
+  width: 30%;
+  height: 40px;
+  margin-left: 7px;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+#dog {
+  width: 38%;
+  height: 40px;
+  margin-left: -185px;
+  padding-top: 0px;
+  margin-top: 65px;
+}
+
+}
 /*  MEDIA RESPONSIBLE GALAXY FOLD PORTRAIT */
 @media only screen and (width: 280px)  and (orientation: portrait) {
 .section-hebergement{
@@ -4357,1229 +4435,6 @@ margin-top: 45px;
 
 }
 
-/*  gestion puces */
-@media only screen and (width: 731px) and (orientation: landscape)   {
-
-
-  #coeur {
-    width: 27%;
-    height: 40px;
-    margin-left: -425px;
-    padding-top: 0px;
-    margin-top: 105px;
-  }
-  #dog {
-    width: 35%;
-    height: 40px;
-  
-    padding-top: 0px;
-    margin-top: 170px;
-    margin-left: -425px;
-  }
-  
-
-
-}
-  /* puces PHONE 5s PAYSAGE*/
-@media only screen and (width: 568px) and (orientation: landscape)   {
-
-
-  #filtre {
-    font-size: 20px;
-
-    background-color: white;
-  }
-
-  #filtre i {
-    padding: 12px;
-  }
-
-  #mon {
-    width: 32%;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: -100px;
-    padding-top: 0px;
-   
-  }
-
-  #fam {
-    width: 24%;
-    height: 40px;
-    margin-top: -45px;
-    margin-left: 215px;
-    padding-top: 0px;
-  }
-
-  #coeur {
-    width: 30%;
-    height: 40px;
-    margin-left: 20px;
-    padding-top: 0px;
-    margin-top: 10px;
-  }
-  #dog {
-    width: 40%;
-    height: 40px;
-    margin-left: -215px;
-    padding-top: 0px;
-    margin-top: 65px;
-  }
-  
-
-
-}
-/* puces PHONE 6/7/8 PAYSAGE*/
-@media only screen and (width: 667px)  and (orientation: landscape) {
-
-  #coeur {
-    margin-left: -390px;
-  }
-  #dog {
-    margin-left: -390px;
-  }
-
-}
-/*puces PHONE 6/7/8 plus PAYSAGE*/
-@media only screen and (width: 736px)  and (orientation: landscape) {
-
-  #coeur {
-    margin-left: -425px;
-  }
-  #dog {
-    margin-left: -425px;
-  }
-
-}
-/* puces PHONE X PAYSAGE*/
-@media only screen and (width: 812px)  and (orientation: landscape) {
-
-  #coeur {
-    margin-left: -460px;
-  }
-  #dog {
-    margin-left: -460px;
-  }
-
-}
-/* puces surface duo portrait*/
-@media only screen and (width: 540px)  and (orientation: portrait) {
-
-  #filtre {
-    font-size: 20px;
-
-    background-color: white;
-  }
-
-  #filtre i {
-    padding: 12px;
-  }
-
-  #mon {
-    width: 33%;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: -100px;
-    padding-top: 0px;
-   
-  }
-
-  #fam {
-    width: 24%;
-    height: 40px;
-    margin-top: -45px;
-    margin-left: 215px;
-    padding-top: 0px;
-  }
-
-  #coeur {
-    width: 32%;
-    height: 40px;
-    margin-left: 20px;
-    padding-top: 0px;
-    margin-top: 10px;
-  }
-  #dog {
-    width: 43%;
-    height: 40px;
-    margin-left: -215px;
-    padding-top: 0px;
-    margin-top: 65px;
-  }
-
-  nav .inscrire {
-    font-size: 17px;
-    grid-column: 1/3;
-    grid-row: 1;
-    margin-top: -75px;
-    margin-left: 250px;
-    border-top: 0px;
-    font-weight: bold;
-    font-family: "relaway", sans-serif;
-  }
-  nav .he {
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    font-size: 17px;
-    margin-top: 65px;
-    grid-column: 1/3;
-    grid-row: 2;
-    margin-left: -180px;
-   
-  }
-  .activi :visited {
-    color: black;
-    border-bottom: 4px solid #f2f2f2;
-    padding-bottom: 15px;
-    padding-left: 46px;
-    padding-right: 65px;
-  }
-
-  .activi a {
-    color: black;
-    border-bottom: 4px solid #f2f2f2;
-    padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 110px;
-    
-    margin-left: 0px;
-
- 
-  }
-
-  
-  .activi :hover {
-    color: #0065fc;
-    border-bottom: 4px solid #0065fc;
-    padding-bottom: 15px;
-   border-top: 0px;
-    padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 110px;
-    margin-left: 0px;
-  }
-
-  .activi :active {
-    color: #0065fc;
-    border-bottom: 4px solid #0065fc;
-    padding-bottom: 15px;
-   
-  }
-  
-
-  .he :visited {
-    color: black;
-    border-bottom: 4px solid #f2f2f2;
-    padding-bottom: 15px;
-    padding-left: 46px;
-    padding-right: 65px;
-  }
-
-  .he a {
-    color: black;
-    border-bottom: 4px solid #f2f2f2;
-    padding-bottom: 15px;
-    padding-left: 80px;
-    padding-right:80px;
-    margin-left: 0px;
-  }
-
-  .he :hover {
-    border-bottom: 4px solid #0065fc;
-    padding-bottom: 15px;
-   color: #0065fc;
-    padding-bottom: 15px;
-    padding-left: 80px;
-    padding-right:70px;
- border-top: 0px;
-  }
-
-  .he :active {
-    color: #0065fc;
-    border-bottom: 4px solid #0065fc;
-    padding-bottom: 15px;
-   
-    padding-bottom: 15px;
-    padding-left: 35px;
-    padding-right: 60px;
-
-  }
-
-  nav .activi {
-    font-size: 17px;
-    grid-column: 1/3;
-    grid-row: 2;
-    margin-left: 90px;
-    margin-top: -20px;
-  }
-
-  
-
-}
-
-/* puces surface duo paysage*/
-@media only screen and (width: 720px)  and (orientation: landscape) {
-
-  #filtre {
-    font-size: 20px;
-
-    background-color: white;
-  }
-
-  #filtre i {
-    padding: 12px;
-  }
-
-  #mon {
-    width: 25%;
-    
-   
-  }
-
-  #fam {
-    width: 18%;
-    
-  }
-
-  #coeur {
-    width: 24%;
-    height: 40px;
-    margin-left: -365px;
-    padding-top: 0px;
-    margin-top: 95px;
-  }
-  #dog {
-    width: 32%;
-    height: 40px;
-    margin-left: -365px;
-    padding-top: 0px;
-    margin-top: 150px;
-  }
-  
-
-}
-/* puces galaxy fold portrait*/
-@media only screen and (width: 280px)  and (orientation: portrait) {
-
-.grid-recherches1 {
-
-  
-  width: 110%;
-}
-
-
-  #filtre {
-    font-size: 20px;
-
-    background-color: white;
-  }
-
-  #filtre i {
-    padding: 12px;
-  }
-
-  #mon {
-    width: 55%;
-    
-   
-  }
-
-  #fam {
-    width: 40%;
-    
-  }
-
-  #coeur {
-    width: 60%;
-    height: 40px;
-    margin-left: -365px;
-    padding-top: 0px;
-    margin-top: 10px;
-  }
-  #dog {
-    width: 70%;
-    height: 40px;
-    margin-left: -365px;
-    padding-top: 0px;
-    margin-top: 66px;
-  }
-  .grid-populaire{
-
-    width: 120%;
-  }
- 
-  .pop-class {
-    width: 100%;
-  }
- 
-  }
-/* puces Pixel 2 portrait / ajustement barre activité*/
-
-  @media only screen and (width: 411px)  and (orientation: portrait) {
-
-    .grid-recherches1 {
-    
-      
-      width: 100%;
-    }
-    
-    
-      #filtre {
-        font-size: 20px;
-    
-        background-color: white;
-      }
-    
-      #filtre i {
-        padding: 12px;
-      }
-    
-      #mon {
-        width: 43%;
-        margin-right: 30px;
-       
-      }
-    
-      #fam {
-        width: 32%;
-        
-      }
-    
-      #coeur {
-        width: 41%;
-        height: 40px;
-        margin-left: -370px;
-        padding-top: 0px;
-        margin-top: 10px;
-      }
-      #dog {
-        width: 55%;
-        height: 40px;
-        margin-left: -370px;
-        padding-top: 0px;
-        margin-top: 66px;
-      }
-      .grid-populaire{
-    
-        width: 92%;
-      }
-      .grid-hebergement{
-
-margin-left: -15px;
-      }
-    
-      .pop-class {
-        width: 100%;
-      }
-     
-     .grid-footer {
-      width: 98%;
-
-     }
-
-
-     .activi :visited {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 46px;
-      padding-right: 65px;
-    }
-  
-    .activi a {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 46px;
-      padding-right: 100px;
-    }
-  
-    .activi :hover {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     border-top: 0px;
-      padding-bottom: 15px;
-      padding-left: 35px;
-      padding-right: 100px
-    }
-  
-    .activi :active {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     
-    }
-    
-  
-    .he :visited {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 46px;
-      padding-right: 65px;
-    }
-  
-    .he a {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 35px;
-      padding-right: 55px;
-    }
-  
-    .he :hover {
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     color: #0065fc;
-      padding-bottom: 15px;
-      padding-left: 35px;
-      padding-right: 35px;
-   border-top: 0px;
-    }
-  
-    .he :active {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     
-      padding-bottom: 15px;
-      padding-left: 35px;
-      padding-right: 60px;
-  
-    }
-      }
-
-
-/*ajustement barre activité Pixel 2  / PAYSAGE */
-
-  @media only screen and (width: 731px)  and (orientation: landscape) {
-
-    
-
-     .activi :visited {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 46px;
-      padding-right: 65px;
-    }
-  
-    .activi a {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 110px;
-      padding-right: 150px;
-      margin-left: -140px;
-   
-
-   
-    }
-  
-    
-    .activi :hover {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     border-top: 0px;
-      padding-bottom: 15px;
-      padding-left: 110px;
-      padding-right: 150px;
-    }
-  
-    .activi :active {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     
-    }
-    
-  
-    .he :visited {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 46px;
-      padding-right: 65px;
-    }
-  
-    .he a {
-      color: black;
-      border-bottom: 4px solid #f2f2f2;
-      padding-bottom: 15px;
-      padding-left: 140px;
-      padding-right:100px;
-      margin-left: -140px;
-    }
-  
-    .he :hover {
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     color: #0065fc;
-      padding-bottom: 15px;
-      padding-left: 140px;
-      padding-right:100px;
-   border-top: 0px;
-    }
-  
-    .he :active {
-      color: #0065fc;
-      border-bottom: 4px solid #0065fc;
-      padding-bottom: 15px;
-     
-      padding-bottom: 15px;
-      padding-left: 35px;
-      padding-right: 60px;
-  
-    }
-      }
-
-      /*ajustement barre activité galaxy S5 / MOTO G4 / PAYSAGE */
-
-  @media only screen and (width: 640px)  and (orientation: landscape) {
-
-    
-
-    .activi :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .activi a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 100px;
-     padding-right: 100px;
-     margin-left: 0px;
- 
-
-  
-   }
- 
-   
-   .activi :hover {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    border-top: 0px;
-     padding-bottom: 15px;
-     padding-left: 100px;
-     padding-right: 100px;
-   }
- 
-   .activi :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-   }
-   
- 
-   .he :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .he a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 100px;
-     padding-right:50px;
-     margin-left: 0px;
-   
-   }
-   nav .he {
-     margin-left: -180px;
-   }
- 
-   .he :hover {
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    color: #0065fc;
-     padding-bottom: 15px;
-     padding-left: 100px;
-     padding-right:50px;
-  border-top: 0px;
-   }
- 
-   .he :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-     padding-bottom: 15px;
-     padding-left: 35px;
-     padding-right: 60px;
- 
-   }
-
-   nav .activi {
-    
-    margin-top: 60px;
-    margin-left: -30px;
-  }
-     }
-
- /*ajustement barre activité iphon 5S / PAYSAGE */
-
-     @media only screen and (width: 568px)  and (orientation: landscape) {
-
-    
-
-      .activi :visited {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 46px;
-       padding-right: 65px;
-     }
-   
-     .activi a {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 120px;
-       padding-right: 110px;
-       margin-left: -110px;
-   
-  
-    
-     }
-   
-     
-     .activi :hover {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      border-top: 0px;
-       padding-bottom: 15px;
-       padding-left: 120px;
-       padding-right: 110px;
-     }
-   
-     .activi :active {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      
-     }
-     
-   
-     .he :visited {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 46px;
-       padding-right: 65px;
-     }
-   
-     .he a {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 80px;
-       padding-right:80px;
-       margin-left: -140px;
-     }
-   
-     .he :hover {
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      color: #0065fc;
-       padding-bottom: 15px;
-       padding-left: 80px;
-       padding-right:80px;
-    border-top: 0px;
-     }
-   
-     .he :active {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      
-       padding-bottom: 15px;
-       padding-left: 35px;
-       padding-right: 60px;
-   
-     }
-     nav .activi {
-
-      margin-left: 85px;
-     }
-.section-hebergement {
-  width: 110%;
-}
-
-
-
-     .grid-footer {
-
-      width: 110%;
-     }
-       }
-
-  /*ajustement barre activité IPHONE 6/7/8   / PAYSAGE */
-
-  @media only screen and (width: 667px)  and (orientation: landscape) {
-
-    
-
-    .activi :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .activi a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-     margin-left: -100px;
- 
-
-  
-   }
- 
-   
-   .activi :hover {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    border-top: 0px;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-   }
- 
-   .activi :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-   }
-   
- 
-   .he :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .he a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-     margin-left: -120px;
-   }
- 
-   .he :hover {
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    color: #0065fc;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-  border-top: 0px;
-   }
- 
-   .he :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-     padding-bottom: 15px;
-     padding-left: 35px;
-     padding-right: 60px;
- 
-   }
-   nav .activi {
-
-    margin-left: 75px;
-   }
-     }
-
-     /*ajustement barre activité IPHONE 6/7/8 and plus / PAYSAGE */
-
-  @media only screen and (width: 736px)  and (orientation: landscape) {
-
-    
-
-    .activi :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .activi a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-     margin-left: -100px;
- 
-
-  
-   }
- 
-   
-   .activi :hover {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    border-top: 0px;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-   }
- 
-   .activi :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-   }
-   
- 
-   .he :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .he a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-     margin-left: -120px;
-   }
- 
-   .he :hover {
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    color: #0065fc;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-  border-top: 0px;
-   }
- 
-   .he :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-     padding-bottom: 15px;
-     padding-left: 35px;
-     padding-right: 60px;
- 
-   }
-
-   nav .activi {
-
-    margin-left: 75px;
-   }
-     }
-/*ajustement barre activité IPHONE x + / PAYSAGE */
-
-     @media only screen and (width: 812px)  and (orientation: landscape) {
-
-    
-
-      .activi :visited {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 46px;
-       padding-right: 65px;
-     }
-   
-     .activi a {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 113px;
-       padding-right: 110px;
-       margin-left: -100px;
-   
-  
-    
-     }
-   
-     
-     .activi :hover {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      border-top: 0px;
-       padding-bottom: 15px;
-       padding-left: 113px;
-       padding-right: 110px;
-     }
-   
-     .activi :active {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      
-     }
-     
-   
-     .he :visited {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 46px;
-       padding-right: 65px;
-     }
-   
-     .he a {
-       color: black;
-       border-bottom: 4px solid #f2f2f2;
-       padding-bottom: 15px;
-       padding-left: 80px;
-       padding-right:80px;
-       margin-left: -120px;
-     }
-   
-     .he :hover {
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      color: #0065fc;
-       padding-bottom: 15px;
-       padding-left: 80px;
-       padding-right:80px;
-    border-top: 0px;
-     }
-   
-     .he :active {
-       color: #0065fc;
-       border-bottom: 4px solid #0065fc;
-       padding-bottom: 15px;
-      
-       padding-bottom: 15px;
-       padding-left: 35px;
-       padding-right: 60px;
-   
-     }
-     nav .activi {
-
-      margin-left: 75px;
-     }
-
-     .section-hebergement {
-       width: 80%;
-     }
-
- 
-
-    .grid-footer {
-      width: 80%;
-    }
-       }
-
-
-        /*ajustement barre activité surface duo / PAYSAGE */
-
-  @media only screen and (width: 720px)  and (orientation: landscape) {
-
-    
-
-    .activi :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .activi a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-     margin-left: -100px;
- 
-
-  
-   }
- 
-   
-   .activi :hover {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    border-top: 0px;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-   }
- 
-   .activi :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-   }
-   
- 
-   .he :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .he a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-     margin-left: -120px;
-   }
- 
-   .he :hover {
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    color: #0065fc;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-  border-top: 0px;
-   }
- 
-   .he :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-     padding-bottom: 15px;
-     padding-left: 35px;
-     padding-right: 60px;
- 
-   }
-   nav .activi {
-
-    margin-left: 75px;
-   }
-     }
-
-
-             /*ajustement barre activité Galaxy fold / PAYSAGE */
-
-  @media only screen and (width: 653px)  and (orientation: landscape) {
-
-    
-
-    .activi :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .activi a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-     margin-left: -100px;
- 
-
-  
-   }
- 
-   
-   .activi :hover {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    border-top: 0px;
-     padding-bottom: 15px;
-     padding-left: 113px;
-     padding-right: 110px;
-   }
- 
-   .activi :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-   }
-   
- 
-   .he :visited {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 46px;
-     padding-right: 65px;
-   }
- 
-   .he a {
-     color: black;
-     border-bottom: 4px solid #f2f2f2;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-     margin-left: -120px;
-   }
- 
-   .he :hover {
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    color: #0065fc;
-     padding-bottom: 15px;
-     padding-left: 80px;
-     padding-right:80px;
-  border-top: 0px;
-   }
- 
-   .he :active {
-     color: #0065fc;
-     border-bottom: 4px solid #0065fc;
-     padding-bottom: 15px;
-    
-     padding-bottom: 15px;
-     padding-left: 35px;
-     padding-right: 60px;
- 
-   }
-   nav .activi {
-
-    margin-left: 75px;
-   }
-     }
-
-  
 
 
 
