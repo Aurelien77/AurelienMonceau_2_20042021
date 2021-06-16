@@ -2825,10 +2825,13 @@ margin-left: 0px;
   }
 
   .activi :hover {
-border-bottom: 4px solid #0065fc;
+    border-bottom: 4px solid #0065fc;
     padding-bottom: 15px;
    color: #0065fc;
-   
+   padding-bottom: 15px;
+   padding-left: 56px;
+   padding-right: 55px;
+   margin-top: -20px;
  border-top: 0px;
 }
 
@@ -2860,6 +2863,7 @@ border-bottom: 4px solid #0065fc;
    padding-bottom: 15px;
    padding-left: 35px;
    padding-right: 55px;
+    margin-top: -20px;
  border-top: 0px;
   }
 
