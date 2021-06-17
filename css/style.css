@@ -4107,10 +4107,23 @@ width: 80%;
 
 /*  MEDIA RESPONSIBLE IPAD PRO */
 @media only screen and (width: 1024px) and (orientation: portrait) {
+.grid-populaire .titre {
 
+
+}
+
+.grid-populaire .fa-chart-line {
+
+ margin-left: 150px;
+  }
 .pop-class {
 
-width: 107%;
+width: 100%;
+
+
+}
+.pop-encadrement {
+  width: 100%;
 
 
 }
@@ -4126,7 +4139,7 @@ margin-top: 45px;
 
 #marsact {
     width: 150%;
-    margin-left: -40px;
+    margin-left: 0px;
   }
 
  
