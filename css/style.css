@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
- 
+
 }
 
 @font-face {
@@ -2677,7 +2677,7 @@ margin-top: 10px;
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
-
+margin-top: 0px;
 
  
 }
@@ -4087,7 +4087,7 @@ width: 80%;
   body {
     background-color: white;
     font-family: "Raleway", sans-serif;
-   
+   margin: 0px;
   }
   .grid-header {
     display: flex;
@@ -4101,12 +4101,12 @@ width: 80%;
   }
     .grid-container {
       display: grid;
-      grid-template-columns: 0% 35% 35% 35% 0%;
-      width: 90%;
+      grid-template-columns: 0% 32% 35% 32% 0%;
+      width: 100%;
     }
   .grid-navigation {
   margin-left: 22px;
-    width: 90%;
+    width: 87%;
   }
 
 
@@ -4118,7 +4118,7 @@ width: 80%;
   
   .grid-recherches2 {
   margin-left: 0px;
-  
+ 
   width: 100%;
   }
   
@@ -4170,7 +4170,7 @@ width: 80%;
       margin-top: 65px;
       grid-column: 1/3;
       grid-row: 2;
-      margin-left: 150px;
+      margin-left: 145px;
       display: grid;
      
     }
@@ -4178,7 +4178,7 @@ width: 80%;
       font-size: 17px;
       grid-column: 3/4;
       grid-row: 2;
-      margin-left: 230px;
+      margin-left: 275px;
       margin-right: 0px;
       margin-top: -39px;
       grid-column: 1/3;
@@ -4197,8 +4197,8 @@ width: 80%;
       color: black;
       border-bottom: 4px solid #f2f2f2;
       padding-bottom: 15px;
-      padding-left: 86px;
-      padding-right: 55px;
+      padding-left: 36px;
+      padding-right: 35px;
     }
   
     .activi :hover {
@@ -4229,7 +4229,7 @@ width: 80%;
       color: black;
       border-bottom: 4px solid #f2f2f2;
       padding-bottom: 15px;
-      padding-left: 35px;
+      padding-left: 20px;
       padding-right: 55px;
     }
   
@@ -4266,7 +4266,8 @@ width: 80%;
       grid-row-start: 2;
       grid-row-end: 2;
       margin-top: -25px;
-      width: 110%; 
+      width: 100%; 
+     
     }
 
     
@@ -4284,7 +4285,7 @@ width: 80%;
   
     .rech {
 
-      width: 100%;
+      width: 60%;
     }
 
     .rech1 {
@@ -4355,7 +4356,7 @@ width: 80%;
   
   
     #mon {
-      width: 52%;
+      width: 56%;
       height: 40px;
       margin-top: 40px;
       margin-left: 0px;
@@ -4363,24 +4364,24 @@ width: 80%;
     }
   
     #fam {
-      width: 37%;
+      width: 40%;
       height: 40px;
       margin-top: -45px;
-      margin-left: 150px;
+      margin-left: 160px;
       padding-top: 0px;
     }
   
     #coeur {
-      width: 50%;
+      width: 52%;
       height: 40px;
-      margin-left: 7px;
+      margin-left: 0px;
       padding-top: 0px;
       margin-top: 10px;
     }
     #dog {
-      width: 67%;
+      width: 72%;
       height: 40px;
-      margin-left: 7px;
+      margin-left: 0px;
       padding-top: 0px;
       margin-top: 10px;
     }
@@ -4413,12 +4414,12 @@ width: 80%;
     #pop h3 {
       font-family: "relaway", sans-serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 13px;
     }
     #pop h4 {
       font-family: "relaway", sans-serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 1;
     }
   
@@ -4433,15 +4434,15 @@ width: 80%;
     #pop2 h3 {
       font-family: "relaway", sans-serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 13px;
       /* padding-right: 30px; */
-      width: 100%;
+      width: 75%;
   }
 
   #pop2 h4 {
     font-family: "relaway", sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     /* padding-right: 30px; */
     width: 100%;
     line-height: 1;
@@ -4459,12 +4460,12 @@ width: 80%;
     #pop3 h3 {
       font-family: "relaway", sans-serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 13px;
     }
     #pop3 h4 {
       font-family: "relaway", sans-serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 1;
     }
   
@@ -4478,11 +4479,12 @@ width: 80%;
     .grid-populaire .decpop {
       margin-top: 25px;
       margin-left: 10px;
+      
      
     }
   
     .grid-populaire .decpop2 {
-      margin-top: 25px;
+      margin-top: 8px;
       margin-left: 10px;
     }
   
