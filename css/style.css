@@ -6062,7 +6062,7 @@ margin-top: 45px;
   
   
     #mon {
-      width: 52%;
+      width: 43%;
       height: 40px;
       margin-top: 40px;
       margin-left: -110px;
@@ -6070,7 +6070,7 @@ margin-top: 45px;
     }
   
     #fam {
-      width: 37%;
+      width: 30%;
       height: 40px;
       margin-top: -45px;
       margin-left: 200px;
@@ -6078,14 +6078,14 @@ margin-top: 45px;
     }
   
     #coeur {
-      width: 50%;
+      width: 40%;
       height: 40px;
       margin-left: 7px;
       padding-top: 0px;
       margin-top: 10px;
     }
     #dog {
-      width: 67%;
+      width: 55%;
       height: 40px;
       margin-left: 7px;
       padding-top: 0px;
@@ -6478,4 +6478,39 @@ margin-top: 45px;
     }
   }
   
+/*  MEDIA RESPONSIBLE IPHONE x */
 
+@media only screen and (width: 375px) and (orientation: portrait) {
+
+  #mon {
+    width: 47%;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: -110px;
+    padding-top: 0px;
+  }
+
+  #fam {
+    width: 35%;
+    height: 40px;
+    margin-top: -45px;
+    margin-left: 200px;
+    padding-top: 0px;
+  }
+
+  #coeur {
+    width: 45%;
+    height: 40px;
+    margin-left: 7px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+  #dog {
+    width: 60%;
+    height: 40px;
+    margin-left: 7px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+
+}
