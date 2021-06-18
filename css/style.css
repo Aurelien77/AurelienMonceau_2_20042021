@@ -2705,6 +2705,16 @@ margin-left: 0px;
 
 }
 
+
+  .rech {
+
+
+  }
+.rech1 {
+
+
+
+}
   nav {
     border-top: 0px;
     border-bottom: 0px;
@@ -2859,14 +2869,14 @@ margin-left: 0px;
   .grid-recherches1 {
     display: grid;
     line-height: 6;
-    align-content: center;
+    justify-content: center;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 3;
     height: 50px;
-   margin-left: 10px;
-    width: 100%;
+   margin-left: 0px;
+    width: 95%;
   }
 
   .grid-recherches2 {
