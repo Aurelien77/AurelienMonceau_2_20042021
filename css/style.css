@@ -2677,7 +2677,7 @@ margin-top: 10px;
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
-margin-top: 0px;
+margin: 0px;
 
  
 }
@@ -3063,8 +3063,8 @@ width: 100%;
   /* SECTION HEBERGEMENT */
   .section-hebergement {
     flex-direction: column-reverse;
-width: 99%;
-margin-left: 7px;
+width: 100%;
+margin-left: 0px;
 padding: 0px;
   }
 
