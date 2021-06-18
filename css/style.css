@@ -1528,7 +1528,7 @@ padding-right: 80px;
   }
 
   .grid-populaire .fa-chart-line {
-    margin-left: 20px;
+    margin-left: 180px;
   }
 
   /* SECTION HEBERGEMENT */
@@ -2124,7 +2124,15 @@ padding-right: 80px;
 /*  MEDIA RESPONSIBLE PHONE PAYSAGE */
 
 @media only screen and (max-width: 818px) and (orientation: landscape) {
-    .grid-container {
+    body {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+margin: 0px;
+}
+
+  
+  
+  .grid-container {
       display: grid;
       grid-template-columns: 0% 33% 33% 33% 0%;
     }
@@ -2412,7 +2420,10 @@ padding-right: 80px;
       border-radius: 0em;
   
     }
-  
+.grid-populaire figcaption {
+
+  width: 100%;
+}
     .grid-populaire img {
       height: 170px;
       border-radius: 0.7em;
@@ -2697,8 +2708,6 @@ body {
   background-color: white;
   font-family: "Raleway", sans-serif;
 margin: 0px;
-
- 
 }
 .grid-header {
   display: flex;
