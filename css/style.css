@@ -430,7 +430,8 @@ padding-top: 7px;
 #pop2 h3 {
   font-family: "relaway", sans-serif;
   font-weight: bold;
-  padding-right: 30px;
+  padding-right: 45px;
+
 }
 /* gère la taille de la section Les plus populaire */
 .pop-encadrement {
@@ -2141,8 +2142,17 @@ margin: 0px;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 1;
-    margin-left: -28px;
+    margin-left: -24px;
     width: 100%;
+    padding: 0px;
+}
+
+
+nav li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 00px;
 }
   
   .grid-container {
@@ -2198,10 +2208,11 @@ margin: 0px;
       color: black;
       border-bottom: 4px solid #f2f2f2;
       padding-bottom: 15px;
-      padding-left: 173px;
+      padding-left: 140px;
       padding-right: 100px;
-      margin-left: 0px;
+      margin-left: 50px;
     }
+    
   
     
     .activi :hover {
@@ -2234,7 +2245,7 @@ margin: 0px;
       color: black;
       border-bottom: 4px solid #f2f2f2;
       padding-bottom: 15px;
-      padding-left: 100px;
+      padding-left: 130px;
       padding-right:70px;
       margin-left: 0px;
     
@@ -2401,10 +2412,7 @@ margin-left: 20px;
      
     }
 
-    #pop2 h3 {
-      padding
-     
-    }
+   
     #pop3 {
       width: 100%;
       
@@ -2735,7 +2743,7 @@ margin: 0px;
   grid-row-start: 1;
   grid-row-end: 1;
   width: 65%;
-  margin-left: 10px;
+  margin-left: 9px;
  
 }
   .grid-container {
@@ -2743,7 +2751,7 @@ margin: 0px;
     grid-template-columns: 0% 33% 34% 33% 0%;
   }
 .grid-navigation {
-margin-left: 0px;
+margin-left: -5px;
   width: 100%;
 }
 .grid-recherches2 {
@@ -2767,12 +2775,20 @@ margin-left: 0px;
     border-bottom: 0px;
    
   }
+
+
+  nav li {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 0px;
+  }
   nav .inscrire {
     font-size: 17px;
     grid-column: 1/3;
     grid-row: 1;
     margin-top: -90px;
-    margin-left: 160px;
+    margin-left: 140px;
     border-top: 0px;
     font-weight: bold;
     font-family: "relaway", sans-serif;
@@ -2811,7 +2827,7 @@ margin-left: 0px;
     margin-top: 65px;
     grid-column: 1/3;
     grid-row: 2;
-    margin-left: -97px;
+    margin-left: -125px;
     display: grid;
    
   }
@@ -2819,7 +2835,7 @@ margin-left: 0px;
     font-size: 17px;
     grid-column: 3/4;
     grid-row: 2;
-    margin-left: 100px;
+    margin-left: 117px;
     margin-right: 0px;
     margin-top: -39px;
     grid-column: 1/3;
@@ -2838,8 +2854,11 @@ margin-left: 0px;
     color: black;
     border-bottom: 4px solid #f2f2f2;
     padding-bottom: 15px;
-    padding-left: 36px;
+    padding-left: 46px;
     padding-right: 55px;
+    margin-left: -55px;
+    margin-right: -5px;
+    
   }
 
   .activi :hover {
@@ -2847,7 +2866,7 @@ margin-left: 0px;
     padding-bottom: 15px;
    color: #0065fc;
    padding-bottom: 15px;
-   padding-left: 46px;
+   padding-left: 41px;
    padding-right: 60px;
    margin-top: -20px;
  border-top: 0px;
@@ -2872,6 +2891,7 @@ margin-left: 0px;
     padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 55px;
+  margin-left: -5px;
   }
 
   .he :hover {
@@ -2879,8 +2899,8 @@ margin-left: 0px;
     padding-bottom: 15px;
    color: #0065fc;
    padding-bottom: 15px;
-   padding-left: 25px;
-   padding-right: 50px;
+   padding-left: 35px;
+   padding-right: 37px;
     margin-top: -20px;
  border-top: 0px;
   }
@@ -2981,7 +3001,7 @@ margin-left: 0px;
 
 
   #mon {
-    width: 52%;
+    width: 49%;
     height: 40px;
     margin-top: 40px;
     margin-left: -110px;
@@ -2997,14 +3017,14 @@ margin-left: 0px;
   }
 
   #coeur {
-    width: 50%;
+    width: 47%;
     height: 40px;
     margin-left: 7px;
     padding-top: 0px;
     margin-top: 10px;
   }
   #dog {
-    width: 67%;
+    width: 63%;
     height: 40px;
     margin-left: 7px;
     padding-top: 0px;
@@ -3035,6 +3055,13 @@ margin-left: 0px;
     width: 100%;
     margin-left: 0px;
   }
+  #pop h4 {
+    margin-top: auto;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
 
   #pop2 {
     margin-top: auto;
@@ -3045,17 +3072,30 @@ margin-left: 0px;
   #pop2 h3 {
     font-family: "relaway", sans-serif;
     font-weight: bold;
-    font-size: 17px;
-    /* padding-right: 30px; */
-    width: 91%;
+    font-size: 15.6px;
+    width: 83%;
+    
 }
-
+#pop2 h4 {
+  margin-top: auto;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 25px;
+}
 
   #pop3 {
     margin-top: auto;
     width: 100%;
     margin-left: 0px;
     
+  }
+
+  #pop3 h4 {
+    margin-top: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-left: 10px;
+    margin-top: 25px;
   }
 
  
@@ -3073,12 +3113,12 @@ margin-left: 0px;
   }
 
   .grid-populaire .decpop2 {
-    margin-top: 28px;
+    margin-top: 30px;
     margin-left: 10px;
   }
 
   .grid-populaire {
-    width: 100%;
+    width: 89%;
 margin: 0px;
     background: #f2f2f2;
     border-radius: 0em;
@@ -3125,7 +3165,7 @@ width: 100%;
   }
 
   .grid-populaire .fa-chart-line {
-    margin-left: 76px;
+    margin-left: 75px;
   }
 
   /* SECTION HEBERGEMENT */
@@ -3146,7 +3186,7 @@ padding: 0px;
  margin-left: 0px;
  padding-left: 20px;
  padding-right: 20px;
-    width: 90%;
+    width: 88%;
    margin-right: 0px;
     
     flex-direction: column;
@@ -3215,7 +3255,7 @@ padding: 0px;
   .grid-activite {
     
    
-    width: 90%;
+    width: 88%;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -3392,8 +3432,6 @@ padding: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    tex
-    
   }
 }
 /* PHONE 5s portrait */ 
@@ -4101,8 +4139,7 @@ padding: 0px;
         width: 100%;
         display: flex;
         flex-direction: column;
-        tex
-        
+
       }
   }
 /* PHONE 5s paysage */ 
@@ -5863,8 +5900,7 @@ margin-top: 45px;
       width: 100%;
       display: flex;
       flex-direction: column;
-      tex
-      
+ 
     }
   }
 
@@ -6149,7 +6185,7 @@ margin-left: -50px;
   }
 
   #pop2 h3 {
-    padding
+  
    
   }
   #pop3 {
@@ -7183,8 +7219,7 @@ font-size: 15px;
       width: 100%;
       display: flex;
       flex-direction: column;
-      tex
-      
+ 
     }
   }
   
@@ -7510,7 +7545,7 @@ margin-left: -50px;
   }
 
   #pop2 h3 {
-    padding
+  
    
   }
   #pop3 {
