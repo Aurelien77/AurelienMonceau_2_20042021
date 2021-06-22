@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
-
+margin: 0px;
 }
 
 @font-face {
@@ -2287,42 +2287,43 @@ nav li {
      margin-left: 150px;
    }
   
-    .grid-recherches {
-      text-align: center;
-  width: 100%;
-      margin-top: 20px;
-      margin-left: 0px;
-    
-      font-family: "relaway", sans-serif;
-    }
+   .grid-recherches {
+    text-align: center;
+width: 100%;
+    margin-top: 20px;
   
-    h1 {
-      font-size: 23px;
-      font-weight: bold;
-      font-family: "relaway", sans-serif;
-    }
-    .grid-recherches h2 {  
-
-margin-left: 20px;
-
-    }
-    .grid-recherches1 {
-
-      margin-left: 20px;
-    }
-  .grid-recherches2 {
-    margin-left: 20px;
+  
+    font-family: "relaway", sans-serif;
   }
-    .grid-recherches h2 {
-      text-align: left;
-      font-family: "relaway", sans-serif;
-  
-      font-size: 17.5px;
-    }
-  
-    .grid-recherches2 li {
-      display: flex;
-    }
+
+  h1 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "relaway", sans-serif;
+  }
+  .grid-recherches h2 {  
+
+margin-left: 105px;
+ }
+  .grid-recherches1 {
+display: flex;
+    margin-left: 20px;
+    justify-content: center;
+  }
+.grid-recherches2 {
+  margin-left: 20px;
+ 
+}
+  .grid-recherches h2 {
+    text-align: center;
+    font-family: "relaway", sans-serif;
+margin-left: 20px;
+    font-size: 17.5px;
+  }
+
+  .grid-recherches2 li {
+    display: flex;
+  }
   
     #textfil {
     }
@@ -4518,7 +4519,7 @@ nav .activi {
       color: black;
       border-bottom: 4px solid #f2f2f2;
       padding-bottom: 15px;
-      padding-left: 30px;
+      padding-left: 20px;
       padding-right: 25px;
     }
   
@@ -4792,7 +4793,7 @@ nav .activi {
       
     }
   .pop-encadrement {
-  width: 85%;
+  width: 86%;
   
   }
     .grid-populaire figure figcaption {
@@ -5264,42 +5265,43 @@ margin-left: 10px;
        margin-left: 150px;
      }
     
-      .grid-recherches {
-        text-align: center;
+     .grid-recherches {
+      text-align: center;
     width: 100%;
-        margin-top: 20px;
-        margin-left: 0px;
-      
-        font-family: "relaway", sans-serif;
-      }
+      margin-top: 20px;
     
-      h1 {
-        font-size: 23px;
-        font-weight: bold;
-        font-family: "relaway", sans-serif;
-      }
-      .grid-recherches h2 {  
-  
-  margin-left: 20px;
-  
-      }
-      .grid-recherches1 {
-  
-        margin-left: 20px;
-      }
-    .grid-recherches2 {
-      margin-left: 20px;
+    
+      font-family: "relaway", sans-serif;
     }
-      .grid-recherches h2 {
-        text-align: left;
-        font-family: "relaway", sans-serif;
     
-        font-size: 17.5px;
-      }
+    h1 {
+      font-size: 23px;
+      font-weight: bold;
+      font-family: "relaway", sans-serif;
+    }
+    .grid-recherches h2 {  
     
-      .grid-recherches2 li {
-        display: flex;
-      }
+    margin-left: 105px;
+    }
+    .grid-recherches1 {
+    display: flex;
+      margin-left: 20px;
+      justify-content: center;
+    }
+    .grid-recherches2 {
+    margin-left: 20px;
+    
+    }
+    .grid-recherches h2 {
+      text-align: center;
+      font-family: "relaway", sans-serif;
+    margin-left: 20px;
+      font-size: 17.5px;
+    }
+    
+    .grid-recherches2 li {
+      display: flex;
+    }
     
       #textfil {
       }
@@ -6118,7 +6120,7 @@ margin-top: 45px;
           border-bottom: 4px solid #f2f2f2;
           padding-bottom: 15px;
           padding-left:51px;
-          padding-right: 81px;
+          padding-right: 79px;
           margin-left: -60px;
           margin-right: -5px;
           
@@ -6825,42 +6827,43 @@ margin: 0px;
  }
 
 
-  .grid-recherches {
-    text-align: center;
+ .grid-recherches {
+  text-align: center;
 width: 100%;
-    margin-top: 20px;
-    margin-left: 0px;
-  
-    font-family: "relaway", sans-serif;
-  }
+  margin-top: 20px;
 
-  h1 {
-    font-size: 23px;
-    font-weight: bold;
-    font-family: "relaway", sans-serif;
-  }
-  .grid-recherches h2 {  
 
+  font-family: "relaway", sans-serif;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "relaway", sans-serif;
+}
+.grid-recherches h2 {  
+
+margin-left: 105px;
+}
+.grid-recherches1 {
+display: flex;
+  margin-left: 20px;
+  justify-content: center;
+}
+.grid-recherches2 {
 margin-left: 20px;
 
-  }
-  .grid-recherches1 {
-
-    margin-left: 20px;
-  }
-.grid-recherches2 {
-  margin-left: 20px;
 }
-  .grid-recherches h2 {
-    text-align: left;
-    font-family: "relaway", sans-serif;
+.grid-recherches h2 {
+  text-align: center;
+  font-family: "relaway", sans-serif;
+margin-left: 20px;
+  font-size: 17.5px;
+}
 
-    font-size: 17.5px;
-  }
-
-  .grid-recherches2 li {
-    display: flex;
-  }
+.grid-recherches2 li {
+  display: flex;
+}
 
   #textfil {
   }
@@ -7315,7 +7318,7 @@ font-size: 14px;
     background-color: white;
     font-family: "Raleway", sans-serif;
   margin: 0px;
-  border: 1px solid;
+ 
    
   }
   .grid-header {
@@ -7655,7 +7658,7 @@ font-size: 14px;
       font-weight: bold;
       font-size: 17px;
       /* padding-right: 30px; */
-      width: 88%;
+      width: 86%;
   }
   
   
@@ -7733,7 +7736,7 @@ font-size: 14px;
     }
   
     .grid-populaire .fa-chart-line {
-      margin-left: 76px;
+      margin-left:130px;
     }
   
     /* SECTION HEBERGEMENT */
@@ -8040,10 +8043,46 @@ margin: 0px;
     float: left;
     text-decoration: none;
     list-style: none;
-    margin-right: 00px;
+    margin-right: 0px;
   }
     
-    
+  .grid-recherches {
+    text-align: center;
+  width: 100%;
+    margin-top: 20px;
+  
+  
+    font-family: "relaway", sans-serif;
+  }
+  
+  h1 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "relaway", sans-serif;
+  }
+  .grid-recherches h2 {  
+  
+  margin-left: 105px;
+  }
+  .grid-recherches1 {
+  display: flex;
+    margin-left: 20px;
+    justify-content: center;
+  }
+  .grid-recherches2 {
+  margin-left: 20px;
+  
+  }
+  .grid-recherches h2 {
+    text-align: center;
+    font-family: "relaway", sans-serif;
+  margin-left: 20px;
+    font-size: 17.5px;
+  }
+  
+  .grid-recherches2 li {
+    display: flex;
+  }
     
       nav .inscrire {
         font-size: 17px;
@@ -8096,6 +8135,7 @@ margin: 0px;
         padding-left: 120px;
         padding-right: 160px;
         margin-left: 50px;
+       
       }
       
     
@@ -8138,6 +8178,7 @@ margin: 0px;
       nav .he {
         margin-left: -200px;
         margin-top: 50px;
+        
       }
     
       .he :hover {
@@ -8162,7 +8203,6 @@ margin: 0px;
       }
    
       nav .activi {
-       
        margin-top:-22px;
        margin-left: 150px;
      }
@@ -8654,7 +8694,7 @@ width: 100%;
 
 
 
-/*  MEDIA RESPONSIBLE PHONE X  */
+/*  MEDIA RESPONSIBLE PHONE X  PAYSAGE */
 
 @media only screen and (width: 812px) and (orientation: landscape) {
   body {
@@ -8813,7 +8853,7 @@ nav li {
     text-align: center;
 width: 100%;
     margin-top: 20px;
-    margin-left: 0px;
+  
   
     font-family: "relaway", sans-serif;
   }
@@ -8829,7 +8869,7 @@ margin-left: 105px;
  }
   .grid-recherches1 {
 display: flex;
-    margin-left: -50px;
+    margin-left: 20px;
     justify-content: center;
   }
 .grid-recherches2 {
@@ -8837,9 +8877,9 @@ display: flex;
  
 }
   .grid-recherches h2 {
-    text-align: left;
+    text-align: center;
     font-family: "relaway", sans-serif;
-
+margin-left: 20px;
     font-size: 17.5px;
   }
 
@@ -10119,42 +10159,43 @@ margin: 0px;
      }
     
 
-  .grid-recherches {
-    text-align: center;
-width: 100%;
-    margin-top: 20px;
-    margin-left: 0px;
-  
-    font-family: "relaway", sans-serif;
-  }
-
-  h1 {
-    font-size: 23px;
-    font-weight: bold;
-    font-family: "relaway", sans-serif;
-  }
-  .grid-recherches h2 {  
-
-margin-left: 20px;
-
-  }
-  .grid-recherches1 {
-
-    margin-left: 20px;
-  }
-.grid-recherches2 {
-  margin-left: 20px;
-}
-  .grid-recherches h2 {
-    text-align: left;
-    font-family: "relaway", sans-serif;
-
-    font-size: 17.5px;
-  }
-
-  .grid-recherches2 li {
+     .grid-recherches {
+      text-align: center;
+    width: 100%;
+      margin-top: 20px;
+    
+    
+      font-family: "relaway", sans-serif;
+    }
+    
+    h1 {
+      font-size: 23px;
+      font-weight: bold;
+      font-family: "relaway", sans-serif;
+    }
+    .grid-recherches h2 {  
+    
+    margin-left: 105px;
+    }
+    .grid-recherches1 {
     display: flex;
-  }
+      margin-left: 20px;
+      justify-content: center;
+    }
+    .grid-recherches2 {
+    margin-left: 20px;
+    
+    }
+    .grid-recherches h2 {
+      text-align: center;
+      font-family: "relaway", sans-serif;
+    margin-left: 20px;
+      font-size: 17.5px;
+    }
+    
+    .grid-recherches2 li {
+      display: flex;
+    }
 
   #textfil {
   }
