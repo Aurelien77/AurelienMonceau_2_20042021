@@ -109,6 +109,11 @@ nav li {
 
 }
 
+.he :active {
+  color: #0065fc;
+  border-top: 4px solid #0065fc;
+  padding-top: 20px;
+}
 .he :hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
@@ -119,11 +124,7 @@ nav li {
   color: black;
 }
 
-.he :active {
-  color: #0065fc;
-  border-top: 4px solid #0065fc;
-  padding-top: 20px;
-}
+
 
 /*  SECTION RECHERCHER  */
 
@@ -1197,7 +1198,7 @@ h6 {
 
 /*  MEDIA RESPONSIBLE TABLETTE PORTRAIT */
 
-@media only screen and (width: 768px) and (orientation: portrait) {
+@media only screen and (max-width: 1023px)and (min-width: 736px)  and (orientation: portrait) {
   .grid-container {
     display: grid;
     grid-template-columns: 0% 33% 34% 33% 0%;
@@ -1544,7 +1545,7 @@ padding-right: 80px;
     background-color: white;
     width:80%;
     display: flex;
-    margin-left: 0px;
+    margin: 0px;
     flex-direction: column;
     padding-left: 80px;
 padding-right: 80px;
@@ -1623,8 +1624,8 @@ padding-right: 80px;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
-    padding-left: 80px;
-padding-right: 80px;
+    padding-left: 70px;
+padding-right: 70px;
   }
 
   #act {
@@ -3798,7 +3799,7 @@ padding: 0px;
         font-weight: bold;
         font-size: 14px;
         /* padding-right: 30px; */
-        width: 86%;
+        width: 80%;
     }
     #pop2 h4 {
       font-family: "relaway", sans-serif;
@@ -3860,7 +3861,7 @@ padding: 0px;
 
    
     .pop-encadrement {
-    width: 88%;
+    width: 92%;
     
     }
       .grid-populaire figure figcaption {
@@ -3909,7 +3910,7 @@ padding: 0px;
       .grid-hebergement {
         background: white;
         border-radius: 0.7em;
-     margin-left: 13px;
+     margin-left: 15px;
      padding: 0px;
         width: 100%;
        margin-right: 0px;
