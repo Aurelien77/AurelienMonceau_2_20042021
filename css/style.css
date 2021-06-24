@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
-margin: 0px;
+  margin: 0px;
 }
 
 @font-face {
@@ -69,13 +69,13 @@ nav li {
   text-decoration: none;
 }
 
-.inscrire a:hover {
+.inscrire :hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
   padding-top: 20px;
 }
 
-.inscrire a:visited {
+.inscrire :visited {
   color: #0065fc;
 }
 
@@ -86,19 +86,19 @@ nav li {
  
 }
 
-.activi a:hover {
+.activi :hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
-.activi a:visited {
- /*  color: black; */
+.activi :visited {
+  color: black;
 }
-.activi a:active {
+.activi :active {
   color: #0065fc;
   border-top: 4px solid #0065fc;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .he a {
@@ -109,19 +109,19 @@ nav li {
 
 }
 
-.he a:active {
+.he :active {
   color: #0065fc;
   border-top: 4px solid #0065fc;
-  padding-top: 15px;
+  padding-top: 20px;
 }
-.he a:hover {
+.he :hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
-.he a:visited {
- /*  color: black; */
+.he :visited {
+  color: black;
 }
 
 
@@ -828,10 +828,10 @@ h4 {
   font-size: 16px;
   line-height: 0.5;
   margin-top: 4px;
-  font-family: relaway;
   font-weight: 100;
   margin-bottom: 9px;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 h5 {
@@ -1172,32 +1172,74 @@ h6 {
     justify-content: stretch;
   }
 }
-/*  MIDDLE GRAND ECRANS */
-@media only screen and (min-width: 1450px) and (max-width: 1920px) and (orientation: landscape) {
-  .decpop {
-    margin-top: 25px;
-    margin-left: 10px;
-  
-  }
 
-  .decpop2 {
-    margin-top: 18px;
-    margin-left: 10px;
-  }
+/*  DESKTOP*/
+@media only screen and (min-width:769px){
+    
+    .logo{
+        padding-top: 24px;
+    }
+    
+    nav li {
+        padding-top: 24px;
+    }
 
-  .decpop i {
-    font-size: 17px;
-  }
+    .inscrire:hover {
+      color: #0065fc;
+      border-top: 4px solid #0065fc;
+      padding-top: 20px;
+    }
 
-  .decpop2 i {
-    font-size: 17px;
-  }
+    .inscrire:visited {
+      color: #0065fc;
+    }
 
-  
+    .activi:hover {
+      color: #0065fc;
+      border-top: 4px solid #0065fc;
+      padding-top: 20px;
+    }
+    .activi a:hover {
+        color: #0065fc;
+    }
+    .activi a:active {
+        color: #0065fc;
+    }
+
+    .activi:visited {
+      color: black;
+    }
+    .activi:active {
+      color: #0065fc;
+      border-top: 4px solid #0065fc;
+      padding-top: 20px;
+    }
+
+    .he:active {
+      color: #0065fc;
+      border-top: 4px solid #0065fc;
+      padding-top: 20px;
+    }
+    
+    .he:hover {
+      color: #0065fc;
+      border-top: 4px solid #0065fc;
+      padding-top: 20px;
+    }
+
+    .he:visited {
+      color: black;
+    }
+    
+    .he a:hover {
+        color: #0065fc;
+    }
+    .he a:active {
+        color: #0065fc;
+    }
 }
 
 /*  MEDIA RESPONSIBLE TABLETTE PORTRAIT */
-
 @media only screen and (max-width: 1023px)and (min-width: 736px)  and (orientation: portrait) {
   .grid-container {
     display: grid;
@@ -1548,7 +1590,6 @@ padding-right: 80px;
     margin: 0px;
     flex-direction: column;
     padding-left: 80px;
-
   }
 
   .grid-hebergement .titre {
@@ -1799,7 +1840,6 @@ padding-right: 70px;
   
 
 /*  MEDIA RESPONSIBLE TABLETTE PAYSAGE */
-
 @media only screen and (min-width: 819px) and (max-width: 1450px) and  (orientation: landscape) {
     .grid-populaire {
       width: 100%;
@@ -2129,7 +2169,6 @@ padding-right: 70px;
   }
 
 /*  MEDIA RESPONSIBLE PHONE PAYSAGE */
-
 @media only screen and (max-width: 818px) and (orientation: landscape) {
     body {
   background-color: white;
@@ -2865,7 +2904,7 @@ margin-left: 0px;
     padding-right: 55px;
     margin-left: -55px;
     margin-right: -5px;
-    border-top: 0px;
+    
   }
 
   .activi :hover {
@@ -2899,17 +2938,17 @@ margin-left: 0px;
     padding-left: 35px;
     padding-right: 55px;
   margin-left: -5px;
-
   }
 
   .he :hover {
     border-bottom: 4px solid #0065fc;
     padding-bottom: 15px;
    color: #0065fc;
+   padding-bottom: 15px;
    padding-left: 35px;
    padding-right: 37px;
     margin-top: -20px;
- border-top: 00px;
+ border-top: 0px;
   }
 
   .he :active {
@@ -8009,10 +8048,7 @@ font-size: 14px;
   }
   
 
-
 /*  MEDIA RESPONSIBLE IPHONE 6/7/8 Plus Paysage */
-
-
 @media only screen and (width: 736px) and (orientation: landscape) {
   body {
 background-color: white;
@@ -8656,7 +8692,6 @@ width: 100%;
 }
 
 /*  MEDIA RESPONSIBLE IPHONE x portrait */
-
 @media only screen and (width: 375px) and (orientation: portrait) {
 
   #mon {
@@ -8693,10 +8728,7 @@ width: 100%;
 }
 
 
-
-
 /*  MEDIA RESPONSIBLE PHONE X  PAYSAGE */
-
 @media only screen and (width: 812px) and (orientation: landscape) {
   body {
 background-color: white;
@@ -9299,7 +9331,6 @@ width: 100%;
 
 
 /*  MEDIA RESPONSIBLE Surface Duo Portrait*/
-
 @media only screen and (width: 540px) and (orientation: portrait) {
 
   body {
@@ -9996,11 +10027,7 @@ width: 100%;
   }
   
 
-
-
   /*  MEDIA RESPONSIBLE Surface Duo Paysage */
-
-
 @media only screen and (width: 720px) and (orientation: landscape) {
   body {
 background-color: white;
