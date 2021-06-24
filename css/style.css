@@ -2865,7 +2865,7 @@ margin-left: 0px;
     padding-right: 55px;
     margin-left: -55px;
     margin-right: -5px;
-    
+    border-top: 0px;
   }
 
   .activi :hover {
@@ -2899,17 +2899,17 @@ margin-left: 0px;
     padding-left: 35px;
     padding-right: 55px;
   margin-left: -5px;
+
   }
 
   .he :hover {
     border-bottom: 4px solid #0065fc;
     padding-bottom: 15px;
    color: #0065fc;
-   padding-bottom: 15px;
    padding-left: 35px;
    padding-right: 37px;
     margin-top: -20px;
- border-top: 0px;
+ border-top: 00px;
   }
 
   .he :active {
